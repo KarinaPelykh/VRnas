@@ -1,0 +1,32 @@
+/* section Virtual Reality */
+.section {
+  /* border: 1px solid beige; */
+  display: flex;
+}
+.wrapper {
+  padding-top: 87px;
+  width: 540px;
+  margin-right: 138px;
+}
+.title {
+  font-size: 64px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.text {
+  width: 446px;
+  margin-bottom: 50px;
+}
+.button {
+  padding: 18px 38px;
+  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border: none;
+}
+.images {
+  position: relative;
+  width: 526px;
+  height: 626px;
+  object-fit: contain;
+}
+.wraper-foto {
+}

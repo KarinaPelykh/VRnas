@@ -5,8 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VRnas</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;1,400;1,600&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="list">
+          <li class="item-logo">
+            <svg class="svg-logo">
+              <use href="./images/sprite.svg#logo"></use></svg
+            >VRNas
+          </li>
+          <li class="item"><a class="link" href="">Home</a></li>
+          <li class="item"><a class="link" href="">About us</a></li>
+          <li class="item"><a class="link" href="">Service</a></li>
+          <li class="item">
+            <a class="link" href=""
+              >Page
+              <svg class="svg-down-arrow">
+                <use href="./images/sprite.svg#down-arrow"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href=""
+              >Blog<svg class="svg-down-arrow">
+                <use href="./images/sprite.svg#down-arrow"></use></svg
+            ></a>
+          </li>
+          <li class="item-contact">Contact us</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section">
+      <div class="wrapper">
+        <h1 class="title">Immerse Yourself in Virtual Reality</h1>
+        <p class="text">
+          Experience Unforgettable Events in VR. Bring your events to life like
+          never before with our VR services
+        </p>
+        <button class="button">DISCOVER MORE</button>
+      </div>
+      <div class=" ">
+        <img class="images" src="./images/Image.png" alt="human" />
+      </div>
+    </section>
+
     <script src="/dist/bundle.js"></script>
   </body>
 </html>

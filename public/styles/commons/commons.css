@@ -1,3 +1,46 @@
+:root {
+  --ff-text: "Chakra Petch", sans-serif;
+  --body-color: #18181b;
+  --white-color: #ffffff;
+  --grey-color: #d1d1d1;
+  --card-background: #252532;
+}
+
 body {
-  background-color: #18181b;
+  font-family: var(--ff-text);
+  background-color: var(--body-color);
+  color: var(--white-color);
+  background-image: url(../../images/backgroundFoto/img-header.png),
+    url(../../images/backgroundFoto/Assets.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left top 230px;
+  background-size: auto, auto;
+  /* background: radial-gradient(circle at center, #0cbaf1, #e95ce9); */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--ff-text);
+}
+button {
+  font-family: var(--ff-text);
+  cursor: pointer;
+  margin: 0;
+  color: (var(--white-color));
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid beige; */
 }
