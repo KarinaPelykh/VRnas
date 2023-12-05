@@ -1,0 +1,67 @@
+.section-about-as {
+  position: relative;
+  margin-top: 120px;
+  display: flex;
+  align-items: end;
+
+  /* border: 1px solid beige; */
+}
+.wrapper-about {
+  position: absolute;
+  z-index: -1;
+  top: 125px;
+  width: 398px;
+  height: 496px;
+  background-color: var(--card-background);
+}
+.images-aboutAs {
+  width: 518px;
+  height: 622px;
+}
+
+.wrap-aboutAs-video {
+  position: absolute;
+  top: 512px;
+  left: 303px;
+
+  background-color: var(--card-background);
+  width: 196px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article-aboutUs {
+  width: 562px;
+  margin-left: 222px;
+}
+.section-aboutAs-text {
+  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 12px;
+}
+.section-subtitle {
+  margin-bottom: 12px;
+  font-size: 48px;
+}
+.section-text {
+  font-size: 16px;
+  color: var(--grey-color);
+  margin-bottom: 24px;
+}
+.check-box {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  fill: linear-gradient(to right, #0cbaf1, #e95ce9);
+  /* background: linear-gradient(to right, #0cbaf1, #e95ce9); */
+}
+.item-aboutAS {
+  display: flex;
+  margin-bottom: 14px;
+}
+.item-aboutAS:last-child {
+  margin-bottom: 32px;
+}

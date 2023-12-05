@@ -1,6 +1,9 @@
 /* section Virtual Reality */
 .section {
   /* border: 1px solid beige; */
+  /* display: flex; */
+}
+.section-wrap {
   display: flex;
 }
 .wrapper {
@@ -22,11 +25,58 @@
   background: linear-gradient(to right, #0cbaf1, #e95ce9);
   border: none;
 }
+.section-thumb {
+}
 .images {
   position: relative;
   width: 526px;
   height: 626px;
   object-fit: contain;
 }
-.wraper-foto {
+
+.block-info {
+  background-color: var(--card-background);
+  width: 1200px;
+  padding: 42px 64px 42px 0;
+}
+.info-images {
+  width: 70px;
+  height: 70px;
+}
+.info-title {
+  margin-bottom: 12px;
+}
+.wrap-list-people {
+  margin-top: 42px;
+
+  display: flex;
+  align-items: center;
+}
+.list-peopel {
+  margin-right: 97px;
+  position: relative;
+  display: flex;
+}
+.item-second {
+  position: absolute;
+  top: 0;
+  left: 38px;
+}
+.item-third {
+  position: absolute;
+  top: 0;
+  left: 77px;
+}
+.info-video {
+  margin-left: 75px;
+  background-color: var(--card-background);
+  width: 196px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images-video {
+  width: 150px;
+  height: auto;
 }

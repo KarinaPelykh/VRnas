@@ -1,0 +1,17 @@
+[
+  {
+    "images": "../../images/client/vr-glasse.png",
+    "title": "Expertise",
+    "description": "Our team consists of experienced VR developers, designers, and technicians who have a passion for VR and a commitment to delivering quality work and give the best service"
+  },
+  {
+    "images": "../../images/client/cube.png",
+    "title": "Customization",
+    "description": "Every client is unique, and we believe every VR experience should be too. We'll work with you to create a customized solution that meets your specific needs and goals"
+  },
+  {
+    "images": "../../images/client/human.png",
+    "title": "Service",
+    "description": "We believe in providing exceptional customer service, from initial consultation to final delivery. Our goal is to ensure you're satisfied with every aspect of your VR experience."
+  }
+]
