@@ -3,7 +3,7 @@ module.exports = {
   mode: "development",
   entry: "./public/index.js",
   output: {
-    filename: "bundle.js",
+    filename: "dist/bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
   devServer: {

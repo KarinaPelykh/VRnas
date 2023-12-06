@@ -14,5 +14,3 @@ fetch("../../data/info-servise.json")
       block.append(infoItem);
     });
   });
-
-console.log(5);

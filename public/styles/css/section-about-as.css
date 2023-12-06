@@ -7,13 +7,14 @@
   /* border: 1px solid beige; */
 }
 .wrapper-about {
-  position: absolute;
   z-index: -1;
+  position: absolute;
   top: 125px;
   width: 398px;
   height: 496px;
   background-color: var(--card-background);
 }
+
 .images-aboutAs {
   width: 518px;
   height: 622px;
