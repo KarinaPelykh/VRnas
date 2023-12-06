@@ -3,8 +3,8 @@ module.exports = {
   mode: "development",
   entry: "./public/index.js",
   output: {
-    filename: "dist/bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "bundle"),
   },
   devServer: {
     port: 3000,
