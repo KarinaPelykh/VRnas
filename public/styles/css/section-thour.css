@@ -1,10 +1,10 @@
 .section-thour {
-    margin-top: 120px;
+  margin-top: 120px;
   display: flex;
   position: relative;
 }
 .wrap-section-thour {
-    margin-top: 120px;
+  margin-top: 120px;
   width: 549px;
   height: auto;
 }
@@ -13,7 +13,7 @@
   margin-left: 100px;
 }
 .section-descriptions {
-    position: relative;
+  position: relative;
   font-size: 16px;
   background: linear-gradient(to right, #0cbaf1, #e95ce9);
   background-clip: text;
@@ -21,47 +21,56 @@
   -webkit-text-fill-color: transparent;
 }
 .thumb-img {
-    z-index: -1;
-    position: absolute;
-    top: 157px;
-    left: 736px;
+  z-index: -1;
+  position: absolute;
+  top: 165px;
+  left: 736px;
   width: 398px;
   height: 497px;
   background-color: var(--card-background);
 }
-.img-background{
-    z-index: 2;
-    position: absolute;
-    top: 70px;
-    left: 520px;  
+.img-background {
+  z-index: 2;
+  position: absolute;
+  top: 70px;
+  left: 520px;
 }
-.form{
-    position: relative;
-
+.form {
+  position: relative;
 }
-.lable{
-    position: absolute;
-    top: 40px;
-    left: 0;
+.lable {
+  position: absolute;
+  top: 40px;
+  left: 0;
 }
-.lable-second{
-    position: absolute;
-    top: 119px;
-    left: 0;  
+.lable-second {
+  position: absolute;
+  top: 112px;
+  left: 0;
 }
-.lable-third{
-    position: absolute;
-    top: 200px;
-    left: 0;  
+.lable-third {
+  position: absolute;
+  top: 183px;
+  left: 0;
 }
-.select-box{
-   margin-top: 48px;
-    border-top: none;
-    border-right:none ;
-    border-left: none;
-   background-color: transparent;
-   outline: none;
-  width:  549px;
+.select-box {
+  margin-top: 48px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  outline: none;
+  width: 549px;
   appearance: #fff;
   font-size: 20px;
+  appearance: none;
+}
+.wraper-gif {
+  position: relative;
+}
+.gif-photo {
+  position: absolute;
+  top: 590px;
+  left: 995px;
+  width: 169px;
 }
