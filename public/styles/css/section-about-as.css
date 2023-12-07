@@ -56,8 +56,7 @@
   width: 16px;
   height: 16px;
   margin-right: 12px;
-  fill: linear-gradient(to right, #0cbaf1, #e95ce9);
-  /* background: linear-gradient(to right, #0cbaf1, #e95ce9); */
+  
 }
 .item-aboutAS {
   display: flex;
@@ -65,4 +64,9 @@
 }
 .item-aboutAS:last-child {
   margin-bottom: 32px;
+}
+.button {
+  padding: 18px 38px;
+  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border: none;
 }

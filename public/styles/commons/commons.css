@@ -15,10 +15,12 @@ body {
     url(../../images/backgroundFoto/vr-background.png),
     url(../../images/backgroundFoto/backgroun-aboutAs.png),
     url(../../images/backgroundFoto/ourService-background.png);
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
   background-position: right top, left top 230px, right top 150px,
     left top 1000px, right top 1600px;
-  background-size: auto, auto, auto, auto;
+  background-size: auto, auto, auto, auto,auto;
 }
 h1,
 h2,
