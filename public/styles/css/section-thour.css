@@ -35,36 +35,7 @@
   top: 70px;
   left: 520px;
 }
-.form {
-  position: relative;
-}
-.lable {
-  position: absolute;
-  top: 40px;
-  left: 0;
-}
-.lable-second {
-  position: absolute;
-  top: 112px;
-  left: 0;
-}
-.lable-third {
-  position: absolute;
-  top: 183px;
-  left: 0;
-}
-.select-box {
-  margin-top: 48px;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  background-color: transparent;
-  outline: none;
-  width: 549px;
-  appearance: #fff;
-  font-size: 20px;
-  appearance: none;
-}
+
 .wraper-gif {
   position: relative;
 }
@@ -73,4 +44,53 @@
   top: 590px;
   left: 995px;
   width: 169px;
+}
+/* form */
+
+.form {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.lable {
+  /* position: absolute;
+  top: 0px;
+  left: 0; */
+}
+.lable-second {
+  /* position: absolute;
+  top: 112px;
+  left: 0; */
+}
+.lable-third {
+  /* position: absolute;
+  top: 183px;
+  left: 0; */
+}
+.select-box {
+  margin-top: 12px;
+  margin-bottom: 48px;
+  border-top: 1px solid #d2d2d2;
+
+  background-color: transparent;
+
+  width: 549px;
+  height: auto;
+
+  font-size: 20px;
+}
+.box-text {
+  width: 549px;
+  height: 90px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.button-select {
+  margin-left: 290px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+
+  transform: rotate(-180deg);
 }
