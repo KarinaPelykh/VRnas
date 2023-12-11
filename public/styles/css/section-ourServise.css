@@ -7,12 +7,6 @@
 .part-ourServise {
   margin-right: 274px;
 }
-.text-ourServise {
-  background: linear-gradient(to right, #0cbaf1, #e95ce9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .subtitle-ourServise {
   font-size: 48px;
 }

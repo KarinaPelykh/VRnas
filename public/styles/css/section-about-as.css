@@ -36,13 +36,7 @@
   width: 562px;
   margin-left: 222px;
 }
-.section-aboutAs-text {
-  background: linear-gradient(to right, #0cbaf1, #e95ce9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 12px;
-}
+
 .section-subtitle {
   margin-bottom: 12px;
   font-size: 48px;
