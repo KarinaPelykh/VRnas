@@ -1,0 +1,102 @@
+.section-Insights {
+}
+
+.wrapper-insights {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.subtitle-Insights {
+  font-size: 48px;
+}
+.button-all {
+  background: rgba(255, 255, 255, 0.06);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  padding: 12px 24px;
+  border-image-slice: 1;
+}
+.wrap-statistic {
+  margin-right: 20px;
+  display: flex;
+  position: relative;
+}
+.text-insights {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--white-color);
+}
+.slider {
+  position: relative;
+  z-index: 4;
+  top: 50px;
+  left: 30px;
+  width: 636px;
+  height: 425px;
+  background-color: #e95ce9;
+  border: 1px solid #e95ce9;
+}
+.news {
+  background-color: var(--card-background);
+  position: absolute;
+  top: 2px;
+  left: 620px;
+  width: 730px;
+  height: 605px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #b0b0b2, #25253299);
+  border-image-slice: 1;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 38px 74px;
+  margin-top: 250px;
+  background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+}
+.description-subscribe {
+  width: 520px;
+  color: var(--white-color);
+  font-size: 40px;
+  margin-right: 168px;
+}
+.label {
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.07);
+  width: 365px;
+  height: 56px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.svg-message {
+  width: 24px;
+  height: 24px;
+}
+.input {
+  margin-left: 8px;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: var(--white-color);
+}
+.input::placeholder {
+  font-family: Chakra Petch;
+  font-size: 16px;
+  color: var(--white-color);
+}
+.button-subscribe {
+  margin-left: 90px;
+  display: block;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.21);
+  border: none;
+}
+.svg-send {
+  width: 16px;
+  height: 16px;
+}

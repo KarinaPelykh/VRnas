@@ -1,0 +1,17 @@
+.footer {
+  height: 498px;
+  margin-top: 58px;
+  background-image: url(../../images/backgroundFoto/img-footer.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto;
+}
+.wrapper-div {
+}
+.list-footer {
+  width: 132px;
+}
+.wrapper-footer {
+  display: flex;
+  margin-top: 115px;
+}
