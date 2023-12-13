@@ -41,27 +41,17 @@
 /* form */
 
 .form {
-  margin-bottom: 100px;
   position: relative;
 }
 
 .lable {
-  /* position: absolute;
-  top: 0px;
-  left: 0; */
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.lable-second {
-  /* position: absolute;
-  top: 112px;
-  left: 0; */
-}
-.lable-third {
-  /* position: absolute;
-  top: 183px;
-  left: 0; */
-}
+
 .select-box {
-  margin-top: 12px;
   margin-bottom: 48px;
   border-top: 1px solid #d2d2d2;
 
@@ -79,8 +69,7 @@
   line-height: 20px;
 }
 .button-select {
-  margin-left: 290px;
-  position: absolute;
+  margin-left: auto;
   width: 24px;
   height: 24px;
   fill: #fff;

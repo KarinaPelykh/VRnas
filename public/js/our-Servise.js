@@ -10,7 +10,7 @@ fetch("../data/our-service.json")
       
       <img class="png-ourServise" src="${data.png}"/>
       <h4 class="subhead-ourServise">${data.title}</h4>
-      <p clss="text-ourService">${data.description}</p>
+      <p class="text-ourService">${data.description}</p>
      
       `;
 

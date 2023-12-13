@@ -24,7 +24,7 @@
 }
 .article-pricing {
   margin-right: 118px;
-  width: 579px;
+  width: 625px;
 }
 .aside-pricing {
   position: relative;
@@ -74,4 +74,18 @@
 }
 .button-pricing {
   margin-bottom: 14px;
+}
+.item-pricing {
+  display: flex;
+}
+.svg-bg {
+  position: relative;
+  margin-right: 8px;
+}
+.cloud {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 19px;
+  height: 19px;
 }

@@ -38,6 +38,11 @@
   border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
   border-image-slice: 1;
 }
+.wrapper-ourServise {
+}
+.overlay {
+  position: absolute;
+}
 
 .item-ourService:nth-child(1) {
   margin-top: 27px;
@@ -65,7 +70,7 @@
   font-size: 20px;
   margin-bottom: 12px;
 }
-.text-ourService {
+/* .text-ourService {
   font-size: 14px;
   line-height: 28px;
-}
+} */
