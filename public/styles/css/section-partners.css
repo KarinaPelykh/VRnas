@@ -12,7 +12,7 @@
   align-items: center;
   position: relative;
 }
-.semicircle {
+/* .semicircle {
   content: "";
   width: 900px;
   height: 900px;
@@ -25,8 +25,18 @@
   width: 800px;
   height: 800px;
   border-top: 2px solid aliceblue;
+  border-style: solid;
+  border-width: 1px;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+
+  border-radius: 917.027px;
+  border: 0.846px solid var(--Main-Colors-Linear, #0cbaf1);
   position: absolute;
   top: 46px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
   border-radius: 50%;
 }
 .semicircle3 {
@@ -46,20 +56,24 @@
   position: absolute;
   top: 154px;
   border-radius: 50%;
-}
+} */
+
 .circle-partners {
-  width: 401px;
-  height: 402px;
-  border: 2px solid aliceblue;
+  width: 329px;
+  height: 319px;
+  /* border: 1px solid aliceblue; */
+  border-radius: 1054.919px;
+  border: 2px solid rgba(255, 255, 255, 0.17);
   position: absolute;
-  top: 218px;
+  top: 360px;
   border-radius: 50%;
-  /* overflow: hidden; */
+  left: 597px;
 }
+
 .img-gamer {
-  top: -72px;
-  width: 634px;
-  height: 489px;
+  top: -185px;
+  width: 672px;
+  height: 512px;
   position: absolute;
-  left: -123px;
+  left: -178px;
 }

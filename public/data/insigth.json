@@ -1,0 +1,27 @@
+[
+  {
+    "img": "../images/foto-news/1-n.jpg",
+    "description": "VR Education",
+    "text": "The Future of Education: How VR is Revolutionizing the Classroom"
+  },
+  {
+    "img": "../images/foto-news/2-n.jpg",
+    "description": " VR Architecture",
+    "text": "Bringing Designs to Life: How VR is Changing Architecture"
+  },
+  {
+    "img": "../images/foto-news/3-n.jpg",
+    "description": "VR Entertainment ",
+    "text": "Making Events Memorable: The Power of VR for Corporate and Special Occasions"
+  },
+  {
+    "img": "../images/foto-news/4-n.jpg",
+    "description": " VR Entertainment ",
+    "text": "Making Events Memorable: The Power of VR for Corporate and Special Occasions"
+  },
+  {
+    "img": "../images/foto-news/5-n.jpg",
+    "description": "VR Event ",
+    "text": "Exploring New Worlds: The Benefits of VR Travel"
+  }
+]

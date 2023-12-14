@@ -5,12 +5,18 @@ fetch("../data/our-service.json")
     data.forEach((data) => {
       const item = document.createElement("li");
       item.classList.add("item-ourService");
-
+      // item.classList.add("box");
       item.innerHTML = ` 
+ 
+     
       
       <img class="png-ourServise" src="${data.png}"/>
-      <h4 class="subhead-ourServise">${data.title}</h4>
+       <div class="box"><h4 class="subhead-ourServise">${data.title}</h4>
       <p class="text-ourService">${data.description}</p>
+      <div class="overlay">  <button class="button-overlay">LEARN MORE</button> </div>
+    
+    
+      </div>
      
       `;
 
