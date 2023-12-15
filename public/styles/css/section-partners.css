@@ -77,3 +77,8 @@
   position: absolute;
   left: -178px;
 }
+.min-circle-partners {
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+}
