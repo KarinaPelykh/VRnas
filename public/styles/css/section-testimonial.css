@@ -158,7 +158,19 @@
   left: 764px;
   z-index: 6;
 }
-
+.circle-svg5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 1067px;
+  left: 894px;
+  z-index: 6;
+}
 .box-circle {
   position: relative;
 
@@ -174,7 +186,7 @@
   border: 1px solid #d2d2d2;
   background-color: rgba(37, 37, 50, 0.77);
 
-  /* display: none; */
+  display: none;
 }
 .box-circle:hover .overlay-circle {
   display: flex;

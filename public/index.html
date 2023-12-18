@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -320,10 +324,23 @@
 
       <section class="circle">
         <div class="first-circle">
+          <div class="box-circle circle-svg5">
+            <img src="./images/people/client-third.png" />
+            <div class="overlay-circle">
+              <span class="wrap-text-overlay">
+                <p>
+                  The partnership with VR exceeded our expectations. Their team
+                  proved to be highly professional, responsive, and efficient in
+                  delivering top-notch solutions.
+                </p>
+                <p class="underlain">Robert Fox - CEO Anono</p>
+              </span>
+            </div>
+          </div>
           <div class="box-circle circle-svg">
             <img src="./images/clients/Image-3.png" />
             <div class="overlay-circle">
-              <span class=" wrap-text-overlay">
+              <span class="wrap-text-overlay">
                 <p>
                   The team was professional, responsive, and a pleasure to work
                   with. We highly recommend VRNas for any VR needs.
@@ -332,47 +349,47 @@
               </span>
             </div>
           </div>
-         
 
           <div class="second-circle">
             <div class="box-circle circle-svg2">
               <img src="./images/clients/Image-1.png" />
               <div class="overlay-circle">
-               <span class=" wrap-text-overlay">
+                <span class="wrap-text-overlay">
                   <p>
-                    Our experience with VR was outstanding. The team's commitment to excellence, quick responsiveness, and technical proficiency made the collaboration seamless.
+                    Our experience with VR was outstanding. The team's
+                    commitment to excellence, quick responsiveness, and
+                    technical proficiency made the collaboration seamless.
                   </p>
                   <p class="underlain">David Miller - Founder TechSprint</p>
-               </span>
+                </span>
               </div>
             </div>
 
             <div class="third-circle">
-
               <div class="box-circle circle-svg1">
                 <img src="./images/clients/Image-2.png" />
                 <div class="overlay-circle">
-                <span class=" wrap-text-overlay" >
+                  <span class="wrap-text-overlay">
                     <p>
-                      Working with 
-       VRnas Solutions was an absolute delight. Their team's professionalism, responsiveness, and expertise were truly exceptional. .
+                      Working with VRnas Solutions was an absolute delight.
+                      Their team's professionalism, responsiveness, and
+                      expertise were truly exceptional. .
                     </p>
                     <p class="underlain">Alex Turner - COO ConnectSync</p>
                   </span>
                 </div>
-              </div> 
+              </div>
               <div class="box-circle circle-svg3">
                 <img src="./images/clients/Ellipse 37.png" />
                 <div class="overlay-circle">
-                  <span class=" wrap-text-overlay">
-
-
+                  <span class="wrap-text-overlay">
                     <p>
-                      The partnership with VR exceeded our expectations. Their team proved to be highly professional, responsive, and efficient in delivering top-notch solutions. 
-                  </p>
-                  <p class="underlain">Robert Fox - CEO Anono</p>
+                      The partnership with VR exceeded our expectations. Their
+                      team proved to be highly professional, responsive, and
+                      efficient in delivering top-notch solutions.
+                    </p>
+                    <p class="underlain">Robert Fox - CEO Anono</p>
                   </span>
-                  
                 </div>
               </div>
 
@@ -380,14 +397,14 @@
                 <div class="box-circle circle-svg4">
                   <img src="./images/clients/Image.png" />
                   <div class="overlay-circle">
-                    <span class=" wrap-text-overlay">
-<p>
-                      Collaborating with VR was a fantastic experience. We wholeheartedly recommend WebWizards for any web development needs.
-                    </p>
-                    <p class="underlain">Alice Johnson - CTO InnovateHub</p>
-
+                    <span class="wrap-text-overlay">
+                      <p>
+                        Collaborating with VR was a fantastic experience. We
+                        wholeheartedly recommend WebWizards for any web
+                        development needs.
+                      </p>
+                      <p class="underlain">Alice Johnson - CTO InnovateHub</p>
                     </span>
-                    
                   </div>
                 </div>
 
@@ -578,14 +595,13 @@
       <h3 class="subtitle-pricing">Discover the Companies We Work With</h3>
 
       <div class="container-semicircle">
-        <img class="background-line" src="./images/Line.png">
-
+        <ul class="list-partner"></ul>
+        <img class="background-line" src="./images/Line.png" alt="background" />
 
         <div class="circle-partners">
-          <img class="img-gamer" src="./images/Untitled (3).png" alt=" man" />
-          
+          <img class="img-gamer" src="./images/Untitled (3).png" alt="man" />
         </div>
-      
+      </div>
     </section>
     <section class="section-Insights container">
       <p><span class="span-background">OUR ARTICLES</span></p>
@@ -594,12 +610,66 @@
         <button class="button-all">SEE ALL</button>
       </div>
       <div class="wrap-statistic">
-        <div>
+        <div class="images-slider-wrapper">
           <p class="text-insights">Popular Article</p>
-          <div class="slider"></div>
+          <div class="slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="wrapper-slider">
+                    <img class="img-slader" src="./images/slider/Image-2.jpg" />
+                    <div class="signature">
+                      <p>VR Games</p>
+                      <h3>Entertainment Goes Virtual: The Rise of VR Gaming</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="wrapper-slider">
+                    <img class="img-slader" src="./images/slider/Image-3.jpg" />
+                    <div class="signature">
+                      <p>VR Games</p>
+                      <h3>Entertainment Goes Virtual: The Rise of VR Gaming</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="wrapper-slider">
+                    <img class="img-slader" src="./images/slider/Image-4.jpg" />
+                    <div class="signature">
+                      <p>VR Games</p>
+                      <h3>Entertainment Goes Virtual: The Rise of VR Gaming</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="wrapper-slider">
+                    <img class="img-slader" src="./images/slider/Image-5.jpg" />
+                    <div class="signature">
+                      <p>VR Event</p>
+                      <h3>Exploring New Worlds: The Benefits of VR Travel</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="wraper-button">
+                <button class="wraper-button-next">
+                  <svg class="swiper-button-next button-slider">
+                    <use href="./images/sprite.svg#icon-next"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div class="news">
-          <ul></ul>
+          <h3>Recent Article</h3>
+          <div class="thumb-news">
+            <ul class="news-list"></ul>
+          </div>
         </div>
       </div>
       <form class="subscribe">
@@ -715,12 +785,20 @@
                   >Support@VRNas.com</a
                 >
               </li>
-              <li class="iten-footer">
+              <!-- <li class="iten-footer">
                 <a target="_blank" href="tel:+123 456 7890"
                   ><svg class="svg-address">
                     <use href="./images/sprite.svg#Calling"></use></svg
                   >+123 456 7890</a
                 >
+              </li> -->
+              <li class="iten-footer">
+                <a target="_blank" href="tel:+1234567890">
+                  <svg class="svg-address">
+                    <use href="./images/sprite.svg#Calling"></use>
+                  </svg>
+                  +123 456 7890
+                </a>
               </li>
             </ul>
           </li>
@@ -730,6 +808,7 @@
         <p class="block-text">&copy; Copyright 2023, All Rights Reserved</p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="bundle.js"></script>
   </body>
 </html>

@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 500px;
 }
 /* .semicircle {
   content: "";
@@ -61,11 +62,10 @@
 .circle-partners {
   width: 329px;
   height: 319px;
-  /* border: 1px solid aliceblue; */
   border-radius: 1054.919px;
   border: 2px solid rgba(255, 255, 255, 0.17);
   position: absolute;
-  top: 360px;
+  top: 344px;
   border-radius: 50%;
   left: 597px;
 }
@@ -81,4 +81,55 @@
   width: 102px;
   height: 102px;
   border-radius: 50%;
+}
+
+.list-partner {
+  position: relative;
+}
+.item-partner-svg {
+  position: absolute;
+  top: 161px;
+  left: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+  background-color: rgba(37, 37, 50, 0.8);
+}
+.item-partner-svg:nth-child(2) {
+  position: absolute;
+  top: -24px;
+  left: 74px;
+}
+.item-partner-svg:nth-child(3) {
+  position: absolute;
+  top: -185px;
+  left: 229px;
+}
+.item-partner-svg:nth-child(4) {
+  position: absolute;
+  top: -249px;
+  left: 466px;
+}
+.item-partner-svg:nth-child(5) {
+  position: absolute;
+  top: -195px;
+  left: 700px;
+}
+
+.item-partner-svg:nth-child(6) {
+  position: absolute;
+  top: -15px;
+  left: 879px;
+}
+.item-partner-svg:nth-child(7) {
+  position: absolute;
+  top: 159px;
+  left: 930px;
+}
+.svg-partner {
+  width: 79px;
+  height: 20px;
 }

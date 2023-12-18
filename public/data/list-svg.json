@@ -1,0 +1,23 @@
+[
+  {
+    "svg": "../images/sprite.svg#logoipsum1"
+  },
+  {
+    "svg": "../images/sprite.svg#logoipsum2"
+  },
+  {
+    "svg": "../images/sprite.svg#logoipsum3"
+  },
+  {
+    "svg": "../images/sprite.svg#logoipsum4"
+  },
+  {
+    "svg": "../images/sprite.svg#logoipsum5"
+  },
+  {
+    "svg": "../images/sprite.svg#logoipsum6"
+  },
+  {
+    "svg": "../images/sprite.svg#logoipsum7"
+  }
+]
