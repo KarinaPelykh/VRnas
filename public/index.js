@@ -4,3 +4,4 @@ import "./js/from";
 import "./js/list-svg";
 import "./js/slider";
 import "./js/news-insights";
+import "./js/footer";

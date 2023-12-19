@@ -79,6 +79,7 @@
 .svg-message {
   width: 24px;
   height: 24px;
+  fill: var(--white-color);
 }
 .input {
   margin-left: 8px;
