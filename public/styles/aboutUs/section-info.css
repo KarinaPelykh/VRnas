@@ -1,0 +1,11 @@
+.section-info {
+  margin-top: 150px;
+}
+.wrapper-title {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  width: 708px;
+  text-align: center;
+}

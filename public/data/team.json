@@ -1,0 +1,22 @@
+[
+  {
+    "img": "../images/team/Bondan Prabowo.jpg",
+    "name": "Bondan Prabowo",
+    "position": "CEO"
+  },
+  {
+    "img": "../images/team/Bayu Aji.jpg",
+    "name": "Bayu Aji",
+    "position": "VR Development"
+  },
+  {
+    "img": "../images/team/Agung Brandon.jpg",
+    "name": "Agung Brandon",
+    "position": "Vr Artist"
+  },
+  {
+    "img": "../images/team/Aril Laso.jpg",
+    "name": "Aril Laso",
+    "position": "UI/UX Designer"
+  }
+]

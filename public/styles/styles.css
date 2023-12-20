@@ -10,4 +10,9 @@
 @import url(./css/section-partners.css);
 @import url(./css/section-Insights.css);
 @import url(./css/footer.css);
-@import url(./css-About-us/header.css);
+@import url(./aboutUs/wraper-rout.css);
+@import url(./aboutUs/section-About-us.css);
+@import url(./aboutUs/section-info.css);
+@import url(./aboutUs/section-Why-Choose.css);
+@import url(./aboutUs/section-team.css);
+@import url(./aboutUs/section-faq.css);

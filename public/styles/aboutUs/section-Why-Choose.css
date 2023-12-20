@@ -1,0 +1,24 @@
+.background-wrap-img {
+  z-index: -1;
+  position: absolute;
+  top: 78px;
+  left: 60px;
+  width: 398px;
+  height: 497px;
+  background-color: var(--card-background);
+}
+.img-background-color {
+  z-index: 2;
+  position: absolute;
+  top: 60px;
+  left: -160px;
+}
+.gif-photo {
+  position: absolute;
+  top: 526px;
+  left: 390px;
+  width: 169px;
+}
+.thumb-section {
+  margin-right: 100px;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "svg": "../images/sprite.svg#icon-ctrl",
+    "question": "What is virtual reality?",
+    "answer": "Virtual reality (VR) is a technology that uses headsets or other devices to create a simulated environment. Users can interact with this environment as if it were real, allowing for immersive experiences in gaming, education, training, and more."
+  },
+  {
+    "svg": "../images/sprite.svg#icon-ctrl",
+    "question": "What types of VR services do you offer?",
+    "answer": "We offer a wide range of services in the field of virtual reality, including the development of VR applications, training and entertainment for corporations and individual users."
+  },
+  {
+    "svg": "../images/sprite.svg#icon-ctrl",
+    "question": "How much does your VR services cost?",
+    "answer": "Prices for our virtual reality services vary depending on the specific needs and scope of the project. We recommend contacting you for an individual consultation and cost estimate."
+  },
+  {
+    "svg": "../images/sprite.svg#icon-ctrl",
+    "question": "What equipment do I need to use your VR services?",
+    "answer": "To use our virtual reality services, you will need a virtual set such as a VR headset (such as Oculus Rift or HTC Vive) and a compatible computer or other platform."
+  },
+  {
+    "svg": "../images/sprite.svg#icon-ctrl",
+    "question": "Can I try out your VR services before I commit?",
+    "answer": "Yes, we offer a free trial of our VR services before committing. Contact us to arrange trial access and learn more about our capabilities."
+  }
+]

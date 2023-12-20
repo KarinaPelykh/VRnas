@@ -1,0 +1,38 @@
+.section-wrapper-rout {
+  margin-top: 80px;
+}
+
+.wrapper-rout {
+  width: auto;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: center;
+}
+.title-rout {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -0.32px;
+  margin: 0;
+}
+.text-rout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px auto 76px auto;
+}
+.text-home {
+  font-size: 16px;
+  font-weight: 600;
+}
+.svg-ship {
+  width: 18px;
+  height: 18px;
+  transform: rotate(90deg);
+  fill: var(--white-color);
+  margin: 0 8px 0 8px;
+}
