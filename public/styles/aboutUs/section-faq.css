@@ -15,14 +15,17 @@
   width: 790px;
   padding: 24px;
   background-color: var(--card-background);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
   margin-top: 24px;
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
+}
+.wrapper-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .svg-question {
   width: 12px;
@@ -33,6 +36,12 @@
 .list-question {
   display: flex;
   flex-direction: column;
-
   align-items: center;
+}
+
+.answer {
+  border-top: 1px solid #b0b0b2;
+  padding-top: 12px;
+  margin-top: 12px;
+  text-align: start;
 }
