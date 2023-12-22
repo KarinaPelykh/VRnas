@@ -6,7 +6,7 @@ const lisSecond = document.querySelector(".list-second");
 const pages = ["Home", "Pricing Plan", "Service", "Blog", " Our Team"];
 const page = pages
   .map((item) => {
-    return `<li class="iten-footer"><a target="_blank" href="">${item}</a></li>`;
+    return `<li class="iten-footer"><a  ">${item}</a></li>`;
   })
   .join("");
 list.innerHTML = page;
@@ -22,7 +22,7 @@ const pagesInformation = [
 ];
 const pageInformation = pagesInformation
   .map((item) => {
-    return `<li class="iten-footer"><a target="_blank" href="">${item}</a></li>`;
+    return `<li class="iten-footer"><a >${item}</a></li>`;
   })
   .join("");
 

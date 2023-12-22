@@ -1,0 +1,26 @@
+.section-servise {
+  margin-top: 150px;
+}
+.wrapper-service {
+  margin-top: 150px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #343445 0%,
+    rgba(32, 32, 41, 0) 100%
+  );
+
+  padding: 60px 0 60px 0;
+}
+.info-list-service {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info-number {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.24px;
+  color: var(--white-color);
+}

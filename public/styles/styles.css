@@ -1,4 +1,9 @@
+/* basic css */
+
 @import url(./commons/commons.css);
+
+/* css Home page */
+
 @import url(./css/header.css);
 @import url(./css/section-Virtual-Reality.css);
 @import url(./css/section-about-as.css);
@@ -10,9 +15,19 @@
 @import url(./css/section-partners.css);
 @import url(./css/section-Insights.css);
 @import url(./css/footer.css);
+
+/* css page About us */
 @import url(./aboutUs/wraper-rout.css);
 @import url(./aboutUs/section-About-us.css);
 @import url(./aboutUs/section-info.css);
 @import url(./aboutUs/section-Why-Choose.css);
 @import url(./aboutUs/section-team.css);
 @import url(./aboutUs/section-faq.css);
+@import url(./aboutUs/section-subscribe.css);
+
+/* css page Service */
+@import url(./page-service/service.css);
+
+/* css page contact */
+@import url(./contact/section-address.css);
+@import url(./contact/form.css);

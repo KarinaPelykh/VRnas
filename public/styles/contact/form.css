@@ -1,0 +1,63 @@
+.section-form {
+  margin-top: 150px;
+}
+.tumb-form {
+  width: 645px;
+}
+
+.paragraf {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+.form-contact {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.input-label {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.input-info {
+  width: 306px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #b0b0b2, #25253299);
+  border-image-slice: 1;
+  background-color: var(--card-background);
+  margin: 0 24px 24px 0;
+  outline: none;
+  padding: 11px 15px;
+}
+.input-info::placeholder {
+  font-family: Chakra Petch;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+.textares {
+  padding: 11px 15px;
+  width: 645px;
+  height: 137px;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #b0b0b2, #25253299);
+  border-image-slice: 1;
+  background-color: var(--card-background);
+  margin-bottom: 32px;
+  resize: none;
+}
+
+.textares::placeholder {
+  font-family: Chakra Petch;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--white-color);
+}
+.button-send {
+  padding: 18px 38px;
+  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border: none;
+}
