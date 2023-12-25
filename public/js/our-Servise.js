@@ -13,7 +13,7 @@ fetch("../data/our-service.json")
       <img class="png-ourServise" src="${data.png}"/>
        <div class="box"><h4 class="subhead-ourServise">${data.title}</h4>
       <p class="text-ourService">${data.description}</p>
-      <div class="overlay">  <button class="button-overlay">LEARN MORE</button> </div>
+      <div class="overlay">  <a   href="./detail_service.html" class="button-overlay  link">LEARN MORE</a> </div>
     
     
       </div>

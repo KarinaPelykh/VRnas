@@ -1,0 +1,15 @@
+.section-pricing-detail {
+  margin-top: 150px;
+}
+.wrapper-information {
+  text-align: center;
+}
+
+.decription-detail {
+  display: flex;
+  width: 625px;
+  margin-bottom: 40px;
+  line-height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}

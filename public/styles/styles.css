@@ -31,3 +31,8 @@
 /* css page contact */
 @import url(./contact/section-address.css);
 @import url(./contact/form.css);
+@import url(./contact/map.css);
+
+/* css page Detail Service */
+@import url(./detail-servise-page/section-pracing-detail.css);
+@import url(./detail-servise-page/section-service.css);
