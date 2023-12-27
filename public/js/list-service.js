@@ -8,16 +8,16 @@ fetch("../data/details-service.json")
         const e = event.currentTarget;
 
         const previousInfo = document.querySelector(".cir-div");
-        const classActive = document.querySelector(".active");
+        const classActive = document.querySelector(".active-item");
 
         if (previousInfo && classActive) {
           previousInfo.remove();
-          classActive.classList.remove("active");
+          classActive.classList.remove("active-item");
         }
 
         const divInfo = document.createElement("article");
         divInfo.classList.add("cir-div");
-        element.classList.add("active");
+        element.classList.add("active-item");
 
         divInfo.innerHTML = `<div class="cir-text">
           <p class="information-text">${data[index].description}</p>

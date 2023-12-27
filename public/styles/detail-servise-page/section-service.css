@@ -104,7 +104,7 @@
   left: -799px;
 }
 
-.active {
+.active-item {
   background-image: url(../../images/Bg.png);
   border: none;
   background-repeat: no-repeat;

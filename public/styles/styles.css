@@ -37,3 +37,6 @@
 @import url(./detail-servise-page/section-pracing-detail.css);
 @import url(./detail-servise-page/section-service.css);
 @import url(./detail-servise-page/section-how-started-detail.css);
+
+/*   css page Pricing Plans*/
+@import url(./page-pricing-plan/section-pricing-plan.css);
