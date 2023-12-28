@@ -34,9 +34,12 @@
 @import url(./contact/map.css);
 
 /* css page Detail Service */
-@import url(./detail-servise-page/section-pracing-detail.css);
-@import url(./detail-servise-page/section-service.css);
-@import url(./detail-servise-page/section-how-started-detail.css);
+@import url(./page-detail-service/section-pracing-detail.css);
+@import url(./page-detail-service/section-service.css);
+@import url(./page-detail-service/section-how-started-detail.css);
 
 /*   css page Pricing Plans*/
 @import url(./page-pricing-plan/section-pricing-plan.css);
+
+/*   css page Our team*/
+@import url(./page-Our-team/section-team.css);

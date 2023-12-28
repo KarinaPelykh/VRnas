@@ -1,9 +1,8 @@
-const buttonSeeAll = document.querySelector(".button-see");
 const list = document.querySelector(".list-team");
 
 const skeletonCard = (item) => {
   const itemMember = document.createElement("li");
-  itemMember.classList.add("item-card");
+  itemMember.classList.add("last-member");
   itemMember.innerHTML = `<article class="box-images">
   <div class="wrapper-overlay"><img class="photo-member-team"  src="${item.img}">
 
@@ -18,21 +17,7 @@ const skeletonCard = (item) => {
 fetch("../data/team.json")
   .then((res) => res.json())
   .then((data) => {
-    const cardMember = data.slice(0, 4);
-
-    const cardMemberALL = (event) => {
-      if (event.currentTarget === buttonSeeAll) {
-        const card = data.slice(4);
-        card.forEach((item) => {
-          skeletonCard(item);
-
-          buttonSeeAll.disabled = true;
-        });
-      }
-    };
-    buttonSeeAll.addEventListener("click", cardMemberALL);
-
-    cardMember.forEach((item) => {
+    data.forEach((item) => {
       skeletonCard(item);
     });
   })

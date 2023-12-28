@@ -1,0 +1,23 @@
+.section-team {
+  margin-top: 150px;
+  text-align: center;
+}
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-member > .last-member {
+  width: 379px;
+  margin-top: 32px;
+  margin-right: 21px;
+}
+
+/* .last-member:nth-child(n + 5) {
+  width: 297px;
+  height: auto;
+  margin-top: 9px;
+} */
+.wrapper-overlay > img {
+  width: 100%;
+  height: 100%;
+}

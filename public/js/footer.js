@@ -3,26 +3,35 @@ const lisSecond = document.querySelector(".list-second");
 
 // list-first
 
-const pages = ["Home", "Pricing Plan", "Service", "Blog", " Our Team"];
-const page = pages
+const firstList = [
+  { page: "Home", route: "./index.html" },
+  { page: "Pricing Plan", route: "./pricing_plan.html" },
+  { page: "Service", route: "./service.html" },
+  { page: "Blog", route: "./index.html" },
+  { page: "Our Team ", route: "./our_team.html" },
+];
+
+const pageQuicklink = firstList
   .map((item) => {
-    return `<li class="iten-footer"><a  ">${item}</a></li>`;
+    return `<li class="iten-footer"><a href="${item.route}">${item.page}</a></li>`;
   })
   .join("");
-list.innerHTML = page;
+
+list.innerHTML = pageQuicklink;
 
 // list-second
 
 const pagesInformation = [
-  "About us",
-  "Contact us",
-  "FAQ",
-  "Tems & Conditions",
-  "Privacy Policy",
+  { page: "About us ", route: "./about_us.html" },
+  { page: "Contact us", route: "./contact_us.html" },
+  { page: "FAQ", route: "./index.html" },
+
+  { page: "Tems & Conditions", route: "./index.html" },
+  { page: "Privacy Policy", route: "./index.html" },
 ];
 const pageInformation = pagesInformation
   .map((item) => {
-    return `<li class="iten-footer"><a >${item}</a></li>`;
+    return `<li class="iten-footer"><a href="${item.route}">${item.page}</a></li>`;
   })
   .join("");
 

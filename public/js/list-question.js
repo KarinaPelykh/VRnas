@@ -25,7 +25,6 @@ fetch("../data/list-question.json")
       const item = document.createElement("li");
       item.classList.add("item-question");
       item.dataset.answer = element.answer;
-      console.log(item.dataset.answer);
       item.innerHTML = `<div class="wrapper-question"><p>${element.question}</p>
       <svg class="svg-question"><use href="${element.svg}"></use></svg></div> `;
       list.append(item);

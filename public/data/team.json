@@ -18,5 +18,16 @@
     "img": "../images/team/Aril Laso.jpg",
     "name": "Aril Laso",
     "position": "UI/UX Designer"
+  },
+
+  {
+    "img": "../images/team/Aldo Boy.jpg",
+    "name": "Aldo Boy",
+    "position": "3D Designer"
+  },
+  {
+    "img": "../images/team/Beni Barak.jpg",
+    "name": "Beni Barak",
+    "position": "3D Artist"
   }
 ]
