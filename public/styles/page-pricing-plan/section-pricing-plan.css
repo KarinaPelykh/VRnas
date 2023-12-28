@@ -1,3 +1,6 @@
+.section-pricing-plan {
+  margin-top: 150px;
+}
 .contsiner-title-pricing {
   text-align: center;
 }
@@ -20,6 +23,13 @@
   padding: 35px;
   background-color: var(--card-background);
 }
+.pracing-menu > li:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+}
+
 .pricing-option {
   font-size: 18px;
   font-weight: 400;
@@ -56,7 +66,7 @@
   width: 208px;
   margin-left: 6px;
 }
-.button-pricing {
+.button-pricing-plan {
   margin-top: 36px;
   display: flex;
   width: 292px;
@@ -70,4 +80,8 @@
   border-style: solid;
   border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
   border-image-slice: 1;
+}
+
+.button-pricing-plan:hover {
+  background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
 }
