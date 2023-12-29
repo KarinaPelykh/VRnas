@@ -7,9 +7,15 @@ const skeletonCard = (item) => {
   <div class="wrapper-overlay"><img class="photo-member-team"  src="${item.img}">
 
 <div class="static-overlay">
-<p class="name-member-team">${item.name}</p>
-<p class="position-member-team">${item.position}</p>
+<ul class="list-socialM-member">
+<li class="item-socialMedia"><svg width= "46px" height="46px" ><use href="${item.svgTwitter}"></use></svg></li>
+<li class="item-socialMedia"><svg width= "46px" height="46px" ><use href="${item.svgInstagram}"></use></svg></li>
+<li class="item-socialMedia"><svg width= "46px" height="46px" ><use href="${item.svgFacebook}"></use></svg></li>
+</ul>
+<p class="name-member ">${item.name}</p>
+<p class="position-member">${item.position}</p>
 </div></div>
+
 </article>`;
   list.append(itemMember);
 };

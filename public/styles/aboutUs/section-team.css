@@ -35,6 +35,7 @@
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
 }
+
 .box-images:hover {
   padding: 10px;
   border-width: 2px;

@@ -26,7 +26,7 @@ const pagesInformation = [
   { page: "Contact us", route: "./contact_us.html" },
   { page: "FAQ", route: "./index.html" },
 
-  { page: "Tems & Conditions", route: "./index.html" },
+  { page: "Tems & Conditions", route: "./tems_conditions.html" },
   { page: "Privacy Policy", route: "./index.html" },
 ];
 const pageInformation = pagesInformation
