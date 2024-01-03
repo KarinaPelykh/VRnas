@@ -46,3 +46,6 @@
 
 /*   css page tems & condition*/
 @import url(./page-tems-condition/section-tems-condition.css);
+
+/* css page Blog */
+@import url(./page-Blog/section-blog-card.css);

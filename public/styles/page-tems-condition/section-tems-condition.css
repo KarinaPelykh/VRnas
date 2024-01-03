@@ -1,10 +1,20 @@
+body {
+  background-image: url(../../images/backgroundFoto/backgroun-title.png),
+    url(../../images/backgroundFoto/img-header.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 83px right 375px, top right;
+}
 .section-tems-condition {
   text-align: center;
+  margin-top: 150px;
+}
+
+.section-wrapper-rout {
 }
 .text-condititon {
   width: 623px;
   display: flex;
-  margin: 24px auto 0 auto;
+  margin: 24px auto 48px auto;
 }
 .condition-info {
   display: flex;
