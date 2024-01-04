@@ -1,5 +1,8 @@
 .section-blog-card {
   margin-top: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .list-blogs {
   display: grid;
@@ -61,4 +64,28 @@
   width: 100%;
   display: block;
   background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+}
+/* pagination */
+.pagination-wrapper {
+  margin-top: 20px;
+}
+
+.pagination-list {
+  display: flex;
+}
+.pagination-item {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+  display: flex;
+  justify-content: center;
+  width: 34px;
+  padding: 8px 0px;
+}
+.button-active {
+  background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+}
+.pagination-is-hidden {
+  display: none;
 }
