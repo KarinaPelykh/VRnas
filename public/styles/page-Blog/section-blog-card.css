@@ -42,6 +42,7 @@
 .short-info {
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 .link-readMore {
   font-size: 14px;
@@ -49,12 +50,9 @@
   line-height: 14px;
   letter-spacing: 1.5px;
 
-  margin-top: 20px;
-  width: 92px;
-  position: relative;
-
   position: relative;
 }
+
 .link-readMore::before {
   content: " ";
   position: absolute;

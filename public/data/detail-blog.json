@@ -1,0 +1,82 @@
+[
+  {
+    "img": "../../images/slider/Image-8.jpg",
+    "imgSecond": "../../images/slider/Image-3.jpg",
+    "imgThird": "../../images/slider/Image-10.jpg",
+    "title": "VR Games",
+    "mainTitle": "Entertainment Goes Virtual: The Rise of VR Gaming",
+    "time": "NASYIYA ULFA | 20 DEC 2023",
+    "architecture": "Architecture is an art and science that is constantly evolving with technology. The industry has gone through various transformations over the years, from pencil and paper sketches to computer-aided design (CAD) software. However, one technology that is revolutionizing architecture is virtual reality (VR) design.",
+    "describe": "With VR design, architects can bring their designs to life and offer clients an immersive experience that was previously impossible. The technology enables architects to create a virtual representation of their designs, allowing clients to step into the building and explore its features and spaces before it is built.",
+    "reasons": "VR design is a game-changer for architects and clients alike. It enables architects to design with a greater level of detail and precision, allowing them to identify design flaws and make necessary modifications before construction begins. This not only saves time and money but also ensures that the final product meets the client's expectations.",
+    "tag": "#VRDesign #ArchitectureInnovation #VirtualRealityArchitecture #BringingDesignsToLife #DesignVisualization #ArchitecturalVisualization #RevolutionizingArchitecture #BuildingInVR #DesignThinking #VRInArchitecture",
+    "twitter": "../images/sprite.svg#twitter",
+    "facebook": "../images/sprite.svg#facebook",
+    "instagram": "../images/sprite.svg#instagram",
+    "advantage": "The benefits of VR design in architecture are clear, and the technology is becoming increasingly accessible and affordable. More and more architects and firms are incorporating VR design into their workflows, and the industry is poised for a major transformation."
+  },
+  {
+    "img": "../../images/slider/Image-2.jpg",
+    "title": "VR Games",
+    "descriptiomainTitle": "Entertainment Goes Virtual: The Rise of VR Gaming",
+    "time": "NASYIYA ULFA | 25 NOV 2023",
+    "link": "READ MORE",
+    "id": 2
+  },
+  {
+    "img": "../../images/slider/Image-9.jpg",
+    "title": "VR Entertainment ",
+    "descriptiomainTitle": "Making Events Memorable: The Power of VR for Corporate and Special Occasions",
+    "time": "NASYIYA ULFA | 05 MAY 2022",
+    "link": "READ MORE",
+    "id": 3
+  },
+  {
+    "img": "../../images/slider/Image-7.jpg",
+    "title": "VR Event",
+    "descriptiomainTitle": "Exploring New Worlds: The Benefits of VR Travel",
+    "time": "NASYIYA ULFA | 03 DEC 2023",
+    "link": "READ MORE",
+    "id": 4
+  },
+  {
+    "img": "../../images/slider/Image-6.jpg",
+    "title": "VR Architecture",
+    "descriptiomainTitle": "Bringing Designs to Life: How VR is Changing Architecture",
+    "time": "NASYIYA ULFA | 17 SEP 2023",
+    "link": "READ MORE",
+    "id": 5
+  },
+  {
+    "img": "../../images/slider/Image-3.jpg",
+    "title": "VR Games",
+    "descriptiomainTitle": "Entertainment Goes Virtual: The Rise of VR Gaming",
+    "time": "NASYIYA ULFA | 25 APRIL 2022",
+    "link": "READ MORE",
+    "id": 6
+  },
+  {
+    "img": "../../images/slider/Image-5.jpg",
+    "title": "VR Games",
+    "descriptiomainTitle": "Entertainment Goes Virtual: The Rise of VR Gaming",
+    "time": "NASYIYA ULFA | 25 NOV 2023",
+    "link": "READ MORE",
+    "id": 7
+  },
+  {
+    "img": "../../images/slider/Image-4.jpg",
+    "title": "VR Games",
+    "descriptiomainTitle": "Entertainment Goes Virtual: The Rise of VR Gaming",
+    "time": "NASYIYA ULFA | 25 NOV 2023",
+    "link": "READ MORE",
+    "id": 8
+  },
+  {
+    "img": "../images/slider/Image-10.jpg",
+    "title": "VR Education",
+    "descriptiomainTitle": "The Future of Education: How VR is Revolutionizing the Classroom",
+    "time": "NASYIYA ULFA | 25 NOV 2023",
+    "link": "READ MORE",
+    "id": 9
+  }
+]

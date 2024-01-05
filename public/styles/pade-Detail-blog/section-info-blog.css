@@ -1,6 +1,73 @@
 .backround-body {
   background-image: none;
+  background-image: url(../../images/backgroundFoto/img-header.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.section-detail-info {
+  display: flex;
+}
+
+.detail-rout {
+  display: flex;
+  align-items: center;
+  margin: 28px auto 52px auto;
+}
+.wrapper-detail-blog {
+  width: 789px;
+}
+.title-blog-detail {
+  color: var(--wight-color);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.2px;
+}
+.time {
+  margin: 12px 0 24px 0;
 }
 .photo-blog-detail {
-  width: 200px;
+  width: 100%;
+}
+
+.short-info-detail {
+  color: var(--grey-color);
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.thumb-detail-blog-img {
+  margin-bottom: 80px;
+  display: flex;
+}
+.imgSecond {
+  width: 375px;
+}
+.imgThird {
+  width: 375px;
+  margin-left: 32px;
+}
+.post-tag {
+  color: var(--wight-color);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+.tags {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 17px;
+}
+.title-blog {
+  background: rgba(255, 255, 255, 0.3);
+}
+.social-media-list {
+  display: flex;
 }

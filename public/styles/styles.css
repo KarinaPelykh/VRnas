@@ -52,3 +52,5 @@
 
 /* css page Detail_Blog */
 @import url(./pade-Detail-blog/section-info-blog.css);
+@import url(./pade-Detail-blog/recent-list.css);
+@import url(./pade-Detail-blog/popular-hashtag.css);

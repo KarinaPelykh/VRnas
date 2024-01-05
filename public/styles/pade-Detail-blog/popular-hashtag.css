@@ -1,0 +1,14 @@
+.popular-hashtag-wrapper {
+  margin-top: 60px;
+  width: 310px;
+}
+.popular-hashtag-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.popular-hashtag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
