@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="backround-body">
     <header class="header container">
       <nav class="nav">
         <ul class="list">
@@ -41,7 +41,7 @@
             </a>
           </li>
           <li class="item">
-            <a class="link" href=""
+            <a class="link" href="./blog.html"
               >Blog<svg class="svg-down-arrow">
                 <use href="./images/sprite.svg#down-arrow"></use></svg
             ></a>
@@ -55,19 +55,20 @@
 
     <section class="container section-wrapper-rout">
       <div class="wrapper-rout">
-        <h1 class="title-rout">Blog</h1>
-        <p class="text-rout">
+        <p class="text-rout detail-rout">
           <span class="text-home">Home</span
           ><svg class="svg-ship">
             <use href="./images/sprite.svg#icon-ctrl"></use>
           </svg>
-          <span>Blog</span>
+          <span class="text-home">Blog</span>
+          <svg class="svg-ship">
+            <use href="./images/sprite.svg#icon-ctrl"></use>
+          </svg>
         </p>
       </div>
     </section>
-    <section class="container section-blog-card">
-      <ul class="list-blogs"></ul>
-      <div class="pagination-wrapper"></div>
+    <section class="container">
+      <div class="constainer wrapper-detail-blog"></div>
     </section>
     <!-- section  form-subscribe-->
     <section class="container section-subscribe">
@@ -186,6 +187,6 @@
     <script type="module" src="./js/svgADD/svg-section-pricing.js"></script>
     <!-- footer -->
     <script type="module" src="./js/footer.js"></script>
-    <script type="module" src="./js/blog.js"></script>
+    <script type="module" src="./js/deteil-blog.js"></script>
   </body>
 </html>

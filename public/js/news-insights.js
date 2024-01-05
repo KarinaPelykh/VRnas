@@ -5,7 +5,7 @@ fetch("../data/news.json")
     data.forEach((data) => {
       const itemNews = document.createElement("li");
       itemNews.classList.add("item-New");
-
+      // itemNews.setAttribute("", "");
       itemNews.innerHTML = `
      
       <img class="photo-news" src="${data.img}"/>
@@ -13,7 +13,7 @@ fetch("../data/news.json")
       <p class="caption-news">${data.title}</p>
       <h3 class="title-news">${data.description}</h3>
       </div>
-      <button class="button-news"><svg class="svg-news"><use href="${data.svg}"></use></svg></button>
+      <a href="./detail_blog.html"  class="button-news"><svg class="svg-news"><use href="${data.svg}"></use></svg></a>
      `;
       listNews.append(itemNews);
     });

@@ -2,34 +2,37 @@ const list = document.querySelector(".list-blogs");
 
 const perPage = 3;
 let currentPage = 1;
-
+let data;
 fetch("../data/blog-list.json")
   .then((res) => res.json())
-  .then((data) => {
-    displayList(data, currentPage, perPage);
-    displayPagination(data, perPage);
+  .then((question) => {
+    data = question;
+    displayList(currentPage, perPage);
+    displayPagination(perPage);
+  })
+  .catch((error) => {
+    console.error("Error fetching data:", error);
   });
 
-const cardBlog = ({ img, title, description, link }) => {
+const displayList = (page, perPage) => {
+  const start = (page - 1) * perPage;
+  const end = start + perPage;
+  const arrPagination = data.slice(start, end);
+  page--;
+  list.innerHTML = "";
+  addCardOnPage(arrPagination);
+};
+
+const cardBlog = ({ img, title, description, link, id }) => {
   return `<article class="article-card-blog">
   <img class="photo-blog" src="${img}" alt="photo"/>
    <div class="wrapper-card-blog">
    <p class="title-blog">${title}</p>
     <p class="short-info">${description}</p> 
-    <p class="link-readMore"><span class="span-background">${link}</span>
-    </p>
+    <a href="./detail_blog.html"  class="link-readMore"  data-id="${id}"><span class="span-background">${link}</span>
+    </a>
     </div>
     </article>`;
-};
-
-const displayList = (data, page, perPage) => {
-  const start = (page - 1) * perPage;
-  const end = start + perPage;
-  const arrPagination = data.slice(start, end);
-  console.log(arrPagination);
-  page--;
-  list.innerHTML = "";
-  addCardOnPage(arrPagination);
 };
 
 const addCardOnPage = (arrPagination) => {
@@ -41,7 +44,7 @@ const addCardOnPage = (arrPagination) => {
   });
 };
 
-const displayPagination = (data, perPage) => {
+const displayPagination = (perPage) => {
   const div = document.querySelector(".pagination-wrapper");
   const paginationCount = data.length / perPage;
 
@@ -71,11 +74,7 @@ const displayPaginationBtn = (page) => {
 
     itemButton.classList.add("button-active");
 
-    fetch("../data/blog-list.json")
-      .then((res) => res.json())
-      .then((data) => {
-        displayList(data, currentPage, perPage);
-      });
+    displayList(currentPage, perPage);
   });
   return itemButton;
 };

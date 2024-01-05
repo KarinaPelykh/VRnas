@@ -49,3 +49,6 @@
 
 /* css page Blog */
 @import url(./page-Blog/section-blog-card.css);
+
+/* css page Detail_Blog */
+@import url(./pade-Detail-blog/section-info-blog.css);

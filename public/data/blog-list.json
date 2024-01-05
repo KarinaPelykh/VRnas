@@ -3,54 +3,63 @@
     "img": "../../images/slider/Image-8.jpg",
     "title": "VR Games",
     "description": "Entertainment Goes Virtual: The Rise of VR Gaming",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 1
   },
   {
     "img": "../../images/slider/Image-2.jpg",
     "title": "VR Games",
     "description": "Entertainment Goes Virtual: The Rise of VR Gaming",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 2
   },
   {
     "img": "../../images/slider/Image-9.jpg",
     "title": "VR Entertainment ",
     "description": "Making Events Memorable: The Power of VR for Corporate and Special Occasions",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 3
   },
   {
     "img": "../../images/slider/Image-7.jpg",
     "title": "VR Event",
     "description": "Exploring New Worlds: The Benefits of VR Travel",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 4
   },
   {
     "img": "../../images/slider/Image-6.jpg",
     "title": "VR Architecture",
     "description": "Bringing Designs to Life: How VR is Changing Architecture",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 5
   },
   {
     "img": "../../images/slider/Image-3.jpg",
     "title": "VR Games",
     "description": "Entertainment Goes Virtual: The Rise of VR Gaming",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 6
   },
   {
     "img": "../../images/slider/Image-5.jpg",
     "title": "VR Games",
     "description": "Entertainment Goes Virtual: The Rise of VR Gaming",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 7
   },
   {
     "img": "../../images/slider/Image-4.jpg",
     "title": "VR Games",
     "description": "Entertainment Goes Virtual: The Rise of VR Gaming",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 8
   },
   {
     "img": "../images/slider/Image-10.jpg",
     "title": "VR Education",
     "description": "The Future of Education: How VR is Revolutionizing the Classroom",
-    "link": "READ MORE"
+    "link": "READ MORE",
+    "id": 9
   }
 ]
