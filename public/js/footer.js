@@ -7,7 +7,7 @@ const firstList = [
   { page: "Home", route: "./index.html" },
   { page: "Pricing Plan", route: "./pricing_plan.html" },
   { page: "Service", route: "./service.html" },
-  { page: "Blog", route: "./index.html" },
+  { page: "Blog", route: "./blog.html" },
   { page: "Our Team ", route: "./our_team.html" },
 ];
 
@@ -27,7 +27,7 @@ const pagesInformation = [
   { page: "FAQ", route: "./index.html" },
 
   { page: "Tems & Conditions", route: "./tems_conditions.html" },
-  { page: "Privacy Policy", route: "./index.html" },
+  { page: "Privacy Policy", route: "./privacy_policy.html" },
 ];
 const pageInformation = pagesInformation
   .map((item) => {

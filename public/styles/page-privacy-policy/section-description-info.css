@@ -1,0 +1,47 @@
+.body-background {
+  background-image: url(../../images/backgroundFoto/bg-human.png),
+    url(../../images/backgroundFoto/human-bg-revers.png);
+  background-position: top 525px right 1px, top 525px left 1px;
+  background-repeat: no-repeat;
+}
+.section-description-info {
+  text-align: center;
+  margin-top: 150px;
+}
+.basic-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.24px;
+}
+.description-uses {
+  width: 612px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  display: flex;
+  margin: 24px auto 0 auto;
+}
+/* section-instruction */
+.section-info-privacy-policy {
+  width: 788px;
+  margin-top: 48px;
+}
+.item-menu-information {
+  margin-bottom: 30px;
+}
+.title-inctruction {
+  margin-bottom: 16px;
+}
+
+.item-inctruction {
+  list-style: disc;
+  color: var(--grey-color);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  margin-left: 25px;
+}

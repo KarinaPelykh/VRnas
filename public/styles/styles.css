@@ -51,6 +51,8 @@
 @import url(./page-Blog/section-blog-card.css);
 
 /* css page Detail_Blog */
-@import url(./pade-Detail-blog/section-info-blog.css);
-@import url(./pade-Detail-blog/recent-list.css);
-@import url(./pade-Detail-blog/popular-hashtag.css);
+@import url(./page-Detail-blog/section-info-blog.css);
+@import url(./page-Detail-blog/recent-list.css);
+@import url(./page-Detail-blog/popular-hashtag.css);
+/* css page Privacy_Policy*/
+@import url(./page-privacy-policy/section-description-info.css);
