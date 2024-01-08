@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="backround-body">
+  <body class="body-background">
     <header class="header container">
       <nav class="nav">
         <ul class="list">
@@ -41,7 +41,7 @@
             </a>
           </li>
           <li class="item">
-            <a class="link" href="./blog.html"
+            <a class="link" href=""
               >Blog<svg class="svg-down-arrow">
                 <use href="./images/sprite.svg#down-arrow"></use></svg
             ></a>
@@ -53,32 +53,34 @@
       </nav>
     </header>
 
-    <section class="container section-detail-rout">
-      <div class="wrapper-rout-detail">
-        <p class="detail-rout">
+    <section class="container section-wrapper-rout">
+      <div class="wrapper-rout">
+        <h1 class="title-rout">FAQ</h1>
+        <p class="text-rout">
           <span class="text-home">Home</span
           ><svg class="svg-ship">
             <use href="./images/sprite.svg#icon-ctrl"></use>
           </svg>
-          <span class="text-home">Blog</span>
-          <svg class="svg-ship">
-            <use href="./images/sprite.svg#icon-ctrl"></use>
-          </svg>
+          <span>FAQ</span>
         </p>
       </div>
     </section>
-    <section class="container section-detail-info">
-      <div class="constainer wrapper-detail-blog"></div>
-      <div class="thumb-with-info">
-        <ul class="recent-list">
-          <h3 class="recent-title">Recent Article</h3>
-        </ul>
-        <div class="popular-hashtag-wrapper">
-          <h3 class="popular-hashtag-title">Popular Hashtag</h3>
-          <ul class="popular-hashtag-list"></ul>
-        </div>
-      </div>
+    <section class="container section-faq">
+      <p><span class="span-background">FAQ</span></p>
+      <h3 class="basic-title">Frequently Asked Questions</h3>
+      <p class="description-uses">
+        At VRNas, we want to make sure that you have all the information you
+        need to make informed decisions about our VR services. Here are some of
+        the most common questions we receive:
+      </p>
+      <button type="button" class="button-see js-button-all">All</button>
+      <button type="button" class="button-see js-button-vr">VR Service</button>
+      <button type="button" class="button-see js-button-pricing">
+        Pricing
+      </button>
+      <ul class="list-question"></ul>
     </section>
+
     <!-- section  form-subscribe-->
     <section class="container section-subscribe">
       <form class="form-subscribe">
@@ -191,12 +193,11 @@
     </footer>
     <!-- header -->
     <!-- div with  rout -->
-
+    <script type="module" src="./js/faq.js"></script>
+    <!-- <script type="module" src="./js/list-question.js"></script> -->
     <!-- footer background-svg -->
     <script type="module" src="./js/svgADD/svg-section-pricing.js"></script>
     <!-- footer -->
     <script type="module" src="./js/footer.js"></script>
-    <script type="module" src="./js/deteil-blog.js"></script>
-    <script type="module" src="./js/popular-hashtag.js"></script>
   </body>
 </html>

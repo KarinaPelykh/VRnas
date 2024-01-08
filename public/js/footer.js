@@ -24,7 +24,7 @@ list.innerHTML = pageQuicklink;
 const pagesInformation = [
   { page: "About us ", route: "./about_us.html" },
   { page: "Contact us", route: "./contact_us.html" },
-  { page: "FAQ", route: "./index.html" },
+  { page: "FAQ", route: "./faq.html" },
 
   { page: "Tems & Conditions", route: "./tems_conditions.html" },
   { page: "Privacy Policy", route: "./privacy_policy.html" },

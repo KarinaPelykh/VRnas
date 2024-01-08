@@ -2,6 +2,7 @@
   {
     "svg": "../images/sprite.svg#icon-ctrl",
     "question": "What is virtual reality?",
+    "id": "1",
     "answer": "Virtual reality (VR) is a technology that uses headsets or other devices to create a simulated environment. Users can interact with this environment as if it were real, allowing for immersive experiences in gaming, education, training, and more."
   },
   {
@@ -11,6 +12,7 @@
   },
   {
     "svg": "../images/sprite.svg#icon-ctrl",
+    "price": "true",
     "question": "How much does your VR services cost?",
     "answer": "Prices for our virtual reality services vary depending on the specific needs and scope of the project. We recommend contacting you for an individual consultation and cost estimate."
   },

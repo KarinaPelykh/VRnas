@@ -52,10 +52,14 @@ p {
 /* page privacy-policy  and tems-conditions */
 .body-background {
   background-image: url(../../images/backgroundFoto/bg-human.png),
-    url(../../images/backgroundFoto/human-bg-revers.png);
-  background-position: top 525px right 1px, top 525px left;
+    url(../../images/backgroundFoto/human-bg-revers.png),
+    url(../../images/backgroundFoto/backgroun-title.png),
+    url(../../images/backgroundFoto/img-header.png);
+  background-position: top 525px right 1px, top 525px left, top 83px right 375px,
+    top right;
   background-repeat: no-repeat;
 }
+
 /* ======================================================================== */
 /*                                    Модальне вікно                       */
 /* ======================================================================== */

@@ -1,0 +1,19 @@
+.section-faq {
+  text-align: center;
+  margin-top: 150px;
+}
+.basic-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.24px;
+}
+.description-uses {
+  width: 612px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  display: flex;
+  margin: 24px auto 0 auto;
+}
