@@ -5,12 +5,6 @@ body {
   background-position: top 83px right 375px, top right;
 }
 
-.body-background {
-  background-image: url(../../images/backgroundFoto/bg-human.png),
-    url(../../images/backgroundFoto/human-bg-revers.png);
-  background-position: top 525px right 1px, top 525px left 1px;
-  background-repeat: no-repeat;
-}
 .section-tems-condition {
   text-align: center;
   margin-top: 150px;
