@@ -199,7 +199,7 @@
 }
 .underlain {
   margin: 8px 0 0 0;
-  width: auto;
+  width: fit-content;
   position: relative;
 }
 
