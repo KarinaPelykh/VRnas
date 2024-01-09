@@ -14,8 +14,6 @@
   line-height: 28px;
 }
 .form-contact {
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 .input-label {
   display: grid;
@@ -31,6 +29,7 @@
   margin: 0 24px 24px 0;
   outline: none;
   padding: 11px 15px;
+  color: var(--white-color);
 }
 .input-info::placeholder {
   font-family: Chakra Petch;
@@ -63,11 +62,6 @@
   background: linear-gradient(to right, #0cbaf1, #e95ce9);
   border: none;
 }
-
-/* .wrapp-circle-socialMedia {
-  position: relative;
-  z-index: -5;
-} */
 
 .circles {
   border: 1px solid #b0b0b2;

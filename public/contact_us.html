@@ -145,42 +145,49 @@
           discuss a potential project, or just want to say hello, we're here to
           help.
         </p>
-        <form class="form-contact">
+        <form class="form-contact js-submit-form">
           <label class="input-label">
             <input
               type="text"
               name="username"
               placeholder="First Name"
-              class="input-info"
+              class="input-info js-username"
+              value=""
             />
             <input
               type="text"
               name="surname"
               placeholder="Last Name"
-              class="input-info"
+              value=""
+              class="input-info js-surname"
             />
             <input
-              type="email"
-              name="email"
+              type="emil"
+              name="emil"
               placeholder="Email"
-              class="input-info"
+              class="input-info js-emil"
+              value=""
             />
             <input
               type="number"
               name="number"
               placeholder="Phone Number"
-              class="input-info"
+              class="input-info js-number"
+              value=""
             />
           </label>
           <label>
             <textarea
+              value=""
               name="massage"
               placeholder="Massage"
               class="textares"
             ></textarea>
           </label>
 
-          <button type="button" class="button-send">SEND WESSAGE</button>
+          <button type="submit" class="button-send js-button-submit">
+            SEND WESSAGE
+          </button>
         </form>
       </div>
     </section>
@@ -310,5 +317,6 @@
     <script type="module" src="./js/footer.js"></script>
     <script type="module" src="./js/svgADD/svg-section-pricing.js"></script>
     <script type="module" src="./js/form-whyChoose.js"></script>
+    <script type="module" src="./js/clientForm.js"></script>
   </body>
 </html>
