@@ -22,4 +22,3 @@ fetch("../data/our-service.json")
       list.append(item);
     });
   });
-console.log(5);
