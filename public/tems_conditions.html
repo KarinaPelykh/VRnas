@@ -21,9 +21,11 @@
       <nav class="nav">
         <ul class="list">
           <li class="item-logo">
-            <svg class="svg-logo">
-              <use href="./images/sprite.svg#logo"></use></svg
-            >VRNas
+            <a class="link" href="./index.html">
+              <svg class="svg-logo">
+                <use href="./images/sprite.svg#logo"></use></svg
+              >VRNas
+            </a>
           </li>
           <li class="item"><a class="link" href="./index.html">Home</a></li>
           <li class="item">
@@ -33,18 +35,44 @@
             <a class="link" href="./service.html">Service</a>
           </li>
           <li class="item">
-            <a class="link" href=""
-              >Page
+            <div>
+              Page
               <svg class="svg-down-arrow">
                 <use href="./images/sprite.svg#down-arrow"></use>
               </svg>
-            </a>
+            </div>
+
+            <div class="select-link">
+              <div class="link-list">
+                <a class="link link-on-page" href="./index.html">Home</a>
+                <a class="link link-on-page" href="./about_us.html">About_us</a>
+                <a class="link link-on-page" href="./service.html">Service</a>
+                <a class="link link-on-page" href="./contact_us.html"
+                  >Contact us</a
+                >
+                <a class="link link-on-page" href="./pricing_plan.html">
+                  Pricing_plan</a
+                >
+                <a class="link link-on-page" href="./faq.html"> FQA</a>
+              </div>
+            </div>
           </li>
           <li class="item">
             <a class="link" href="./blog.html"
               >Blog<svg class="svg-down-arrow">
                 <use href="./images/sprite.svg#down-arrow"></use></svg
             ></a>
+            <div class="select-link">
+              <div class="link-list">
+                <a class="link link-on-page" href="./blog.html">Blog</a>
+                <a class="link link-on-page" href="./detail_blog.html"
+                  >detail_blog
+                </a>
+                <a class="link link-on-page" href="./detail_service.html"
+                  >Detail_Service</a
+                >
+              </div>
+            </div>
           </li>
           <li class="">
             <a class="link item-contact" href="./contact_us.html">Contact us</a>
@@ -80,7 +108,7 @@
 
     <!-- section  form-subscribe-->
     <section class="container section-subscribe">
-      <form class="form-subscribe">
+      <form class="subscribe js-from-subscribe">
         <p class="description-subscribe">
           Subscribe to our newsletter for latest updates
         </p>
@@ -91,11 +119,11 @@
           </svg>
           <input
             name="email"
-            class="input"
-            type="text"
+            class="input js-input-email"
+            type="email"
             placeholder="Enter your email address"
           />
-          <button class="button-subscribe" type="button">
+          <button class="button-subscribe js-button-subscribe" type="submit">
             <svg class="svg-send">
               <use href="./images/sprite.svg#Send"></use>
             </svg>

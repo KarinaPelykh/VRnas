@@ -32,9 +32,11 @@
       <nav class="nav">
         <ul class="list">
           <li class="item-logo">
-            <svg class="svg-logo">
-              <use href="./images/sprite.svg#logo"></use></svg
-            >VRNas
+            <a class="link" href="./index.html">
+              <svg class="svg-logo">
+                <use href="./images/sprite.svg#logo"></use></svg
+              >VRNas
+            </a>
           </li>
           <li class="item"><a class="link" href="./index.html">Home</a></li>
           <li class="item">
@@ -44,17 +46,44 @@
             <a class="link" href="./service.html">Service</a>
           </li>
           <li class="item">
-            Page
-            <svg class="svg-down-arrow">
-              <use href="./images/sprite.svg#down-arrow"></use>
-            </svg>
-            <!-- <a class="link" href="./pricing_plan.html"> Page</a> -->
+            <div>
+              Page
+              <svg class="svg-down-arrow">
+                <use href="./images/sprite.svg#down-arrow"></use>
+              </svg>
+            </div>
+
+            <div class="select-link">
+              <div class="link-list">
+                <a class="link link-on-page" href="./index.html">Home</a>
+                <a class="link link-on-page" href="./about_us.html">About_us</a>
+                <a class="link link-on-page" href="./service.html">Service</a>
+                <a class="link link-on-page" href="./contact_us.html"
+                  >Contact us</a
+                >
+                <a class="link link-on-page" href="./pricing_plan.html">
+                  Pricing_plan</a
+                >
+                <a class="link link-on-page" href="./faq.html"> FQA</a>
+              </div>
+            </div>
           </li>
           <li class="item">
             <a class="link" href="./blog.html"
               >Blog<svg class="svg-down-arrow">
                 <use href="./images/sprite.svg#down-arrow"></use></svg
             ></a>
+            <div class="select-link">
+              <div class="link-list">
+                <a class="link link-on-page" href="./blog.html">Blog</a>
+                <a class="link link-on-page" href="./detail_blog.html"
+                  >detail_blog
+                </a>
+                <a class="link link-on-page" href="./detail_service.html"
+                  >Detail_Service</a
+                >
+              </div>
+            </div>
           </li>
           <li class="">
             <a class="link item-contact" href="./contact_us.html">Contact us</a>
@@ -223,7 +252,7 @@
           Bringing Your Virtual Reality <br />Dreams to Life
         </h3>
       </div>
-      <!-- <iframe
+      <iframe
         class="video"
         width="1200px"
         height="522px"
@@ -231,16 +260,8 @@
         frameborder="0"
         allow=" autoplay;  encrypted-media; "
         allowfullscreen
-      ></iframe> -->
-      <iframe
-        class="video"
-        width="1200px"
-        height="522px"
-        src="https://player.vimeo.com/video/236203659"
-        frameborder="0"
-        allow=" autoplay;  encrypted-media; "
-        allowfullscreen
       ></iframe>
+
       <button class="button-getStart">GET STARTED</button>
     </section>
     <section class="section-testimonial container">
@@ -430,7 +451,9 @@
           <div class="blok-pricing">
             <p>Start from</p>
             <p class="pricing">&dollar;99</p>
-            <button class="button button-pricing">GET STARTED</button>
+            <button class="button button-pricing">
+              <a class="link" href="./pricing_plan.html">GET STARTED</a>
+            </button>
             <p class="text-blok-pricing">30 Days Moneyback Guarantee</p>
           </div>
         </aside>
@@ -558,7 +581,7 @@
       </form>
     </section>
 
-    <!--modal-windov  -->
+    <!--modal-window  -->
 
     <div class="bloc-modal js-modal is-hidden">
       <div class="modal">
@@ -578,10 +601,10 @@
           </svg>
         </button>
         <p>You can read more here</p>
-        <a href="./detail_blog.html">detail_blog</a>
+        <a href="./detail_blog.html">Detail_Blog</a>
         <p>
-          Here you are can read detail our blog,and also you can sentence our
-          site VRNas
+          Here you can read our blog in detail and also you can research VRNas
+          website
         </p>
       </div>
     </div>
