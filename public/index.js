@@ -1,5 +1,5 @@
-import "./js/info-servise";
-import "./js/our-Servise";
+import "./js/info-service";
+import "./js/our-Service";
 import "./js/form-whyChoose";
 import "./js/list-svg";
 import "./js/slider";

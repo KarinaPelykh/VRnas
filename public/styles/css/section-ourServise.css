@@ -1,20 +1,20 @@
-.section-ourServise {
+.section-ourService {
   margin-top: 120px;
 }
-.thumb-ourServise {
+.thumb-ourService {
   display: flex;
 }
-.part-ourServise {
+.part-ourService {
   margin-right: 274px;
 }
-.subtitle-ourServise {
+.subtitle-ourService {
   font-size: 48px;
 }
-.descriptin-ourServise {
+.description-ourService {
   width: 625px;
 }
 
-.list-ourServise {
+.list-ourService {
   box-sizing: border-box;
   display: grid;
   align-items: flex-start;
@@ -57,19 +57,16 @@
   margin-top: -120px;
 }
 
-.png-ourServise {
+.png-ourService {
   width: 48px;
   height: 48px;
   margin-bottom: 60px;
 }
-.subhead-ourServise {
+.subhead-ourService {
   font-size: 20px;
   margin-bottom: 12px;
 }
-/* .text-ourService {
-  font-size: 14px;
-  line-height: 28px;
-} */
+
 .button-overlay {
   padding: 18px 38px;
   background: rgba(255, 255, 255, 0.06);

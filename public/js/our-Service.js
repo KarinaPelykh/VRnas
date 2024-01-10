@@ -1,17 +1,16 @@
 fetch("../data/our-service.json")
   .then((data) => data.json())
   .then((data) => {
-    const list = document.querySelector(".list-ourServise");
+    const list = document.querySelector(".list-ourService");
     data.forEach((data) => {
       const item = document.createElement("li");
       item.classList.add("item-ourService");
-      // item.classList.add("box");
       item.innerHTML = ` 
  
      
       
-      <img class="png-ourServise" src="${data.png}"/>
-       <div class="box"><h4 class="subhead-ourServise">${data.title}</h4>
+      <img class="png-ourService" src="${data.png}"/>
+       <div class="box"><h4 class="subhead-ourService">${data.title}</h4>
       <p class="text-ourService">${data.description}</p>
       <div class="overlay">  <a   href="./detail_service.html" class="button-overlay  link">LEARN MORE</a> </div>
     

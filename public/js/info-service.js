@@ -1,4 +1,4 @@
-fetch("../../data/info-servise.json")
+fetch("../../data/info-service.json")
   .then((res) => res.json())
   .then((data) => {
     const block = document.querySelector(".info-list");
