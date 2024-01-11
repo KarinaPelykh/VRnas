@@ -1,39 +1,134 @@
 /* section Virtual Reality */
-.section {
-  /* border: 1px solid beige; */
-  /* display: flex; */
-}
+
 .section-wrap {
   display: flex;
+}
+@media screen and (max-width: 768px) {
+  .section-wrap {
+    display: inline;
+  }
 }
 .wrapper {
   padding-top: 87px;
   width: 540px;
   margin-right: 138px;
 }
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 431px) {
+  .wrapper {
+    margin: 0;
+    width: auto;
+  }
+}
+
 .title {
   font-size: 64px;
   margin-bottom: 10px;
   font-weight: 600;
 }
+@media screen and (max-width: 431px) {
+  .title {
+    font-size: 48px;
+    width: 400px;
+  }
+}
 .text {
   width: 446px;
   margin-bottom: 50px;
 }
-
-.section-thumb {
+@media screen and (max-width: 431px) {
+  .text {
+    width: 388px;
+  }
 }
+
+@media screen and (max-width: 769px) and (min-width: 340px) {
+  .section-thumb-images {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .images {
-  position: relative;
   width: 526px;
   height: 626px;
   object-fit: contain;
+}
+@media screen and (max-width: 431px) {
+  .images {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .images-two {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .images-two {
+    display: none;
+  }
+}
+@media screen and (max-width: 431px) {
+  .images-two {
+    width: 243px;
+    height: 422px;
+    object-fit: contain;
+    display: flex;
+    margin-left: 171px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .images-two {
+    width: 223px;
+    height: 396px;
+
+    margin-left: 189px;
+  }
 }
 
 .block-info {
   background-color: var(--card-background);
   width: 1200px;
   padding: 42px 64px 42px 0;
+}
+@media screen and (max-width: 769px) {
+  .block-info {
+    width: 734px;
+    display: flex;
+    padding: 42px 64px 42px 64px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .block-info {
+    width: 398px;
+    display: flex;
+    padding: 42px 64px 42px 64px;
+  }
+}
+.info-list {
+  display: flex;
+}
+.info-list > li {
+  margin-left: 50px;
+}
+@media screen and (max-width: 769px) {
+  .info-list > li {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .info-list {
+    display: block;
+  }
 }
 .info-images {
   width: 70px;
@@ -48,7 +143,12 @@
   display: flex;
   align-items: center;
 }
-.list-peopel {
+@media screen and (max-width: 431px) {
+  .wrap-list-people {
+    position: relative;
+  }
+}
+.list-people {
   margin-right: 97px;
   position: relative;
   display: flex;
@@ -72,7 +172,12 @@
   align-items: center;
   justify-content: center;
 }
-.images-video {
-  width: 150px;
-  height: auto;
+
+@media screen and (max-width: 431px) {
+  .info-video {
+    position: absolute;
+    top: 188px;
+    left: -1px;
+    margin: 0;
+  }
 }
