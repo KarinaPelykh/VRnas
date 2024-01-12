@@ -4,16 +4,38 @@
 .thumb-ourService {
   display: flex;
 }
+@media screen and (max-width: 430px) {
+  .thumb-ourService {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+}
 .part-ourService {
   margin-right: 274px;
+}
+@media screen and (max-width: 768px) {
+  .part-ourService {
+    margin-right: 0;
+  }
 }
 .subtitle-ourService {
   font-size: 48px;
 }
+@media screen and (max-width: 768px) {
+  .subtitle-ourService {
+    font-size: 32px;
+  }
+}
 .description-ourService {
   width: 625px;
 }
-
+@media screen and (max-width: 768px) {
+  .description-ourService {
+    width: 403px;
+  }
+}
 .list-ourService {
   box-sizing: border-box;
   display: grid;
@@ -21,9 +43,23 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+@media screen and (max-width: 768px) {
+  .list-ourService {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 430px) {
+  .list-ourService {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 
 .item-ourService {
-  width: 291px;
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
@@ -32,7 +68,19 @@
   width: 379px;
   padding: 38px 56px 38px 32px;
 }
-
+@media screen and (max-width: 768px) {
+  .item-ourService {
+    width: 350px;
+    height: 291px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .item-ourService {
+    width: 379px;
+    padding: 38px 56px 38px 32px;
+  }
+}
 .item-ourService:hover {
   border-width: 1px;
   border-style: solid;
@@ -57,6 +105,11 @@
   margin-top: -120px;
 }
 
+@media screen and (max-width: 768px) {
+  .list-ourService > .item-ourService {
+    margin-top: 0;
+  }
+}
 .png-ourService {
   width: 48px;
   height: 48px;
@@ -81,6 +134,11 @@
   width: 291px;
 
   overflow: hidden;
+}
+@media screen and (max-width: 768px) and (min-width: 430px) {
+  .box {
+    width: 303px;
+  }
 }
 .overlay {
   display: flex;

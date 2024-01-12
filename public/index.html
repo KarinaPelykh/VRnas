@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VRnas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <!-- <link rel="stylesheet" href="./styles/body-background.css" /> -->
+    <link rel="stylesheet" href="./styles/body-background.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -16,10 +20,6 @@
       href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,7 +38,9 @@
               >VRNas
             </a>
           </li>
-          <li class="item"><a class="link" href="./index.html">Home</a></li>
+          <li class="item">
+            <a class="link" title="Home page" href="./index.html">Home</a>
+          </li>
           <li class="item">
             <a class="link" href="./about_us.html">About us</a>
           </li>
@@ -202,17 +204,36 @@
         <ul class="list-ourService"></ul>
       </div>
     </section>
-    <section class="section-thour container">
-      <div class="wrap-section-thour">
+    <section class="section-four container">
+      <div class="thumb-section-four">
+        <img
+          class="img-background"
+          src="./images/backgroundFoto/background-section4.png"
+          alt="background"
+        />
+        <div class="thumb-img"></div>
+        <img
+          class="images-in-wrapper"
+          src="./images/Image3.png"
+          alt="personal"
+        />
+        <div>
+          <img
+            class="gif-photo"
+            src="./images/vr-glasses-sct-4.gif"
+            alt="gif"
+          />
+        </div>
+      </div>
+      <div class="wrap-section-four">
         <p><span class="span-background">WHY CHOOSE US</span></p>
         <h3 class="section-subtitle">Why Choose Us for Your VR Needs</h3>
         <form class="form">
           <label class="lable active"
             >Passionate and Experienced Team
             <svg class="button-select">
-              <use href="./images//sprite.svg#icon-ctrl"></use>
-            </svg>
-          </label>
+              <use href="./images//sprite.svg#icon-ctrl"></use></svg
+          ></label>
           <div class="select-box"></div>
           <label class="lable active"
             >Customized Solutions
@@ -230,24 +251,8 @@
           <div class="select-box"></div>
         </form>
       </div>
-      <div class="thumb-section-thour">
-        <img
-          class="img-background"
-          src="./images/backgroundFoto/background-section4.png"
-          alt="background"
-        />
-        <div class="thumb-img"></div>
-        <img src="./images/Image3.png" alt="personal" />
-        <div>
-          <img
-            class="gif-photo"
-            src="./images/vr-glasses-sct-4.gif"
-            alt="gif"
-          />
-        </div>
-      </div>
     </section>
-    <section class="section-how-started container">
+    <!-- <section class="section-how-started container">
       <p><span class="span-background"> TO GET STARTED</span></p>
       <div class="wrap-text">
         <h3 class="sub-title">
@@ -265,8 +270,8 @@
       ></iframe>
 
       <button class="button-getStart">GET STARTED</button>
-    </section>
-    <section class="section-testimonial container">
+    </section> -->
+    <!-- <section class="section-testimonial container">
       <div class="wrap-info">
         <p><span class="span-background">TESTIMONIAL</span></p>
         <h3 class="testimonial-title">What Our Clients Are Saying</h3>
@@ -383,9 +388,9 @@
           </div>
         </div>
       </section>
-    </section>
+    </section> -->
 
-    <section class="section-pricing container">
+    <!-- <section class="section-pricing container">
       <p><span class="span-background">OUR PRICING</span></p>
       <h3 class="subtitle-pricing">Affordable VR Services for Everyone</h3>
       <p class="decription">
@@ -460,8 +465,8 @@
           </div>
         </aside>
       </section>
-    </section>
-    <section class="section-partners">
+    </section> -->
+    <!-- <section class="section-partners">
       <p><span class="span-background">Our Trusted Partners</span></p>
       <h3 class="subtitle-pricing">Discover the Companies We Work With</h3>
 
@@ -473,8 +478,8 @@
           <img class="img-gamer" src="./images/Untitled (3).png" alt="man" />
         </div>
       </div>
-    </section>
-    <section class="section-Insights container">
+    </section> -->
+    <!-- <section class="section-Insights container">
       <p><span class="span-background">OUR ARTICLES</span></p>
       <div class="wrapper-insights">
         <h3 class="subtitle-Insights">Stay Up-to-Date with Our VR Insights</h3>
@@ -581,11 +586,11 @@
           </button>
         </label>
       </form>
-    </section>
+    </section> -->
 
     <!--modal-window  -->
 
-    <div class="bloc-modal js-modal is-hidden">
+    <!-- <div class="bloc-modal js-modal is-hidden">
       <div class="modal">
         <button class="menu-toggle js-close-menu">
           <svg
@@ -609,9 +614,9 @@
           website
         </p>
       </div>
-    </div>
+    </div> -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="wrapper-footer container">
         <ul class="list-footer">
           <li class="item-logos">
@@ -694,7 +699,7 @@
       <div class="block container">
         <p class="block-text">&copy; Copyright 2023, All Rights Reserved</p>
       </div>
-    </footer>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="bundle.js"></script>
 

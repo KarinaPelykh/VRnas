@@ -13,3 +13,32 @@ body {
 
   background-size: auto, auto, auto, auto, auto, auto;
 }
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(../../images/backgroundFoto/img-header.png),
+      url(../../images/backgroundFoto/Assets.png),
+      url(../../images/backgroundFoto/vr-background.png),
+      url(../../images/backgroundFoto/ourService-background.png),
+      url(../../images/backgroundFoto/vr-background.png),
+      url(../../images/backgroundFoto/backgroun-partner.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+      no-repeat;
+    background-position: right top, left top 230px, right top 590px,
+      right top 3138px, right -50px top 6050px, right 240px top 6970px;
+    background-size: auto, auto, auto, auto, auto, auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  body {
+    background-image: url(../../images/backgroundFoto/img-header.png),
+      url(../../images/backgroundFoto/Assets.png),
+      url(../../images/backgroundFoto/vr-background.png),
+      url(../../images/backgroundFoto/vr-background.png),
+      url(../../images/backgroundFoto/backgroun-partner.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+      no-repeat;
+    background-position: right top, left top 230px, right -257px top 289px,
+      right -50px top 6050px, right 240px top 6970px;
+    background-size: 387px, 378px, auto, auto, auto, auto;
+  }
+}
