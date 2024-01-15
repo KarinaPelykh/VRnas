@@ -1,18 +1,32 @@
 .section-testimonial {
   margin-top: 120px;
   text-align: center;
-  position: relative;
-  /* border: 1px solid #fff; */
-}
 
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .section-testimonial {
+    margin-top: 223px;
+    overflow: hidden;
+    margin-top: 223px;
+  }
+}
 .testimonial-title {
   font-size: 48px;
+}
+@media screen and (max-width: 430px) {
+  .testimonial-title {
+    font-size: 32px;
+  }
 }
 .cirlce {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
 .first-circle {
   border: 1px solid rgba(255, 255, 255, 0.17);
   width: 1200px;
@@ -67,11 +81,18 @@
   height: 320px;
   border-radius: 100%;
 }
-.wrap-info {
+/* .wrap-info {
   position: absolute;
   top: 120px;
   left: 289px;
 }
+@media screen and (max-width: 768px) {
+  .wrap-info {
+    top: -132px;
+    left: 18px;
+    position: absolute;
+  }
+} */
 .img-in-circle {
   position: absolute;
   top: -223px;
@@ -106,6 +127,13 @@
   z-index: 6;
 }
 
+@media screen and (max-width: 768px) {
+  .circle-svg {
+    position: absolute;
+    top: -2px;
+    left: 413px;
+  }
+}
 .circle-svg1 {
   display: flex;
   justify-content: center;
@@ -118,6 +146,13 @@
   top: 119px;
   left: 608px;
   z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg1 {
+    position: absolute;
+    top: 58px;
+    left: 399px;
+  }
 }
 .circle-svg2 {
   display: flex;
@@ -132,6 +167,13 @@
   left: 151px;
   z-index: 6;
 }
+@media screen and (max-width: 768px) {
+  .circle-svg2 {
+    position: absolute;
+    top: 875px;
+    left: 282px;
+  }
+}
 .circle-svg3 {
   display: flex;
   justify-content: center;
@@ -145,6 +187,14 @@
   left: 405px;
   z-index: 6;
 }
+@media screen and (max-width: 768px) {
+  .circle-svg3 {
+    position: absolute;
+    top: 567px;
+    left: 336px;
+  }
+}
+
 .circle-svg4 {
   display: flex;
   justify-content: center;
@@ -155,9 +205,22 @@
   border: 1px solid #d2d2d2;
   position: absolute;
   top: 368px;
-  /* left: 764px; */
   left: 656px;
   z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg4 {
+    position: absolute;
+    top: 848px;
+    left: 257px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle-svg4 {
+    position: absolute;
+    top: 843px;
+    left: 363px;
+  }
 }
 .circle-svg5 {
   display: flex;
@@ -171,6 +234,13 @@
   top: 1067px;
   left: 894px;
   z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg5 {
+    position: absolute;
+    top: 908px;
+    left: 613px;
+  }
 }
 .box-circle {
   position: relative;

@@ -13,9 +13,29 @@
   font-size: 48px;
   width: 879px;
 }
+@media screen and (max-width: 430px) {
+  .sub-title {
+    font-size: 32px;
+    width: auto;
+  }
+}
 .video {
   margin-top: 38px;
   margin-bottom: 48px;
+  width: 1200px;
+  height: 522px;
+}
+@media screen and (max-width: 768px) {
+  .video {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .video {
+    width: 398px;
+    height: 254px;
+    border-radius: 5%;
+  }
 }
 .button-getStart {
   padding: 18px 38px;

@@ -141,6 +141,11 @@
     width: 398px;
   }
 }
+@media screen and (max-width: 768px) {
+  .box-text {
+    height: 100%;
+  }
+}
 .button-select {
   margin-left: auto;
   width: 24px;
