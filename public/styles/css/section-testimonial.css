@@ -129,9 +129,8 @@
 
 @media screen and (max-width: 768px) {
   .circle-svg {
-    position: absolute;
-    top: -2px;
-    left: 413px;
+    top: 20px;
+    left: 350px;
   }
 }
 .circle-svg1 {
@@ -149,9 +148,8 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg1 {
-    position: absolute;
-    top: 58px;
-    left: 399px;
+    top: 708px;
+    left: 229px;
   }
 }
 .circle-svg2 {
@@ -169,9 +167,8 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg2 {
-    position: absolute;
-    top: 875px;
-    left: 282px;
+    top: 137px;
+    left: 436px;
   }
 }
 .circle-svg3 {
@@ -189,9 +186,8 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg3 {
-    position: absolute;
     top: 567px;
-    left: 336px;
+    left: 486px;
   }
 }
 
@@ -210,16 +206,14 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg4 {
-    position: absolute;
     top: 848px;
     left: 257px;
   }
 }
 @media screen and (max-width: 768px) {
   .circle-svg4 {
-    position: absolute;
-    top: 843px;
-    left: 363px;
+    top: 888px;
+    left: 159px;
   }
 }
 .circle-svg5 {
@@ -237,15 +231,12 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg5 {
-    position: absolute;
-    top: 908px;
-    left: 613px;
+    top: 1023px;
+    left: 597px;
   }
 }
 .box-circle {
   position: relative;
-
-  /* overflow: hidden; */
 }
 
 .overlay-circle {
@@ -259,6 +250,13 @@
 
   display: none;
 }
+/* @media screen and (max-width: 430px) {
+  .box-circle > div:nth-child(2) {
+    top: -23px;
+    left: -101px;
+  }
+} */
+
 .box-circle:hover .overlay-circle {
   display: flex;
 }
