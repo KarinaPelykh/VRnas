@@ -11,12 +11,11 @@
 
 .sub-title {
   font-size: 48px;
-  width: 879px;
+  width: 802px;
 }
 @media screen and (max-width: 430px) {
   .sub-title {
     font-size: 32px;
-    width: auto;
   }
 }
 .video {

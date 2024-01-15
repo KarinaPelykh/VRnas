@@ -81,7 +81,7 @@
   height: 320px;
   border-radius: 100%;
 }
-/* .wrap-info {
+.wrap-info {
   position: absolute;
   top: 120px;
   left: 289px;
@@ -92,7 +92,7 @@
     left: 18px;
     position: absolute;
   }
-} */
+}
 .img-in-circle {
   position: absolute;
   top: -223px;
@@ -129,8 +129,8 @@
 
 @media screen and (max-width: 768px) {
   .circle-svg {
-    top: 20px;
-    left: 350px;
+    top: -5px;
+    left: 412px;
   }
 }
 .circle-svg1 {
@@ -149,7 +149,7 @@
 @media screen and (max-width: 768px) {
   .circle-svg1 {
     top: 708px;
-    left: 229px;
+    left: 254px;
   }
 }
 .circle-svg2 {
@@ -186,8 +186,8 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg3 {
-    top: 567px;
-    left: 486px;
+    top: 524px;
+    left: 554px;
   }
 }
 
@@ -231,8 +231,8 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg5 {
-    top: 1023px;
-    left: 597px;
+    top: 1002px;
+    left: 691px;
   }
 }
 .box-circle {
@@ -250,13 +250,28 @@
 
   display: none;
 }
-/* @media screen and (max-width: 430px) {
-  .box-circle > div:nth-child(2) {
-    top: -23px;
-    left: -101px;
-  }
-} */
 
+@media screen and (max-width: 430px) {
+  .box-circle > .overlay-information {
+    position: absolute;
+    top: -23px;
+    left: -304px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .box-circle > .overlay-third {
+    position: absolute;
+    top: -49px;
+    left: -304px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .box-circle > .overlay-first {
+    position: absolute;
+    top: -47px;
+    left: -64px;
+  }
+}
 .box-circle:hover .overlay-circle {
   display: flex;
 }
