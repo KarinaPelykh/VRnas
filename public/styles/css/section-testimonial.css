@@ -215,6 +215,9 @@
     top: 888px;
     left: 159px;
   }
+  .circle-svg4 > .overlay-circle {
+    top: -80px;
+  }
 }
 .circle-svg5 {
   display: flex;

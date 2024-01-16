@@ -5,11 +5,17 @@
 @media screen and (max-width: 430px) {
   .section-partners {
     margin-top: 220px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-partners > p {
+    margin: auto;
   }
 }
 .subtitle-pricing {
   font-size: 48px;
   margin-bottom: 58px;
+  display: block;
 }
 @media screen and (max-width: 430px) {
   .subtitle-pricing {
