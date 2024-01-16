@@ -1,15 +1,13 @@
 .section-testimonial {
   margin-top: 120px;
   text-align: center;
-
+  position: relative;
   display: flex;
   justify-content: center;
 }
 @media screen and (max-width: 768px) {
   .section-testimonial {
-    margin-top: 223px;
     overflow: hidden;
-    margin-top: 223px;
   }
 }
 .testimonial-title {
@@ -21,9 +19,9 @@
   }
 }
 .cirlce {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   position: relative;
 }
 
@@ -88,9 +86,9 @@
 }
 @media screen and (max-width: 768px) {
   .wrap-info {
-    top: -132px;
-    left: 18px;
     position: absolute;
+    top: 4px;
+    left: 79px;
   }
 }
 .img-in-circle {
@@ -167,8 +165,10 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg2 {
-    top: 137px;
-    left: 436px;
+    /* top: 137px;
+    left: 436px; */
+    top: 152px;
+    left: 614px;
   }
 }
 .circle-svg3 {
@@ -268,8 +268,10 @@
 @media screen and (max-width: 430px) {
   .box-circle > .overlay-first {
     position: absolute;
-    top: -47px;
-    left: -64px;
+    /* top: -47px;
+    left: -64px; */
+    top: -23px;
+    left: -300px;
   }
 }
 .box-circle:hover .overlay-circle {

@@ -60,6 +60,11 @@
   top: 70px;
   left: 520px;
 }
+@media screen and (max-width: 1200px) {
+  .img-background {
+    left: 364px;
+  }
+}
 @media screen and (max-width: 768px) {
   .img-background {
     top: 38px;

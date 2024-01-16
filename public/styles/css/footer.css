@@ -7,31 +7,101 @@
   background-size: auto;
   padding-top: 150px;
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 92px;
+    padding-top: 0px;
+    height: 627px;
+    background-position: left bottom;
+    background-size: 637px 314px;
+  }
+}
 .wrapper-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 60px;
 }
+@media screen and (max-width: 768px) {
+  .wrapper-footer {
+    display: block;
 
+    margin-bottom: 0px;
+  }
+}
 .list-footer {
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .list-footer {
+    display: block;
+  }
+}
+.list-footer > .wrap-links > li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 137px;
+}
 
+@media screen and (max-width: 768px) {
+  .list-footer > .wrap-links > li {
+    margin-right: 0px;
+  }
+}
 .list-footer > li {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   margin-right: 137px;
 }
+
+.span-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  color: var(--white-color);
+}
+@media screen and (max-width: 768px) {
+  .span-logo {
+    margin-bottom: 71px;
+
+    margin-right: 52px;
+  }
+}
+
+.wrap-links {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .wrap-links {
+    display: flex;
+    margin-bottom: 65px;
+  }
+  .wrap-links > li:first-child {
+    margin-right: 100px;
+  }
+}
+
 .list-footer > li:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .list-footer > li:first-child {
+    margin-right: 0px;
+
+    display: flex;
+  }
+  .list-footer > li:last-child {
+    margin-bottom: 32px;
+  }
 }
 .list-menu > li > a {
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
   font-weight: 300;
 }
+
 .iten-footer {
   margin-top: 16px;
 }
@@ -47,12 +117,7 @@
   align-items: center;
   justify-content: f;
 }
-.span-logo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 100px;
-  color: var(--white-color);
-}
+
 .menu-social {
   display: flex;
 }
@@ -81,6 +146,11 @@
   border-left: none;
   border-right: none;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .block {
+    margin-bottom: 32px;
+  }
 }
 .block-text {
   margin-top: 32px;

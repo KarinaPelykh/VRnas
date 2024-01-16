@@ -2,15 +2,26 @@
   margin-top: 120px;
 }
 
-.subtitle-pricing {
+.subtitle-pricing-our {
   font-size: 48px;
   margin-top: 12px;
   margin-bottom: 16px;
 }
-.decription {
+
+@media screen and (max-width: 430px) {
+  .subtitle-pricing-our {
+    font-size: 32px;
+  }
+}
+.description-our {
   width: 625px;
   margin-bottom: 40px;
   line-height: 25px;
+}
+@media screen and (max-width: 430px) {
+  .description-our {
+    width: 410px;
+  }
 }
 .thumb-pricing {
   padding: 55px;
@@ -22,18 +33,48 @@
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .thumb-pricing {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .thumb-pricing {
+    padding: 22px;
+  }
+}
 .article-pricing {
   margin-right: 118px;
   width: 625px;
+}
+@media screen and (max-width: 768px) {
+  .article-pricing {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .article-pricing {
+    width: 328px;
+  }
 }
 .aside-pricing {
   position: relative;
   border-left: 1px solid #ffffff29;
 }
+@media screen and (max-width: 768px) {
+  .aside-pricing {
+    border-left: none;
+    border-bottom: 1px solid #ffffff29;
+    margin-bottom: 118px;
+  }
+}
 .title-pricing {
   margin-bottom: 12px;
 }
-.decription-pricing {
+.description-pricing-our {
   line-height: 25px;
 }
 
@@ -62,6 +103,17 @@
   text-align: center;
 
   background-color: var(--card-background);
+}
+@media screen and (max-width: 768px) {
+  .blok-pricing {
+    top: 51px;
+    left: -36px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .blok-pricing {
+    left: -9px;
+  }
 }
 .pricing {
   margin-bottom: 12px;

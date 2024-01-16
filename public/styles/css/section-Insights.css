@@ -2,32 +2,64 @@
   margin-top: 250px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-Insights {
+    margin-top: 100px;
+  }
+}
+
 .wrapper-insights {
   display: flex;
   justify-content: space-between;
   margin-bottom: 72px;
 }
+
 .subtitle-Insights {
   font-size: 48px;
+}
+@media screen and (max-width: 430px) {
+  .subtitle-Insights {
+    font-size: 32px;
+  }
 }
 .button-all {
   background: rgba(255, 255, 255, 0.06);
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
-
   border-image-slice: 1;
   padding: 12px 24px;
 }
+@media screen and (max-width: 430px) {
+  .button-all {
+    display: none;
+  }
+}
+
 .wrap-statistic {
   margin-right: 20px;
   display: flex;
   position: relative;
 }
+@media screen and (max-width: 768px) {
+  .wrap-statistic {
+    margin-right: 0;
+    display: block;
+  }
+}
 .text-insights {
   font-size: 28px;
   font-weight: 600;
   color: var(--white-color);
+}
+@media screen and (max-width: 430px) {
+  .text-insights {
+    color: var(--white-color);
+    margin-bottom: 32px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.14px;
+  }
 }
 .slider {
   position: relative;
@@ -38,11 +70,28 @@
   height: 493px;
   background-color: transparent;
 }
+@media screen and (max-width: 768px) {
+  .slider {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .slider {
+    left: 0;
+    height: auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  .slider {
+    top: 0;
+    width: 398px;
+  }
+}
 .news {
   background-color: var(--card-background);
   position: absolute;
   top: 2px;
-  /* left: 620px; */
   left: -20px;
   width: 730px;
   height: 605px;
@@ -51,7 +100,26 @@
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
   padding: 32px 120px 0 97px;
-  /* overflow: auto; */
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    top: 2px;
+    left: 33px;
+    width: 634px;
+    padding: 32px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .news {
+    width: 398px;
+    left: 0;
+  }
+}
+@media screen and (max-width: 430px) {
+  .news {
+    margin-top: 20px;
+  }
 }
 .subscribe {
   display: flex;
@@ -61,11 +129,31 @@
   margin-top: 250px;
   background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
 }
+
+@media screen and (max-width: 430px) {
+  .subscribe {
+    display: block;
+    padding: 31px 13px;
+    margin-top: 100px;
+  }
+}
 .description-subscribe {
   width: 520px;
   color: var(--white-color);
   font-size: 40px;
   margin-right: 168px;
+}
+@media screen and (max-width: 430px) {
+  .description-subscribe {
+    width: 372px;
+    margin-right: 0;
+
+    text-align: center;
+
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.14px;
+  }
 }
 .label {
   border-radius: 2px;
@@ -111,6 +199,12 @@
   width: 636px;
   height: 425px;
 }
+@media screen and (max-width: 430px) {
+  .swiper-slide img {
+    width: 398px;
+    height: 266px;
+  }
+}
 .swiper-wrapper {
   margin-bottom: 44px;
 }
@@ -127,8 +221,23 @@
   margin: 0 0 0 24px;
   width: 509px;
 }
+
+@media screen and (max-width: 430px) {
+  .signature {
+    top: 159px;
+  }
+}
 .signature > h3 {
   font-size: 32px;
+}
+
+@media screen and (max-width: 430px) {
+  .signature > h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    width: 264px;
+  }
 }
 .signature > p {
   border-radius: 16px;
@@ -167,8 +276,12 @@
   position: absolute;
   top: -135px;
   left: 565px;
-
   z-index: 4;
+}
+@media screen and (max-width: 430px) {
+  .wraper-button-next {
+    left: 320px;
+  }
 }
 .wraper-button-next > svg {
   width: 16px;
@@ -183,7 +296,6 @@
 .thumb-news {
   width: auto;
   height: auto;
-  /* overflow: auto; */
 }
 .item-New {
   display: flex;
@@ -200,8 +312,7 @@
 .photo-news {
   margin-right: 21px;
 }
-.wrapper-caption {
-}
+
 .caption-news {
   margin-bottom: 8px;
   background-color: rgba(255, 255, 255, 0.3);
@@ -225,6 +336,11 @@
   padding: 13px;
   background-color: transparent;
 }
+@media screen and (max-width: 430px) {
+  .button-news {
+    display: none;
+  }
+}
 .svg-news {
   width: 13px;
   height: 13px;
@@ -238,6 +354,11 @@
   height: 474px;
   right: 46px;
   background-color: rgba(255, 255, 255, 0.12);
+}
+@media screen and (max-width: 768px) {
+  .simplebar-track.simplebar-vertical {
+    right: 19px;
+  }
 }
 .simplebar-scrollbar {
   background-color: #fff;
