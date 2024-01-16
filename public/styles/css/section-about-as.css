@@ -15,17 +15,20 @@
   z-index: 1;
   top: 0px;
   left: -200px;
+  z-index: -1;
 }
 @media screen and (max-width: 768px) {
   .section-about-as-background {
     position: absolute;
     z-index: 1;
-    top: 0px;
-    left: -487px;
+    top: -164px;
+    /* left: -487px; */
+    left: -465px;
+    /* left: -285px; */
   }
 }
 .wrapper-about {
-  z-index: -1;
+  z-index: -2;
   position: absolute;
   top: 125px;
   width: 398px;
@@ -41,6 +44,8 @@
 .images-aboutAs {
   width: 518px;
   height: 622px;
+  position: relative;
+  z-index: 1;
 }
 @media screen and (max-width: 430px) {
   .images-aboutAs {
@@ -59,6 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 @media screen and (max-width: 430px) {

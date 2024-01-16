@@ -38,6 +38,7 @@
   width: 398px;
   height: 497px;
   background-color: var(--card-background);
+  z-index: -2;
 }
 @media screen and (max-width: 768px) {
   .thumb-img {
@@ -55,7 +56,7 @@
   }
 }
 .img-background {
-  z-index: 2;
+  z-index: -1;
   position: absolute;
   top: 70px;
   left: 520px;

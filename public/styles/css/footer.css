@@ -14,6 +14,12 @@
     height: 627px;
     background-position: left bottom;
     background-size: 637px 314px;
+    width: 768px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .footer {
+    width: 430px;
   }
 }
 .wrapper-footer {
@@ -150,6 +156,7 @@
 @media screen and (max-width: 768px) {
   .block {
     margin-bottom: 32px;
+    width: 395px;
   }
 }
 .block-text {

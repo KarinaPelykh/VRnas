@@ -47,7 +47,7 @@
   border-radius: 50%;
   left: 597px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   .circle-partners {
     left: 437px;
   }
