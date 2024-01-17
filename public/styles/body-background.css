@@ -13,6 +13,22 @@ body {
 
   background-size: auto, auto, auto, auto, auto, auto;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  body {
+    background-image: url(../../images/backgroundFoto/img-header.png),
+      url(../../images/backgroundFoto/Assets.png),
+      url(../../images/backgroundFoto/vr-background.png),
+      url(../../images/backgroundFoto/ourService-background.png),
+      url(../../images/backgroundFoto/vr-background.png),
+      url(../../images/backgroundFoto/backgroun-partner.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+      no-repeat;
+    background-position: left 506px top, left top 366px, left 373px top 352px,
+      left 160px top 3138px, right -499px top 6038px, right 240px top 6970px;
+    background-size: auto, auto, auto, auto, auto, auto;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     background-image: url(../../images/backgroundFoto/img-header.png),
