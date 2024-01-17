@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 0 30px 0;
+  padding: 31px 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -7,27 +7,16 @@
     display: none;
   }
 }
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .list {
   display: flex;
   align-items: center;
 }
 .item-logo {
-  margin-right: 290px;
+  margin-right: 241px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 769px) {
-  .item-logo {
-    margin-right: 20px;
-  }
 }
 
 .link {
@@ -46,7 +35,7 @@
   margin-right: 0;
 }
 .item-contact {
-  margin-left: 183px;
+  margin-left: 205px;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #0cbaf1, #e95ce9);

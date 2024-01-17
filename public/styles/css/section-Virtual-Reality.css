@@ -10,7 +10,6 @@
 }
 .wrapper {
   padding-top: 87px;
-  width: 540px;
   margin-right: 138px;
 }
 @media screen and (max-width: 768px) {
@@ -39,7 +38,7 @@
 }
 .text {
   width: 446px;
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 @media screen and (max-width: 431px) {
   .text {
@@ -55,8 +54,8 @@
 }
 
 .images {
+  margin-top: 78px;
   width: 526px;
-  height: 626px;
   object-fit: contain;
 }
 @media screen and (max-width: 431px) {
@@ -80,7 +79,7 @@
     height: 422px;
     object-fit: contain;
     display: flex;
-    margin-left: 171px;
+    margin-left: 173px;
   }
 }
 
@@ -95,12 +94,11 @@
 
 .block-info {
   background-color: var(--card-background);
-  width: 1200px;
+  width: 100%;
   padding: 42px 64px 42px 0;
 }
 @media screen and (max-width: 769px) {
   .block-info {
-    width: 734px;
     display: flex;
     padding: 42px 64px 42px 64px;
   }
@@ -108,7 +106,6 @@
 
 @media screen and (max-width: 431px) {
   .block-info {
-    width: 398px;
     display: flex;
     padding: 42px 64px 42px 64px;
   }
@@ -138,7 +135,7 @@
   margin-bottom: 12px;
 }
 .wrap-list-people {
-  margin-top: 42px;
+  margin-top: 81px;
 
   display: flex;
   align-items: center;
@@ -149,7 +146,7 @@
   }
 }
 .list-people {
-  margin-right: 97px;
+  margin-right: 92px;
   position: relative;
   display: flex;
 }
@@ -162,6 +159,14 @@
   position: absolute;
   top: 0;
   left: 77px;
+}
+.wrap-list-people > p {
+  width: 132px;
+}
+.number-heppe-client {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
 }
 .info-video {
   margin-left: 61px;
@@ -179,5 +184,16 @@
     top: 188px;
     left: -1px;
     margin: 0;
+  }
+}
+.images-video {
+  width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 430px) {
+  .images-video {
+    width: 113px;
+    height: auto;
   }
 }
