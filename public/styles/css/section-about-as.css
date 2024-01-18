@@ -22,9 +22,7 @@
     position: absolute;
     z-index: 1;
     top: -164px;
-    /* left: -487px; */
     left: -465px;
-    /* left: -285px; */
   }
 }
 .wrapper-about {
@@ -89,8 +87,7 @@
   }
 }
 .article-aboutUs {
-  width: 562px;
-  margin-left: 222px;
+  margin-left: 76px;
 }
 @media screen and (max-width: 768px) {
   .article-aboutUs {
@@ -110,6 +107,7 @@
 .section-subtitle {
   margin-bottom: 12px;
   font-size: 48px;
+  width: 562px;
 }
 @media screen and (max-width: 430px) {
   .section-subtitle {
@@ -120,9 +118,13 @@
   }
 }
 .section-text {
-  font-size: 16px;
   color: var(--grey-color);
   margin-bottom: 24px;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 528px;
 }
 @media screen and (max-width: 768px) {
   .section-text {

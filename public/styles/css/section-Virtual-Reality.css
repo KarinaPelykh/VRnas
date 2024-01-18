@@ -10,7 +10,7 @@
 }
 .wrapper {
   padding-top: 87px;
-  margin-right: 138px;
+  margin-right: 116px;
 }
 @media screen and (max-width: 768px) {
   .wrapper {
@@ -46,6 +46,71 @@
   }
 }
 
+.wrap-list-people {
+  margin-top: 81px;
+
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 431px) {
+  .wrap-list-people {
+    position: relative;
+  }
+}
+
+.wrap-list-people > p {
+  width: 132px;
+}
+.list-people {
+  margin-right: 92px;
+  position: relative;
+  display: flex;
+}
+.item-second {
+  position: absolute;
+  top: 0;
+  left: 38px;
+}
+.item-third {
+  position: absolute;
+  top: 0;
+  left: 77px;
+}
+
+.number-heppe-client {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.info-video {
+  margin-left: 61px;
+  background-color: var(--card-background);
+  width: 196px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 431px) {
+  .info-video {
+    position: absolute;
+    top: 188px;
+    left: -1px;
+    margin: 0;
+  }
+}
+.images-video {
+  width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 430px) {
+  .images-video {
+    width: 113px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 769px) and (min-width: 340px) {
   .section-thumb-images {
     display: flex;
@@ -57,6 +122,7 @@
   margin-top: 78px;
   width: 526px;
   object-fit: contain;
+  display: block;
 }
 @media screen and (max-width: 431px) {
   .images {
@@ -133,67 +199,14 @@
 }
 .info-title {
   margin-bottom: 12px;
-}
-.wrap-list-people {
-  margin-top: 81px;
 
-  display: flex;
-  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
 }
-@media screen and (max-width: 431px) {
-  .wrap-list-people {
-    position: relative;
-  }
-}
-.list-people {
-  margin-right: 92px;
-  position: relative;
-  display: flex;
-}
-.item-second {
-  position: absolute;
-  top: 0;
-  left: 38px;
-}
-.item-third {
-  position: absolute;
-  top: 0;
-  left: 77px;
-}
-.wrap-list-people > p {
-  width: 132px;
-}
-.number-heppe-client {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-}
-.info-video {
-  margin-left: 61px;
-  background-color: var(--card-background);
-  width: 196px;
-  height: 128px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.description {
+  color: var(--Greyscale-Grey-1, #b0b0b2);
 
-@media screen and (max-width: 431px) {
-  .info-video {
-    position: absolute;
-    top: 188px;
-    left: -1px;
-    margin: 0;
-  }
-}
-.images-video {
-  width: 150px;
-  height: auto;
-}
-
-@media screen and (max-width: 430px) {
-  .images-video {
-    width: 113px;
-    height: auto;
-  }
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
 }

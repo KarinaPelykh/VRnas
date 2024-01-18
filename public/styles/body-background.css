@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
     no-repeat;
   background-position: right top, left top 230px, right top 150px,
-    right top 1600px, right -50px top 6050px, right 240px top 6970px;
+    right top 1731px, right -50px top 6050px, right 240px top 7050px;
 
   background-size: auto, auto, auto, auto, auto, auto;
 }
@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
       no-repeat;
     background-position: left 506px top, left top 366px, left 373px top 352px,
-      left 160px top 3138px, right -499px top 6038px, right 240px top 6970px;
+      left 160px top 3138px, right -499px top 6038px, left top 7140px;
     background-size: auto, auto, auto, auto, auto, auto;
   }
 }
@@ -40,7 +40,7 @@ body {
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
       no-repeat;
     background-position: left 31px top, left top 230px, left top 590px,
-      left 160px top 3138px, right -50px top 6050px, right 240px top 6970px;
+      left 160px top 3138px, right -50px top 6050px, left top 9486x;
     background-size: auto, auto, auto, auto, auto, auto;
   }
 }

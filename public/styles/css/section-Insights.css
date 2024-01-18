@@ -35,6 +35,17 @@
     display: none;
   }
 }
+@media screen and (min-width: 430px) {
+  .is-visible {
+    display: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  .is-visible {
+    display: flex;
+    margin: 32px auto 0 auto;
+  }
+}
 
 .wrap-statistic {
   margin-right: 20px;
@@ -92,7 +103,7 @@
   background-color: var(--card-background);
   position: absolute;
   top: 2px;
-  left: -20px;
+  left: -22px;
   width: 730px;
   height: 605px;
   border-width: 1px;

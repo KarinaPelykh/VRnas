@@ -30,12 +30,32 @@
 }
 .description-ourService {
   width: 625px;
+  color: var(--grey-color);
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
 }
 @media screen and (max-width: 768px) {
   .description-ourService {
     width: 403px;
+    margin-left: 20px;
   }
 }
+@media screen and (max-width: 430px) {
+  .description-ourService {
+    width: 403px;
+    margin-left: 0;
+  }
+}
+.text-ourService {
+  color: var(--grey-color);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
 .list-ourService {
   box-sizing: border-box;
   display: grid;
@@ -102,7 +122,8 @@
   margin-top: -179px;
 }
 .item-ourService:nth-child(5) {
-  margin-top: -120px;
+  /* margin-top: -120px; */
+  margin-top: -98px;
 }
 
 @media screen and (max-width: 768px) {
@@ -116,8 +137,12 @@
   margin-bottom: 60px;
 }
 .subhead-ourService {
-  font-size: 20px;
   margin-bottom: 12px;
+
+  color: var(--wight-color);
+
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .button-overlay {

@@ -2,6 +2,7 @@
   margin-top: 120px;
   text-align: center;
 }
+
 @media screen and (max-width: 430px) {
   .section-partners {
     margin-top: 220px;
@@ -45,17 +46,10 @@
   position: absolute;
   top: 344px;
   border-radius: 50%;
-  left: 597px;
-}
-@media screen and (max-width: 1200px) and (min-width: 768px) {
-  .circle-partners {
-    left: 437px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .circle-partners {
-    left: 263px;
     width: 242px;
     height: 233px;
 
@@ -65,7 +59,6 @@
 
 @media screen and (max-width: 430px) {
   .circle-partners {
-    left: 146px;
     width: 136px;
     height: 133px;
     top: 146px;
