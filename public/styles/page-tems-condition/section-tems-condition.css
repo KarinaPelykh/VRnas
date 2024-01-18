@@ -1,25 +1,3 @@
-/* body {
-  background-image: url(../../images/backgroundFoto/backgroun-title.png),
-    url(../../images/backgroundFoto/img-header.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: top 83px right 375px, top right;
-}
-@media screen and (max-width: 768px) {
-  body {
-    background-image: url(../../images/backgroundFoto/backgroun-title.png),
-      url(../../images/backgroundFoto/img-header.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 778px right 69px, top right;
-  }
-}
-@media screen and (max-width: 430px) {
-  body {
-    background-image: url(../../images/backgroundFoto/backgroun-title.png),
-      url(../../images/backgroundFoto/img-header.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 532px right -188px, top right;
-  }
-} */
 .section-tems-condition {
   text-align: center;
   margin-top: 150px;

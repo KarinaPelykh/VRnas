@@ -2,16 +2,16 @@
   padding: 31px 15px;
 }
 
-@media screen and (max-width: 768px) {
-  .header {
-    display: none;
-  }
-}
-
 .list {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .list > li:nth-child(n + 2) {
+    display: none;
+  }
+}
+
 .item-logo {
   margin-right: 241px;
   display: flex;

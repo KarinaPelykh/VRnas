@@ -23,14 +23,19 @@
   width: 563px;
   margin-left: 100px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .thumb-section-four {
-    margin-left: 0;
+    margin-left: auto;
   }
 }
 @media screen and (max-width: 768px) {
   .thumb-section-four {
     width: auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  .thumb-section-four {
+    margin-left: 0;
   }
 }
 

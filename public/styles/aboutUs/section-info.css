@@ -6,6 +6,94 @@
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
-  width: 708px;
+  width: 100%;
   text-align: center;
+}
+
+.section-four_aboutAs {
+  margin-top: 151px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .section-four_aboutAs {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-four-abut-us {
+    margin-left: 0;
+  }
+}
+
+.wrapper-thumb {
+  top: 165px;
+  left: 71px;
+  z-index: -1;
+  width: 398px;
+  height: 497px;
+  background-color: var(--card-background);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-thumb {
+    top: 79px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper-thumb {
+    top: 124px;
+    width: 325px;
+    height: 405px;
+  }
+}
+
+.img-background-as {
+  position: absolute;
+  left: 114px;
+  top: -156px;
+}
+@media screen and (max-width: 768px) {
+  .img-background-as {
+    left: -175px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .img-background-as {
+    left: -472px;
+  }
+}
+.video-gif {
+  left: 373px;
+  top: 435px;
+}
+
+@media screen and (max-width: 768px) {
+  .video-gif {
+    top: 449px;
+    left: 338px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .video-gif {
+    top: 351px;
+    left: 243px;
+  }
+}
+.picture {
+  position: absolute;
+  top: -80px;
+  left: 57px;
+}
+@media screen and (max-width: 430px) {
+  .picture {
+    top: -62px;
+    left: 7px;
+    width: 407px;
+    height: 467px;
+  }
 }

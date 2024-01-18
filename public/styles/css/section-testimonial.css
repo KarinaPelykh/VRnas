@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
 }
+
 @media screen and (max-width: 768px) {
   .section-testimonial {
     overflow: hidden;
@@ -19,9 +20,6 @@
   }
 }
 .cirlce {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: relative;
 }
 
@@ -165,8 +163,6 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg2 {
-    /* top: 137px;
-    left: 436px; */
     top: 152px;
     left: 614px;
   }
@@ -271,8 +267,7 @@
 @media screen and (max-width: 430px) {
   .box-circle > .overlay-first {
     position: absolute;
-    /* top: -47px;
-    left: -64px; */
+
     top: -23px;
     left: -300px;
   }

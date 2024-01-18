@@ -2,8 +2,18 @@
   margin-top: 120px;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .section-aboutUS {
+    display: block;
+  }
+}
 .article-aboutUS {
   width: 708px;
+}
+@media screen and (max-width: 430px) {
+  .article-aboutUS {
+    width: auto;
+  }
 }
 .title-aboutUS {
   font-size: 48px;
@@ -12,6 +22,12 @@
   letter-spacing: -0.24px;
   margin: 12px 0 18px 0;
 }
+@media screen and (max-width: 430px) {
+  .title-aboutUS {
+    font-size: 32px;
+  }
+}
+
 .description-aboutUS {
   font-size: 16px;
   font-weight: 300;
@@ -19,10 +35,36 @@
   width: 625px;
 }
 
+@media screen and (max-width: 430px) {
+  .description-aboutUS {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .title-aboutUS {
+    font-size: 32px;
+    width: 376px;
+  }
+}
+
 .block-photo {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .block-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .block-photo {
+    justify-content: flex-end;
+  }
+}
 .wrapper-aboutUs {
   z-index: -1;
   position: absolute;
@@ -31,6 +73,27 @@
   height: 496px;
   background-color: var(--card-background);
 }
+@media screen and (max-width: 768px) {
+  .wrapper-aboutUs {
+    z-index: -1;
+    position: absolute;
+    top: 80px;
+    width: 399px;
+    height: 497px;
+    background-color: var(--card-background);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .wrapper-aboutUs {
+    z-index: -1;
+    position: absolute;
+    top: 65px;
+    width: 315px;
+    height: 392px;
+    background-color: var(--card-background);
+  }
+}
 
 .about-as-background {
   position: absolute;
@@ -38,11 +101,46 @@
   top: 341px;
   left: 709px;
 }
+
+@media screen and (min-width: 1100px) {
+  .about-as-background {
+    /* left: 358px; */
+    left: 473px;
+    top: 435px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .about-as-background {
+    left: 358px;
+    top: 435px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-as-background {
+    left: -70px;
+    top: 908px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about-as-background {
+    left: -407px;
+  }
+}
 .images-aboutUs {
   width: 398px;
   height: 574px;
   position: relative;
   z-index: 2;
+}
+@media screen and (max-width: 430px) {
+  .images-aboutUs {
+    width: 314px;
+    height: 453px;
+    position: relative;
+    z-index: 2;
+  }
 }
 .wrap-aboutAs-gif {
   position: absolute;
@@ -55,4 +153,15 @@
   align-items: center;
   justify-content: center;
   z-index: 4;
+}
+@media screen and (max-width: 768px) {
+  .wrap-aboutAs-gif {
+    left: 58px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrap-aboutAs-gif {
+    left: -8px;
+    top: 376px;
+  }
 }
