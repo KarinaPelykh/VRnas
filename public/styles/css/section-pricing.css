@@ -67,7 +67,7 @@
 @media screen and (max-width: 768px) {
   .aside-pricing {
     border-left: none;
-    border-bottom: 1px solid #ffffff29;
+    border-top: 1px solid #ffffff29;
     margin-bottom: 118px;
   }
 }
@@ -89,7 +89,7 @@
   position: absolute;
   top: 310px;
   left: -88px;
-
+  z-index: 5;
   width: 321px;
   height: 222px;
 

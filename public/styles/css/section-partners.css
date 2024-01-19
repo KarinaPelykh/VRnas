@@ -5,12 +5,11 @@
 
 @media screen and (max-width: 430px) {
   .section-partners {
-    margin-top: 220px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 218px;
   }
   .section-partners > p {
-    margin: auto;
+    margin: 0 auto 0 auto;
+    display: block;
   }
 }
 .subtitle-pricing {
@@ -29,13 +28,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 500px;
-}
-
-@media screen and (max-width: 430px) {
-  .container-semicircle {
-    height: auto;
-  }
 }
 
 .circle-partners {
@@ -52,8 +44,7 @@
   .circle-partners {
     width: 242px;
     height: 233px;
-
-    top: 319px;
+    top: 252px;
   }
 }
 

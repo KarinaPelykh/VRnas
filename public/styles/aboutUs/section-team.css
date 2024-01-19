@@ -1,5 +1,11 @@
-.section-team {
+.section-team-us {
   margin-top: 150px;
+  text-align: start;
+}
+@media screen and (max-width: 768px) {
+  .section-team-us {
+    text-align: center;
+  }
 }
 .button-see {
   display: inline-flex;
@@ -10,10 +16,29 @@
   border-image-slice: 1;
   background-color: transparent;
 }
+@media screen and (min-width: 768px) {
+  .is-visible {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .button-see {
+    display: none;
+  }
+  .is-visible {
+    display: flex;
+  }
+}
 .wrapper-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-content {
+    display: block;
+  }
 }
 .list-team {
   display: flex;
@@ -26,6 +51,18 @@
   width: 297px;
   height: auto;
   margin-top: 9px;
+}
+
+@media screen and (max-width: 768px) {
+  .item-card {
+    margin-bottom: 24px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .item-card {
+    margin-right: 0px;
+  }
 }
 
 .box-images {

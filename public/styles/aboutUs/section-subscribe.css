@@ -6,3 +6,9 @@
   margin-top: 150px;
   background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
 }
+@media screen and (max-width: 768px) {
+  .form-subscribe {
+    display: block;
+    padding: 31px 13px;
+  }
+}
