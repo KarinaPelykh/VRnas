@@ -1,6 +1,12 @@
 .section-pricing-plan {
   margin-top: 150px;
 }
+@media screen and (max-width: 430px) {
+  .section-pricing-plan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
 .contsiner-title-pricing {
   text-align: center;
 }
@@ -9,17 +15,78 @@
   display: flex;
   margin: auto;
 }
+@media screen and (max-width: 768px) {
+  .description-pricing-plan {
+    width: 100%;
+  }
+}
 .pracing-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 40px;
 }
+@media screen and (max-width: 768px) {
+  .pracing-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .pracing-menu > li {
+    margin-top: 40px;
+  }
+}
 
-/* card */
+@media screen and (max-width: 430px) {
+  .pracing-menu {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .thumb-section {
+    margin-right: 0px;
+    margin-bottom: 100px;
+    display: block;
+  }
+  .pict {
+    width: 407px;
+    height: 467px;
+  }
+}
+
+.background-tumb {
+  z-index: -1;
+  position: absolute;
+  top: 78px;
+  left: -6px;
+  width: 398px;
+  height: 497px;
+  background-color: var(--card-background);
+}
+@media screen and (max-width: 430px) {
+  .background-tumb {
+    z-index: -3;
+    top: 62px;
+    left: -6px;
+    width: 325px;
+    height: 405px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .gif-video {
+    position: absolute;
+    top: 389px;
+    left: 230px;
+    width: 159px;
+    height: 104px;
+  }
+}
 .pracing-menu > li {
   width: 359px;
-  /* height: 598px; */
   padding: 35px;
   background-color: var(--card-background);
 }
@@ -84,4 +151,39 @@
 
 .button-pricing-plan:hover {
   background-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+}
+
+.container-wrapper {
+  display: flex;
+}
+@media screen and (max-width: 430px) {
+  .container-wrapper {
+    display: block;
+  }
+}
+
+.thumb-section {
+  position: relative;
+  margin: 0px;
+}
+@media screen and (max-width: 430px) {
+  .thumb-section {
+    margin-right: 0px;
+    margin-bottom: 100px;
+    display: block;
+  }
+}
+@media screen and (max-width: 430px) {
+  .img-background-color-pricing {
+    z-index: -2;
+    position: absolute;
+    top: -34px;
+    left: -479px;
+  }
+}
+.pict {
+  width: 500px;
+  height: 574px;
+  position: absolute;
+  left: 10px;
 }
