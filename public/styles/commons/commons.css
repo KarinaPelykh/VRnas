@@ -5,6 +5,16 @@
   --grey-color: #d1d1d1;
   --card-background: #252532;
   --circle-background: #333751;
+  --section-margin-top: 120px;
+  --section-margin-top-mobil: 100px;
+  --border-color-gradient-pink: #e95ce9;
+  --border-color-gradient-blue: #0cbaf1;
+  --background-color-gradient-pink: #e95ce9;
+  --background-color-gradient-blue: #0cbaf1;
+  --color-gradient-pink: #e95ce9;
+  --color-gradient-blue: #0cbaf1;
+  --xl-border-width: 2px;
+  --s-border-width: 1px;
 }
 
 body {
@@ -33,25 +43,8 @@ button {
   margin: 0;
   color: (var(--white-color));
 }
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media screen and (max-width: 769px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (max-width: 430px) {
-  .container {
-    max-width: 430px;
-  }
-}
 
-.container2 {
+.container {
   min-width: 320px;
   max-width: 430px;
   padding-left: 16px;
@@ -61,13 +54,13 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .container2 {
+  .container {
     max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container2 {
+  .container {
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -79,10 +72,26 @@ p {
 }
 
 .span-background {
-  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-pink)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.border-gradient {
+  border-width: var(--xl-border-width);
+  border-style: solid;
+  border-image: linear-gradient(
+    to right,
+    var(--border-color-gradient-blue),
+    var(--border-color-gradient-pink)
+  );
+
+  border-image-slice: 1;
 }
 
 /* page privacy-policy  and tems-conditions */
@@ -168,7 +177,11 @@ p {
   height: 284px;
   padding: 24px 16px;
 
-  background: linear-gradient(to right, #0cbaf1, #e95ce1);
+  background: linear-gradient(
+    to right,
+    var(--background-color-gradient-blue),
+    var(--background-color-gradient-pink)
+  );
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -183,7 +196,7 @@ p {
   outline: none;
   display: flex;
   border-radius: 5px;
-  border-color: #e95ce1;
+  border-color: var(--border-color-gradient-pink);
   margin-bottom: 50px;
 }
 .modal > p {

@@ -1,142 +1,153 @@
 .section-about-as {
+  display: block;
   position: relative;
-  margin-top: 120px;
-  display: flex;
-  align-items: end;
+  margin-top: var(--section-margin-top-mobil);
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .section-about-as {
-    display: block;
+    margin-top: var(--section-margin-top);
+    display: flex;
+    align-items: end;
   }
 }
+@media screen and (min-width: 1200px) {
+  .container-section-about-as {
+    display: flex;
+  }
+}
+
 .section-about-as-background {
   position: absolute;
   z-index: 1;
-  top: 0px;
-  left: -200px;
-  z-index: -1;
+  top: 58px;
+  left: -27px;
+  width: 430px;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 768px) {
   .section-about-as-background {
     position: absolute;
-    z-index: 1;
-    top: -164px;
-    left: -465px;
+    top: 0px;
+    left: -200px;
+    width: auto;
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-about-as-background {
+    top: 0px;
+    left: -77px;
   }
 }
 .wrapper-about {
+  width: 274px;
+  height: 359px;
+  background-color: var(--card-background);
   z-index: -2;
   position: absolute;
-  top: 125px;
-  width: 398px;
-  height: 496px;
-  background-color: var(--card-background);
+  top: 110px;
 }
-@media screen and (max-width: 430px) {
+
+@media screen and (min-width: 768px) {
   .wrapper-about {
-    width: 274px;
-    height: 359px;
+    top: 125px;
+    width: 398px;
+    height: 496px;
   }
 }
 .images-aboutAs {
-  width: 518px;
-  height: 622px;
-  position: relative;
-  z-index: 1;
+  width: 389px;
+  height: 467px;
 }
-@media screen and (max-width: 430px) {
+
+@media screen and (min-width: 768px) {
   .images-aboutAs {
-    width: 389px;
-    height: 467px;
+    width: 518px;
+    height: 622px;
+    z-index: 1;
   }
+}
+.wrpp-video-about-us {
+  position: relative;
 }
 .wrap-aboutAs-video {
   position: absolute;
-  top: 512px;
-  left: 303px;
-
+  top: 410px;
+  left: 225px;
   background-color: var(--card-background);
-  width: 196px;
-  height: 128px;
+  width: 147px;
+  height: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
   .wrap-aboutAs-video {
-    position: absolute;
-    top: 410px;
-    left: 246px;
-
-    width: 147px;
-    height: 96px;
+    top: 539px;
+    left: 296px;
+    width: 196px;
+    height: 128px;
+    z-index: 2;
   }
 }
-.images-video {
-  width: 150px;
-  height: auto;
-}
-
-@media screen and (max-width: 430px) {
-  .images-video {
-    width: 113px;
-    height: auto;
+@media screen and (min-width: 1200px) {
+  .wrap-aboutAs-video {
+    left: 329px;
   }
 }
 .article-aboutUs {
-  margin-left: 76px;
-}
-@media screen and (max-width: 768px) {
-  .article-aboutUs {
-    margin-left: 0;
-    margin-top: 65px;
-    width: auto;
-  }
-}
-@media screen and (max-width: 430px) {
-  .article-aboutUs {
-    margin-left: 0;
-    margin-top: 65px;
-    width: auto;
-  }
+  margin-left: 0;
+  margin-top: 65px;
+  width: auto;
 }
 
-.section-subtitle {
+.article-aboutUs > p {
   margin-bottom: 12px;
-  font-size: 48px;
-  width: 562px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 1200px) {
+  .article-aboutUs {
+    margin-left: 76px;
+  }
+}
+.section-subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  width: 359px;
+}
+
+@media screen and (min-width: 430px) {
   .section-subtitle {
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: -0.16px;
-    width: 359px;
+    margin-bottom: 12px;
+    font-size: 48px;
+    width: 562px;
   }
 }
 .section-text {
+  font-size: 16px;
   color: var(--grey-color);
   margin-bottom: 24px;
-
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  width: 528px;
+  width: 403px;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 430px) {
   .section-text {
-    font-size: 16px;
     color: var(--grey-color);
     margin-bottom: 24px;
-    width: 403px;
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 528px;
   }
 }
-@media screen and (max-width: 768px) {
+.list-aboutAs {
+  width: 403px;
+}
+@media screen and (min-width: 768px) {
   .list-aboutAs {
-    width: 403px;
+    width: auto;
   }
 }
 .item-aboutAS {
@@ -151,12 +162,6 @@
   width: 16px;
   height: 16px;
   margin-right: 12px;
-}
-
-.button {
-  padding: 18px 38px;
-  background: linear-gradient(to right, #0cbaf1, #e95ce9);
-  border: none;
 }
 
 .text-about-as {
