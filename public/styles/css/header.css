@@ -5,7 +5,8 @@
 .list > li:nth-child(n + 2) {
   display: none;
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 1200px) {
   .list {
     display: flex;
     align-items: center;
@@ -15,17 +16,12 @@
     align-items: center;
   }
 }
-
 .item-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-@media screen and (min-width: 768px) {
-  .item-logo {
-    margin-right: 20px;
-  }
-}
+
 @media screen and (min-width: 1200px) {
   .item-logo {
     margin-right: 241px;
@@ -43,11 +39,6 @@
   height: 30px;
 }
 
-@media screen and (min-width: 768px) {
-  .item {
-    margin-right: 39px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .item {
     margin-right: 64px;
@@ -57,19 +48,10 @@
   }
 }
 
-.item-contact {
-  margin-left: 205px;
-
-  padding: 12px 24px;
-}
-@media screen and (min-width: 768px) {
-  .item-contact {
-    margin-left: 20px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .item-contact {
     margin-left: 205px;
+    padding: 12px 24px;
   }
 }
 .svg-down-arrow {

@@ -94,8 +94,13 @@ p {
   border-image-slice: 1;
 }
 
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
 /* page privacy-policy  and tems-conditions */
-.body-background {
+/* .body-background {
   background-image: url(../../images/backgroundFoto/bg-human.png),
     url(../../images/backgroundFoto/human-bg-revers.png),
     url(../../images/backgroundFoto/backgroun-title.png),
@@ -103,10 +108,10 @@ p {
   background-position: top 525px right 1px, top 525px left, top 83px right 375px,
     top right;
   background-repeat: no-repeat;
-}
+} */
 
 /* background all pages besides others */
-.body-background-pages {
+/* .body-background-pages {
   background-image: url(../../images/backgroundFoto/backgroun-title.png),
     url(../../images/backgroundFoto/img-header.png);
   background-repeat: no-repeat, no-repeat;
@@ -119,9 +124,9 @@ p {
     background-repeat: no-repeat, no-repeat;
     background-position: top 83px left 283px, top left 464px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .body-background-pages {
     background-image: url(../../images/backgroundFoto/backgroun-title.png),
       url(../../images/backgroundFoto/img-header.png);
@@ -137,7 +142,7 @@ p {
     background-position: top 117px left 23px, top left 44px;
     background-size: 387px;
   }
-}
+} */
 
 /* ======================================================================== */
 /*                                    Модальне вікно                       */

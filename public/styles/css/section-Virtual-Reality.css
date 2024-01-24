@@ -3,6 +3,9 @@
   margin-top: 40px;
 }
 @media screen and (min-width: 1200px) {
+  .section {
+    margin-top: 0px;
+  }
   .section-wrap {
     display: flex;
   }
@@ -56,18 +59,33 @@
 }
 .list-people {
   margin-right: 92px;
-  position: relative;
+  /* position: relative; */
   display: flex;
+}
+@media screen and (min-width: 1200px) {
+  .list-people {
+    margin-right: 92px;
+    position: static;
+    display: flex;
+  }
 }
 .item-second {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 38px;
 }
 .item-third {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 77px;
+}
+@media screen and (min-width: 768px) {
+  .item-second {
+    top: 38px;
+  }
+  .item-third {
+    top: 38px;
+  }
 }
 
 .number-heppe-client {

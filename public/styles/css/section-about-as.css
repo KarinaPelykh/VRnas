@@ -117,7 +117,7 @@
   width: 359px;
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 1200px) {
   .section-subtitle {
     margin-bottom: 12px;
     font-size: 48px;
@@ -131,7 +131,7 @@
   width: 403px;
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 768px) {
   .section-text {
     color: var(--grey-color);
     margin-bottom: 24px;

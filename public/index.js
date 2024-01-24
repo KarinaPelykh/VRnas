@@ -1,6 +1,6 @@
 import "./js/info-service";
 import "./js/our-Service";
-// import "./js/form-whyChoose";
+import "./js/form-whyChoose";
 // import "./js/list-svg";
 // import "./js/slider";
 // import "./js/news-insights";

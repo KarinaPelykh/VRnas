@@ -12,7 +12,7 @@
   margin-bottom: 24px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .thumb-ourService {
     display: flex;
   }
@@ -20,8 +20,12 @@
 .part-ourService > p {
   margin-bottom: 12px;
 }
-
 @media screen and (min-width: 768px) {
+  .part-ourService {
+    margin-right: 66px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .part-ourService {
     margin-right: 274px;
   }
@@ -62,7 +66,14 @@
   font-weight: 400;
   line-height: 28px;
 }
-
+@media screen and (min-width: 768px) {
+  .list-ourService {
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (min-width: 1200px) {
   .list-ourService {
     box-sizing: border-box;
@@ -79,11 +90,25 @@
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
   background-color: var(--card-background);
-  width: 370px;
+  width: 398px;
   padding: 38px 56px 25px 32px;
   margin-bottom: 32px;
 }
-
+@media screen and (min-width: 768px) {
+  .item-ourService {
+    height: 271px;
+    width: 340px;
+    padding: 20px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item-ourService {
+    height: auto;
+    width: 379px;
+    padding: 38px 56px 25px 32px;
+  }
+}
 .item-ourService:hover {
   border-width: 1px;
   border-style: solid;
