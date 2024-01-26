@@ -45,8 +45,8 @@ button {
 }
 
 .container {
-  min-width: 320px;
-  max-width: 430px;
+  min-width: 430px;
+  /* max-width: 430px; */
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;

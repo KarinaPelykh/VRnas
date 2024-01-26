@@ -3,7 +3,7 @@
   position: relative;
   margin-top: var(--section-margin-top-mobil);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section-about-as {
     margin-top: var(--section-margin-top);
     display: flex;

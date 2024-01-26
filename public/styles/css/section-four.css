@@ -1,9 +1,15 @@
 .section-four {
   margin-top: var(--section-margin-top-mobil);
 }
-
+@media screen and (min-width: 768px) {
+  .section-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1200px) {
-  .section-four > .container {
+  .section-four {
     margin-top: var(--section-margin-top);
     display: flex;
     position: relative;
@@ -151,9 +157,12 @@
 
   font-size: 20px;
 }
-@media screen and (max-width: 768px) {
+.select-box {
+  width: 398px;
+}
+@media screen and (min-width: 768px) {
   .select-box {
-    width: 398px;
+    width: auto;
   }
 }
 .box-text {

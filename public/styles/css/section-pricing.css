@@ -1,31 +1,43 @@
 .section-pricing {
-  margin-top: 120px;
+  margin-top: var(--section-margin-top-mobil);
+}
+.section-pricing > p {
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 430px) {
+  .section-pricing {
+    margin-top: var(--section-margin-top);
+  }
 }
 
 .subtitle-pricing-our {
-  font-size: 48px;
-  margin-top: 12px;
-  margin-bottom: 16px;
+  font-size: 32px;
 }
-
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
   .subtitle-pricing-our {
-    font-size: 32px;
+    font-size: 48px;
+    margin-top: 12px;
+    margin-bottom: 16px;
   }
 }
 .description-our {
-  width: 625px;
-  margin-bottom: 40px;
-  line-height: 25px;
+  width: 410px;
+  margin: 16px 0 47px 0;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
 }
-@media screen and (max-width: 430px) {
+
+@media screen and (min-width: 768px) {
   .description-our {
-    width: 410px;
+    width: 625px;
+    margin-bottom: 40px;
+    line-height: 25px;
   }
 }
 .thumb-pricing {
-  padding: 55px;
-  display: flex;
+  padding: 22px;
 
   background-color: #25253266;
   border-width: 1px;
@@ -34,32 +46,27 @@
   border-image-slice: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .thumb-pricing {
-    display: block;
+    display: flex;
+    padding: 55px;
   }
 }
 
-@media screen and (max-width: 430px) {
-  .thumb-pricing {
-    padding: 22px;
-  }
+.article-pricing {
+  margin-right: 0;
+  margin-bottom: 48px;
 }
 .article-pricing {
-  margin-right: 118px;
-  width: 625px;
+  width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .article-pricing {
-    margin-right: 0;
-    margin-bottom: 48px;
+    margin-right: 118px;
+    width: 625px;
   }
 }
-@media screen and (max-width: 430px) {
-  .article-pricing {
-    width: 328px;
-  }
-}
+
 .aside-pricing {
   position: relative;
   border-left: 1px solid #ffffff29;
@@ -113,6 +120,18 @@
 @media screen and (max-width: 430px) {
   .blok-pricing {
     left: -9px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blok-pricing {
+    left: -451px;
+    top: 510px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .blok-pricing {
+    top: 378px;
+    left: -88px;
   }
 }
 .pricing {

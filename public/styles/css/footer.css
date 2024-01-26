@@ -47,7 +47,8 @@
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  margin-right: 137px;
+  /* margin-right: 137px; */
+  margin-right: 129px;
 }
 
 @media screen and (max-width: 768px) {

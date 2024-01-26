@@ -1,22 +1,31 @@
-.section-testimonial {
-  margin-top: 120px;
+/* .section-testimonial {
+  margin-top: var(--section-margin-top-mobil);
   text-align: center;
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section-testimonial {
-    overflow: hidden;
+    margin-top: var(--section-margin-top);
   }
 }
-.testimonial-title {
-  font-size: 48px;
+.section-testimonial {
+  overflow: hidden;
 }
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
+  .section-testimonial {
+    overflow: visible;
+  }
+}
+
+.testimonial-title {
+  font-size: 32px;
+}
+@media screen and (min-width: 430px) {
   .testimonial-title {
-    font-size: 32px;
+    font-size: 48px;
   }
 }
 .cirlce {
@@ -79,15 +88,320 @@
 }
 .wrap-info {
   position: absolute;
-  top: 120px;
-  left: 289px;
+  top: 4px;
+  left: 79px;
+}
+@media screen and (min-width: 768px) {
+  .wrap-info {
+    top: 120px;
+    left: 289px;
+  }
+}
+.img-in-circle {
+  position: absolute;
+  top: -223px;
+  left: -343px;
+}
+.human-img {
+  position: absolute;
+  z-index: 2;
+  top: -129px;
+  left: -117px;
+  width: 558px;
+  height: 461px;
+}
+.background {
+  position: absolute;
+  top: 230px;
+  left: -43px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+.circle-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 345px;
+  left: -21px;
+  z-index: 6;
+}
+
+@media screen and (max-width: 768px) {
+  .circle-svg {
+    top: -5px;
+    left: 412px;
+  }
+}
+.circle-svg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 119px;
+  left: 608px;
+  z-index: 6;
 }
 @media screen and (max-width: 768px) {
+  .circle-svg1 {
+    top: 708px;
+    left: 254px;
+  }
+}
+.circle-svg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 903px;
+  left: 151px;
+  z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg2 {
+    top: 152px;
+    left: 614px;
+  }
+}
+.circle-svg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 577px;
+  left: 405px;
+  z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg3 {
+    top: 524px;
+    left: 554px;
+  }
+}
+
+.circle-svg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 368px;
+  left: 656px;
+  z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg4 {
+    top: 848px;
+    left: 257px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle-svg4 {
+    top: 888px;
+    left: 159px;
+  }
+  .circle-svg4 > .overlay-circle {
+    top: -80px;
+  }
+}
+.circle-svg5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  top: 1067px;
+  left: 894px;
+  z-index: 6;
+}
+@media screen and (max-width: 768px) {
+  .circle-svg5 {
+    top: 1002px;
+    left: 691px;
+  }
+}
+.box-circle {
+  position: relative;
+}
+
+.overlay-circle {
+  position: absolute;
+  top: -23px;
+  left: 101px;
+  width: 297px;
+  padding: 18px;
+  border: 1px solid #d2d2d2;
+  background-color: rgba(37, 37, 50, 0.77);
+
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .box-circle > .overlay-information {
+    position: absolute;
+    top: -23px;
+    left: -304px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .box-circle > .overlay-third {
+    position: absolute;
+    top: -49px;
+    left: -304px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .box-circle > .overlay-first {
+    position: absolute;
+
+    top: -23px;
+    left: -300px;
+  }
+}
+.box-circle:hover .overlay-circle {
+  display: flex;
+}
+.box-circle:hover {
+  background-image: url(../../images/Bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: none;
+}
+.underlain {
+  margin: 8px 0 0 0;
+  width: fit-content;
+  position: relative;
+}
+
+.underlain::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+}
+
+.wrap-text-overlay > p {
+  text-align: start;
+} */
+.section-testimonial {
+  margin-top: var(--section-margin-top-mobil);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 430px;
+}
+@media screen and (min-width: 500px) {
+  .section-testimonial {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-testimonial {
+    margin-top: var(--section-margin-top);
+    overflow: visible;
+    position: relative;
+  }
+}
+
+.wrap-info {
+  margin-bottom: 29px;
+}
+@media screen and (min-width: 1200px) {
   .wrap-info {
     position: absolute;
-    top: 4px;
-    left: 79px;
+    top: 120px;
+    left: 289px;
   }
+}
+.testimonial-title {
+  font-size: 32px;
+}
+@media screen and (min-width: 430px) {
+  .testimonial-title {
+    font-size: 48px;
+  }
+}
+
+.first-circle {
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 1200px;
+  height: 1200px;
+  border-radius: 100%;
+  position: relative;
+}
+.second-circle {
+  position: absolute;
+  top: 82px;
+  left: 76px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 1050px;
+  height: 1050px;
+  border-radius: 100%;
+}
+.third-circle {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 900px;
+  height: 900px;
+  border-radius: 100%;
+}
+.fourth-circle {
+  position: absolute;
+  top: 92px;
+  left: 90px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 700px;
+  height: 700px;
+  border-radius: 100%;
+}
+.fifth-circle {
+  position: absolute;
+  top: 101px;
+  left: 97px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.sixth-circle {
+  position: absolute;
+  top: 86px;
+  left: 86px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
 }
 .img-in-circle {
   position: absolute;
