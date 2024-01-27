@@ -21,36 +21,39 @@
   .button-see {
     position: absolute;
     top: 31px;
+    left: 541px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .button-see {
+    position: absolute;
+    top: 31px;
     left: 905px;
   }
 }
 
-.wrapper-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .wrapper-content {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 .list-team {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, 297px);
+  grid-template-columns: repeat(1, 297px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 430px) {
   .list-team {
     grid-template-columns: repeat(2, 297px);
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 1200px) {
   .list-team {
-    grid-template-columns: repeat(1, 297px);
+    grid-template-columns: repeat(4, 297px);
   }
 }
 .item-card:nth-child(n + 5) {

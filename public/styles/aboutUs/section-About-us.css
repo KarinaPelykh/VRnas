@@ -1,52 +1,54 @@
 .section-aboutUS {
-  margin-top: 120px;
-  display: flex;
+  margin-top: var(--section-margin-top-mobil);
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 1200px) {
   .section-aboutUS {
-    display: block;
+    margin-top: var(--section-margin-top);
+    display: flex;
   }
 }
 .article-aboutUS {
-  width: 708px;
+  width: auto;
 }
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
   .article-aboutUS {
-    width: auto;
+    width: 708px;
   }
 }
 .title-aboutUS {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 58px;
   letter-spacing: -0.24px;
-  margin: 12px 0 18px 0;
 }
-@media screen and (max-width: 430px) {
+
+@media screen and (min-width: 768px) {
   .title-aboutUS {
-    font-size: 32px;
+    font-size: 48px;
+
+    margin: 12px 0 18px 0;
   }
 }
 
 .description-aboutUS {
+  width: auto;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  width: 625px;
 }
-
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
   .description-aboutUS {
-    width: auto;
+    width: 625px;
   }
 }
 
-@media screen and (max-width: 430px) {
-  .title-aboutUS {
-    font-size: 32px;
-    width: 376px;
-  }
+/* @media screen and (max-width: 430px) { */
+.title-aboutUS {
+  font-size: 32px;
+  width: 376px;
 }
+/* } */
 
 .block-photo {
   position: relative;
@@ -68,66 +70,59 @@
 .wrapper-aboutUs {
   z-index: -1;
   position: absolute;
-  top: 80px;
-  width: 398px;
-  height: 496px;
+  top: 65px;
+  width: 315px;
+  height: 392px;
   background-color: var(--card-background);
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .wrapper-aboutUs {
     z-index: -1;
     position: absolute;
     top: 80px;
     width: 399px;
     height: 497px;
-    background-color: var(--card-background);
   }
-}
+} */
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   .wrapper-aboutUs {
-    z-index: -1;
-    position: absolute;
-    top: 65px;
-    width: 315px;
-    height: 392px;
-    background-color: var(--card-background);
+    top: 80px;
+    width: 398px;
+    height: 496px;
   }
 }
 
 .about-as-background {
   position: absolute;
   z-index: 1;
-  top: 341px;
-  left: 709px;
+  left: -400px;
 }
-
+@media screen and (min-width: 600px) {
+  .about-as-background {
+    left: -69px;
+  }
+}
 @media screen and (min-width: 1100px) {
   .about-as-background {
-    /* left: 358px; */
     left: 473px;
     top: 435px;
   }
 }
-@media screen and (max-width: 1100px) {
+
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
   .about-as-background {
-    left: 358px;
-    top: 435px;
+    top: 341px;
+    left: 362px;
+  }
+}
+@media screen and (min-width: 1205px) {
+  .about-as-background {
+    top: 341px;
+    left: 709px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .about-as-background {
-    left: -70px;
-    top: 908px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .about-as-background {
-    left: -407px;
-  }
-}
 .images-aboutUs {
   width: 398px;
   height: 574px;
@@ -144,8 +139,9 @@
 }
 .wrap-aboutAs-gif {
   position: absolute;
-  top: 505px;
-  left: -70px;
+
+  left: -8px;
+  top: 376px;
   background-color: var(--card-background);
   width: 196px;
   height: 128px;
@@ -154,14 +150,14 @@
   justify-content: center;
   z-index: 4;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 430px) {
   .wrap-aboutAs-gif {
     left: 58px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 1200px) {
   .wrap-aboutAs-gif {
-    left: -8px;
-    top: 376px;
+    top: 505px;
+    left: -70px;
   }
 }

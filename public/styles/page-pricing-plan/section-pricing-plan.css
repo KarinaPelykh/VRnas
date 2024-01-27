@@ -7,9 +7,10 @@
     margin-bottom: 100px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section-four_aboutAs {
     display: flex;
+    justify-content: space-between;
   }
 }
 .contsiner-title-pricing {

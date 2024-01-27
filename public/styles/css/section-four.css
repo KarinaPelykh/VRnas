@@ -40,6 +40,11 @@
     position: relative;
   }
 }
+@media screen and (min-width: 1200px) {
+  .thumb-section-four {
+    margin-left: 0;
+  }
+}
 .thumb-img {
   top: 140px;
   left: 67px;
