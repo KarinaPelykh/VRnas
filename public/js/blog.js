@@ -1,13 +1,15 @@
 const list = document.querySelector(".list-blogs");
 
-const perPage = 3;
+let perPage = 3;
 let currentPage = 1;
 let data;
 fetch("../data/blog-list.json")
   .then((res) => res.json())
   .then((question) => {
     data = question;
+
     displayList(currentPage, perPage);
+
     displayPagination(perPage);
   })
   .catch((error) => {
@@ -17,10 +19,19 @@ fetch("../data/blog-list.json")
 const displayList = (page, perPage) => {
   const start = (page - 1) * perPage;
   const end = start + perPage;
-  const arrPagination = data.slice(start, end);
-  page--;
-  list.innerHTML = "";
-  addCardOnPage(arrPagination);
+  let arrPagination;
+  const handelAdaptationList = () => {
+    if (window.innerWidth < 700) {
+      arrPagination = data;
+    } else {
+      arrPagination = data.slice(start, end);
+    }
+    page--;
+    list.innerHTML = "";
+    addCardOnPage(arrPagination);
+  };
+  window.addEventListener("resize", handelAdaptationList);
+  handelAdaptationList();
 };
 
 const cardBlog = ({ img, title, description, link, id }) => {

@@ -33,12 +33,12 @@
     margin-bottom: 60px;
   }
 }
-.list-footer {
+/* .list-footer {
   display: flex;
-}
-@media screen and (max-width: 768px) {
+} */
+@media screen and (min-width: 768px) {
   .list-footer {
-    display: block;
+    display: flex;
   }
 }
 .list-footer > .wrap-links > li {

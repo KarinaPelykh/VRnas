@@ -4,11 +4,23 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .list-blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 33px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
 }
+@media screen and (min-width: 500px) {
+  .list-blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-blogs {
+    grid-template-columns: repeat(3, 379px);
+  }
+}
+
 .article-card-blog {
   border-width: 1px;
   border-style: solid;
@@ -67,10 +79,15 @@
 .pagination-wrapper {
   margin-top: 20px;
 }
-
 .pagination-list {
-  display: flex;
+  display: none;
 }
+@media screen and (min-width: 1200px) {
+  .pagination-list {
+    display: flex;
+  }
+}
+
 .pagination-item {
   border-width: 1px;
   border-style: solid;
