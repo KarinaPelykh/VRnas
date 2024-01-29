@@ -26,12 +26,14 @@
 }
 @media screen and (min-width: 769px) {
   .button-see {
-    position: absolute;
-    top: 31px;
     left: 905px;
   }
 }
-
+@media screen and (min-width: 1053px) {
+  .button-see {
+    left: 701px;
+  }
+}
 @media screen and (min-width: 768px) {
   .wrapper-content {
     display: flex;
@@ -45,7 +47,7 @@
   grid-template-columns: repeat(1, 297px);
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 768px) {
   .list-team {
     grid-template-columns: repeat(2, 297px);
   }
