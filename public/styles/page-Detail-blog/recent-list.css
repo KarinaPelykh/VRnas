@@ -1,7 +1,11 @@
 .thumb-with-info {
-  margin-left: 74px;
+  margin-top: var(--section-margin-top-mobil);
 }
-
+@media screen and (min-width: 1200px) {
+  .thumb-with-info {
+    margin-left: 74px;
+  }
+}
 .recent-list {
   width: 330px;
 }
