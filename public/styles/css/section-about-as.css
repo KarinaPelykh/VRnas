@@ -1,5 +1,4 @@
 .section-about-as {
-  display: block;
   position: relative;
   margin-top: var(--section-margin-top-mobil);
 }
@@ -20,10 +19,15 @@
   position: absolute;
   z-index: 1;
   top: 58px;
-  left: -27px;
-  width: 430px;
+  left: -552px;
+  width: auto;
 }
-
+@media screen and (min-width: 430px) {
+  .section-about-as-background {
+    width: 430px;
+    left: -27px;
+  }
+}
 @media screen and (min-width: 768px) {
   .section-about-as-background {
     position: absolute;
@@ -40,14 +44,19 @@
   }
 }
 .wrapper-about {
-  width: 274px;
-  height: 359px;
+  width: 100%;
+  /* height: 359px; */
   background-color: var(--card-background);
   z-index: -2;
   position: absolute;
   top: 110px;
 }
-
+@media screen and (min-width: 430px) {
+  .wrapper-about {
+    width: 274px;
+    height: 359px;
+  }
+}
 @media screen and (min-width: 768px) {
   .wrapper-about {
     top: 125px;
@@ -56,10 +65,16 @@
   }
 }
 .images-aboutAs {
-  width: 389px;
-  height: 467px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
+@media screen and (min-width: 430px) {
+  .images-aboutAs {
+    width: 389px;
+    height: 467px;
+  }
+}
 @media screen and (min-width: 768px) {
   .images-aboutAs {
     width: 518px;
@@ -71,17 +86,21 @@
   position: relative;
 }
 .wrap-aboutAs-video {
-  position: absolute;
-  top: 410px;
-  left: 225px;
-  background-color: var(--card-background);
-  width: 147px;
-  height: 96px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
 }
-
+@media screen and (min-width: 430px) {
+  .wrap-aboutAs-video {
+    position: absolute;
+    top: 410px;
+    left: 225px;
+    background-color: var(--card-background);
+    width: 147px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 768px) {
   .wrap-aboutAs-video {
     top: 539px;
@@ -114,9 +133,13 @@
   font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.16px;
-  width: 359px;
+  width: 100%;
 }
-
+@media screen and (min-width: 1200px) {
+  .section-subtitle {
+    width: 359px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section-subtitle {
     margin-bottom: 12px;
@@ -128,9 +151,13 @@
   font-size: 16px;
   color: var(--grey-color);
   margin-bottom: 24px;
-  width: 403px;
+  width: 100%;
 }
-
+@media screen and (min-width: 768px) {
+  .section-text {
+    width: 403px;
+  }
+}
 @media screen and (min-width: 768px) {
   .section-text {
     color: var(--grey-color);
@@ -143,7 +170,12 @@
   }
 }
 .list-aboutAs {
-  width: 403px;
+  width: auto;
+}
+@media screen and (min-width: 430px) {
+  .list-aboutAs {
+    width: 403px;
+  }
 }
 @media screen and (min-width: 768px) {
   .list-aboutAs {

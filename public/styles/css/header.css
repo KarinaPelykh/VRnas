@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 1200px) {
   .item-contact {
-    margin-left: 205px;
+    margin-left: 204px;
     padding: 12px 24px;
   }
 }
@@ -76,7 +76,11 @@
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
-  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image: linear-gradient(
+    to right,
+    var(--border-color-gradient-blue),
+    var(--border-color-gradient-pink)
+  );
   border-image-slice: 1;
 }
 .item:hover .select-link {
@@ -84,7 +88,11 @@
 }
 
 .link-on-page:hover {
-  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  background: linear-gradient(
+    to right,
+    var(--background-color-gradient-blue),
+    var(--background-color-gradient-pink)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

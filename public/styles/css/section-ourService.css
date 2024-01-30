@@ -42,7 +42,7 @@
   }
 }
 .description-ourService {
-  width: 403px;
+  width: auto;
 
   font-size: 16px;
   font-weight: 300;
@@ -89,7 +89,8 @@
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
   background-color: var(--card-background);
-  width: 398px;
+  /* width: 398px; */
+  width: 100%;
   padding: 38px 56px 25px 32px;
   margin-bottom: 32px;
 }
@@ -166,7 +167,7 @@
 
 .box {
   position: relative;
-  width: 291px;
+  /* width: 291px; */
 
   overflow: hidden;
 }

@@ -7,8 +7,8 @@ import "./js/news-insights";
 import "./js/footer";
 import "./js/svgADD/svg-about-us";
 import "./js/svgADD/svg-section-pricing";
-// import "./js/modalWindov";
-// import "./js/form-subscribe.js";
+import "./js/modalWindov";
+import "./js/form-subscribe.js";
 
 import "./js/form-whyChoose";
 import "./js/video.js";
