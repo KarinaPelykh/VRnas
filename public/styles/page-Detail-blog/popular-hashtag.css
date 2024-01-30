@@ -1,7 +1,14 @@
 .popular-hashtag-wrapper {
   margin-top: 60px;
-  width: 310px;
+  width: 100%;
 }
+@media screen and (min-width: 430px) {
+  .popular-hashtag-wrapper {
+    margin-top: 60px;
+    width: 310px;
+  }
+}
+
 .popular-hashtag-title {
   font-size: 20px;
   font-weight: 500;

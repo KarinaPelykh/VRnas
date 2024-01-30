@@ -63,8 +63,12 @@
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  /* margin-right: 137px; */
-  margin-right: 126px;
+  margin-bottom: 126px;
+}
+@media screen and (min-width: 430px) {
+  .list-footer > li {
+    margin-right: 126px;
+  }
 }
 
 .span-logo {
