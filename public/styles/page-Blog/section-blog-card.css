@@ -7,7 +7,7 @@
 
 .list-blogs {
   display: grid;
-  grid-template-columns: repeat(1, 379px);
+  grid-template-columns: repeat(1, 100%);
   gap: 32px;
 }
 

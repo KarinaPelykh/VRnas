@@ -398,7 +398,8 @@
   }
 }
 .description-subscribe {
-  width: 372px;
+  /* width: 372px; */
+  width: 100%;
   margin-right: 0;
 
   text-align: center;
@@ -416,15 +417,28 @@
     margin-right: 168px;
   }
 }
+
 .label {
   border-radius: 2px;
   background: rgba(255, 255, 255, 0.07);
-  width: 365px;
+  width: 100%;
   height: 56px;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.07);
+    width: 365px;
+    height: 56px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .svg-message {
   width: 24px;
@@ -443,13 +457,24 @@
   font-size: 16px;
   color: var(--white-color);
 }
+
 .button-subscribe {
-  margin-left: 90px;
   display: block;
-  padding: 16px;
+  padding: 0;
   background: rgba(255, 255, 255, 0.21);
   border: none;
 }
+
+@media screen and (min-width: 768px) {
+  .button-subscribe {
+    margin-left: 90px;
+    display: block;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.21);
+    border: none;
+  }
+}
+
 .svg-send {
   width: 16px;
   height: 16px;

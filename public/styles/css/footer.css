@@ -17,7 +17,12 @@
     /* width: 768px; */
   }
 }
-@media screen and (max-width: 430px) {
+
+.footer {
+  width: 100%;
+}
+
+@media screen and (width: 430px) {
   .footer {
     width: 430px;
   }
@@ -92,7 +97,7 @@
 .list-footer > li:last-child {
   margin-right: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 430px) {
   .list-footer > li:first-child {
     margin-right: 0px;
 
