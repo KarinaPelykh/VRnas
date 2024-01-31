@@ -63,3 +63,11 @@
 .box-overlay:hover .overlay-social {
   transform: translateX(0);
 }
+.section-servise {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .section-servise {
+    display: flex;
+  }
+}
