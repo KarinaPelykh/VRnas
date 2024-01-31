@@ -60,6 +60,7 @@ const cardBlog = (detailInfoData) => {
 
 const updateAddress = ({ mainTitle }) => {
   const span = document.createElement("span");
+  span.classList.add("span-keep")
   span.innerText = mainTitle;
   address.append(span);
 };

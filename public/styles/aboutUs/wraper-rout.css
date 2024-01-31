@@ -15,36 +15,33 @@
 }
 
 .title-rout {
-  font-size: 64px;
-  font-weight: 600;
-  letter-spacing: -0.32px;
   margin: 0;
+
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.2px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
   .title-rout {
-    margin: 0;
-
-    text-align: center;
-
-    font-size: 40px;
+    font-size: 64px;
     font-weight: 600;
-    line-height: 58px;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.32px;
+    margin: 0;
   }
 }
 .text-rout {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 28px auto 76px auto;
+  margin: 28px auto 64px auto;
 }
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 768px) {
   .text-rout {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 28px auto 64px auto;
+    margin: 28px auto 76px auto;
   }
 }
 .text-home {

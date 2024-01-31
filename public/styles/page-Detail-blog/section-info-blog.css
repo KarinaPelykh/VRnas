@@ -15,7 +15,16 @@
   align-items: center;
   margin: 28px auto 52px auto;
 }
-
+.span-keep {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (min-width: 768px) {
+  .span-keep {
+    overflow: visible;
+  }
+}
 @media screen and (min-width: 1200px) {
   .wrapper-detail-blog {
     width: 789px;

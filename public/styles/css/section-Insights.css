@@ -465,7 +465,7 @@
   border: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 430px) {
   .button-subscribe {
     margin-left: 90px;
     display: block;
