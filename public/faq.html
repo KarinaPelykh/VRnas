@@ -17,68 +17,76 @@
     />
   </head>
   <body class="body-background">
-    <header class="header container">
-      <nav class="nav">
-        <ul class="list">
-          <li class="item-logo">
-            <a class="link" href="./index.html">
-              <svg class="svg-logo">
-                <use href="./images/sprite.svg#logo"></use></svg
-              >VRNas
-            </a>
-          </li>
-          <li class="item"><a class="link" href="./index.html">Home</a></li>
-          <li class="item">
-            <a class="link" href="./about_us.html">About us</a>
-          </li>
-          <li class="item">
-            <a class="link" href="./service.html">Service</a>
-          </li>
-          <li class="item">
-            <div>
-              Page
-              <svg class="svg-down-arrow">
-                <use href="./images/sprite.svg#down-arrow"></use>
-              </svg>
-            </div>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="list">
+            <li class="item-logo">
+              <a class="link" href="./index.html">
+                <svg class="svg-logo">
+                  <use href="./images/sprite.svg#logo"></use></svg
+                >VRNas
+              </a>
+            </li>
+            <li class="item"><a class="link" href="./index.html">Home</a></li>
+            <li class="item">
+              <a class="link" href="./about_us.html">About us</a>
+            </li>
+            <li class="item">
+              <a class="link" href="./service.html">Service</a>
+            </li>
+            <li class="item">
+              <div>
+                Page
+                <svg class="svg-down-arrow">
+                  <use href="./images/sprite.svg#down-arrow"></use>
+                </svg>
+              </div>
 
-            <div class="select-link">
-              <div class="link-list">
-                <a class="link link-on-page" href="./index.html">Home</a>
-                <a class="link link-on-page" href="./about_us.html">About_us</a>
-                <a class="link link-on-page" href="./service.html">Service</a>
-                <a class="link link-on-page" href="./contact_us.html"
-                  >Contact us</a
-                >
-                <a class="link link-on-page" href="./pricing_plan.html">
-                  Pricing_plan</a
-                >
-                <a class="link link-on-page" href="./faq.html"> FQA</a>
+              <div class="select-link">
+                <div class="link-list">
+                  <a class="link link-on-page" href="./index.html">Home</a>
+                  <a class="link link-on-page" href="./about_us.html"
+                    >About_us</a
+                  >
+                  <a class="link link-on-page" href="./service.html">Service</a>
+                  <a class="link link-on-page" href="./contact_us.html"
+                    >Contact us</a
+                  >
+                  <a class="link link-on-page" href="./pricing_plan.html">
+                    Pricing_plan</a
+                  >
+                  <a class="link link-on-page" href="./faq.html"> FQA</a>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item">
-            <a class="link" href="./blog.html"
-              >Blog<svg class="svg-down-arrow">
-                <use href="./images/sprite.svg#down-arrow"></use></svg
-            ></a>
-            <div class="select-link">
-              <div class="link-list">
-                <a class="link link-on-page" href="./blog.html">Blog</a>
-                <a class="link link-on-page" href="./detail_blog.html"
-                  >detail_blog
-                </a>
-                <a class="link link-on-page" href="./detail_service.html"
-                  >Detail_Service</a
-                >
+            </li>
+            <li class="item">
+              <a class="link" href="./blog.html"
+                >Blog<svg class="svg-down-arrow">
+                  <use href="./images/sprite.svg#down-arrow"></use></svg
+              ></a>
+              <div class="select-link">
+                <div class="link-list">
+                  <a class="link link-on-page" href="./blog.html">Blog</a>
+                  <a class="link link-on-page" href="./detail_blog.html"
+                    >detail_blog
+                  </a>
+                  <a class="link link-on-page" href="./detail_service.html"
+                    >Detail_Service</a
+                  >
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="">
-            <a class="link item-contact" href="./contact_us.html">Contact us</a>
-          </li>
-        </ul>
-      </nav>
+            </li>
+            <li class="">
+              <a
+                class="link item-contact border-gradient"
+                href="./contact_us.html"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="container section-wrapper-rout">
@@ -93,130 +101,142 @@
         </p>
       </div>
     </section>
-    <section class="container section-faq">
-      <p><span class="span-background">FAQ</span></p>
-      <h3 class="basic-title">Frequently Asked Questions</h3>
-      <p class="description-uses">
-        At VRNas, we want to make sure that you have all the information you
-        need to make informed decisions about our VR services. Here are some of
-        the most common questions we receive:
-      </p>
-      <button type="button" class="button-see js-button-all">All</button>
-      <button type="button" class="button-see js-button-vr">VR Service</button>
-      <button type="button" class="button-see js-button-pricing">
-        Pricing
-      </button>
-      <ul class="list-question"></ul>
+    <section class="section-faq">
+      <div class="container">
+        <p><span class="span-background">FAQ</span></p>
+        <h3 class="basic-title">Frequently Asked Questions</h3>
+        <p class="description-uses">
+          At VRNas, we want to make sure that you have all the information you
+          need to make informed decisions about our VR services. Here are some
+          of the most common questions we receive:
+        </p>
+        <button type="button" class="button-filtr js-button-all">All</button>
+        <button type="button" class="button-filtr js-button-vr">
+          VR Service
+        </button>
+        <button type="button" class="button-filtr js-button-pricing">
+          Pricing
+        </button>
+        <ul class="list-question"></ul>
+      </div>
+      <div class="bg-over-human"></div>
+      <div class="bg-human"></div>
     </section>
 
     <!-- section  form-subscribe-->
-    <section class="container section-subscribe">
-      <form class="subscribe js-from-subscribe">
-        <p class="description-subscribe">
-          Subscribe to our newsletter for latest updates
-        </p>
+    <section class="section-subscribe">
+      <div class="container">
+        <form class="subscribe js-from-subscribe">
+          <p class="description-subscribe">
+            Subscribe to our newsletter for latest updates
+          </p>
 
-        <label class="label">
-          <svg class="svg-message">
-            <use href="./images/sprite.svg#Message"></use>
-          </svg>
-          <input
-            name="email"
-            class="input js-input-email"
-            type="email"
-            placeholder="Enter your email address"
-          />
-          <button class="button-subscribe js-button-subscribe" type="submit">
-            <svg class="svg-send">
-              <use href="./images/sprite.svg#Send"></use>
+          <label class="label">
+            <svg class="svg-message">
+              <use href="./images/sprite.svg#Message"></use>
             </svg>
-          </button>
-        </label>
-      </form>
+            <input
+              name="email"
+              class="input js-input-email"
+              type="email"
+              placeholder="Enter your email address"
+            />
+            <button class="button-subscribe js-button-subscribe" type="submit">
+              <svg class="svg-send">
+                <use href="./images/sprite.svg#Send"></use>
+              </svg>
+            </button>
+          </label>
+        </form>
+      </div>
     </section>
     <!-- footer -->
     <footer class="footer">
-      <div class="wrapper-footer container">
-        <ul class="list-footer">
-          <li class="item-logos">
-            <div class="span-logo">
-              <svg class="svg-logo">
-                <use href="./images/sprite.svg#logo"></use>
-              </svg>
-              <p class="logo-footer">VRNas</p>
+      <div class="container">
+        <div class="wrapper-footer">
+          <ul class="list-footer">
+            <li class="item-logos">
+              <div class="span-logo">
+                <svg class="svg-logo">
+                  <use href="./images/sprite.svg#logo"></use>
+                </svg>
+                <p class="logo-footer">VRNas</p>
+              </div>
+
+              <ul class="menu-social">
+                <li class="border">
+                  <a>
+                    <svg class="svg-social">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="border">
+                  <a>
+                    <svg class="svg-social">
+                      <use href="./images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="border">
+                  <a>
+                    <svg class="svg-social">
+                      <use href="./images/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="border">
+                  <a>
+                    <svg class="svg-social">
+                      <use href="./images/sprite.svg#github"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <div class="wrap-links">
+              <li class="item-footer">
+                Quicklinks
+                <ul class="list-menu list-first"></ul>
+              </li>
+              <li class="item-footer">
+                Support
+                <ul class="list-menu list-second"></ul>
+              </li>
             </div>
+            <li class="item-footer">
+              Need Help?
+              <ul class="list-menu">
+                <li class="iten-footer">
+                  <a target="_blank" href="">
+                    <svg class="svg-address">
+                      <use href="./images/sprite.svg#Location"></use></svg
+                    >Tanjung Sari Street no.48, Pontianak City
+                  </a>
+                </li>
+                <li class="iten-footer">
+                  <a target="_blank" href="mailto:Support@VRNas.com"
+                    ><svg class="svg-address">
+                      <use href="./images/sprite.svg#Message"></use></svg
+                    >Support@VRNas.com</a
+                  >
+                </li>
 
-            <ul class="menu-social">
-              <li class="border">
-                <a>
-                  <svg class="svg-social">
-                    <use href="./images/sprite.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="border">
-                <a>
-                  <svg class="svg-social">
-                    <use href="./images/sprite.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="border">
-                <a>
-                  <svg class="svg-social">
-                    <use href="./images/sprite.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="border">
-                <a>
-                  <svg class="svg-social">
-                    <use href="./images/sprite.svg#github"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="item-footer">
-            Quicklinks
-            <ul class="list-menu list-first"></ul>
-          </li>
-          <li class="item-footer">
-            Support
-            <ul class="list-menu list-second"></ul>
-          </li>
-          <li class="item-footer">
-            Need Help?
-            <ul class="list-menu">
-              <li class="iten-footer">
-                <a target="_blank" href="">
-                  <svg class="svg-address">
-                    <use href="./images/sprite.svg#Location"></use></svg
-                  >Tanjung Sari Street no.48, Pontianak City
-                </a>
-              </li>
-              <li class="iten-footer">
-                <a target="_blank" href="mailto:Support@VRNas.com"
-                  ><svg class="svg-address">
-                    <use href="./images/sprite.svg#Message"></use></svg
-                  >Support@VRNas.com</a
-                >
-              </li>
-
-              <li class="iten-footer">
-                <a target="_blank" href="tel:+1234567890">
-                  <svg class="svg-address">
-                    <use href="./images/sprite.svg#Calling"></use>
-                  </svg>
-                  +123 456 7890
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="block container">
-        <p class="block-text">&copy; Copyright 2023, All Rights Reserved</p>
+                <li class="iten-footer">
+                  <a target="_blank" href="tel:+1234567890">
+                    <svg class="svg-address">
+                      <use href="./images/sprite.svg#Calling"></use>
+                    </svg>
+                    +123 456 7890
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <p class="block-text">&copy; Copyright 2023, All Rights Reserved</p>
+        </div>
       </div>
     </footer>
     <!-- header -->

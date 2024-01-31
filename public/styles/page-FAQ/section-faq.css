@@ -1,6 +1,7 @@
 .section-faq {
   text-align: center;
   margin-top: 150px;
+  position: relative;
 }
 /* .basic-title {
   font-size: 48px;
@@ -17,3 +18,11 @@
   display: flex;
   margin: 24px auto 0 auto;
 } */
+.button-filtr {
+  background: rgba(255, 255, 255, 0.06);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+  padding: 12px 24px;
+}

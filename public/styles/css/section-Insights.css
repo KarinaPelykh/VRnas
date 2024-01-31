@@ -442,7 +442,16 @@
   width: 24px;
   height: 24px;
   fill: var(--white-color);
+  display: none;
 }
+@media screen and (min-width: 430px) {
+  .svg-message {
+    width: 24px;
+    height: 24px;
+    fill: var(--white-color);
+  }
+}
+
 .input {
   margin-left: 8px;
   background: transparent;
@@ -461,6 +470,7 @@
   padding: 0;
   background: rgba(255, 255, 255, 0.21);
   border: none;
+  padding: 5px;
 }
 
 @media screen and (min-width: 430px) {
