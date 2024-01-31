@@ -89,7 +89,7 @@
 .wrap-links {
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .wrap-links {
     display: flex;
     margin-bottom: 65px;

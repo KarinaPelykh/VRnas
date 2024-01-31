@@ -1,14 +1,25 @@
 .section-tems-condition {
   text-align: center;
   margin-top: 150px;
+  position: relative;
 }
 
 .section-wrapper-rout {
 }
 .text-condititon {
-  width: 623px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 100%;
   display: flex;
   margin: 24px auto 48px auto;
+}
+@media screen and (min-width: 1200px) {
+  .text-condititon {
+    width: 623px;
+    display: flex;
+    margin: 24px auto 48px auto;
+  }
 }
 .condition-info {
   display: flex;
@@ -16,8 +27,28 @@
 }
 .item-condition-list {
   margin-bottom: 32px;
-  width: 788px;
+  width: 100%;
   text-align: start;
+}
+@media screen and (min-width: 1200px) {
+  .item-condition-list {
+    width: 788px;
+  }
+}
+.subtitle-conditions {
+  color: var(--white-color);
+
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+}
+@media screen and (min-width: 1200px) {
+  .subtitle-conditions {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.24px;
+  }
 }
 .item-condition-list:last-child {
   margin-bottom: 0;
