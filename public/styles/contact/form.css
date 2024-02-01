@@ -1,10 +1,26 @@
 .section-form {
   margin-top: 150px;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.section-contact {
+  overflow: hidden;
 }
 .tumb-form {
-  width: 645px;
+  width: 100%;
+}
+@media screen and (min-width: 900px) {
+  .section-form {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .section-contact {
+    overflow: visible;
+  }
 }
 
 .paragraf {
@@ -13,23 +29,40 @@
   font-weight: 300;
   line-height: 28px;
 }
-.form-contact {
-}
+
 .input-label {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
+
+@media screen and (min-width: 768px) {
+  .input-label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tumb-form {
+    width: 645px;
+  }
+}
+
 .input-info {
-  width: 306px;
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
   background-color: var(--card-background);
-  margin: 0 24px 24px 0;
+  margin: 0 0 24px 0;
   outline: none;
   padding: 11px 15px;
   color: var(--white-color);
+}
+
+@media screen and (min-width: 768px) {
+  .input-info {
+    width: 306px;
+
+    margin: 0 24px 24px 0;
+  }
 }
 .input-info::placeholder {
   font-family: Chakra Petch;
@@ -40,7 +73,7 @@
 
 .textares {
   padding: 11px 15px;
-  width: 645px;
+  width: 100%;
   height: 137px;
   border-width: 1px;
   border-style: solid;
@@ -50,7 +83,12 @@
   margin-bottom: 32px;
   resize: none;
 }
-
+@media screen and (min-width: 768px) {
+  .textares {
+    width: 645px;
+    height: 137px;
+  }
+}
 .textares::placeholder {
   font-family: Chakra Petch;
   font-weight: 300;
@@ -62,46 +100,84 @@
   background: linear-gradient(to right, #0cbaf1, #e95ce9);
   border: none;
 }
-
+.link-media-contact {
+  position: relative;
+  z-index: 10;
+}
 .circles {
+  margin-top: 100px;
   border: 1px solid #b0b0b2;
   border-radius: 50%;
 
-  width: 686px;
-  height: 686px;
+  width: 464px;
+  height: 464px;
 
   position: relative;
-  z-index: -5;
-  left: 57px;
 
+  left: -89px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 767px) {
+  .circles {
+    width: 686px;
+    height: 686px;
+    margin-top: 0;
+    left: 57px;
+  }
+}
+
 .circle-two {
   border: 1px solid #b0b0b2;
   border-radius: 50%;
-  width: 564px;
-  height: 565px;
+
+  width: 382px;
+  height: 382px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width: 768px) {
+  .circle-two {
+    width: 564px;
+    height: 565px;
+  }
+}
 .circle-background {
-  width: 452px;
-  height: 452px;
+  width: 305px;
+  height: 305px;
+
   border: 1px solid #b0b0b2;
   border-radius: 50%;
   background-color: var(--circle-background);
 }
-.img-socialMedia {
-  position: absolute;
-  top: -156px;
-  left: -71px;
-  width: 876px;
-  height: 907px;
+
+@media screen and (min-width: 768px) {
+  .circle-background {
+    width: 452px;
+    height: 452px;
+  }
 }
 
+.img-socialMedia {
+  position: absolute;
+  top: -114px;
+  left: -49px;
+  height: auto;
+  width: 594px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-socialMedia {
+    position: absolute;
+    top: -156px;
+    left: -71px;
+    width: 876px;
+    height: 907px;
+  }
+}
 .svg-socialmedia {
   width: 46px;
   height: 46px;
@@ -117,20 +193,40 @@
 }
 
 .location:nth-child(1) {
-  top: 657px;
-  left: 269px;
+  top: -5px;
+  left: 299px;
 }
 
 .location:nth-child(2) {
-  top: 512px;
-  left: 43px;
+  top: 13px;
+  left: 82px;
 }
 
 .location:nth-child(3) {
-  top: 90px;
-  left: 50px;
+  top: 211px;
+  left: 442px;
 }
 .circle-two .location {
-  top: 576px;
-  left: 426px;
+  top: 346px;
+  left: 341px;
+}
+@media screen and (min-width: 768px) {
+  .location:nth-child(1) {
+    top: 657px;
+    left: 269px;
+  }
+
+  .location:nth-child(2) {
+    top: 512px;
+    left: 43px;
+  }
+
+  .location:nth-child(3) {
+    top: 90px;
+    left: 50px;
+  }
+  .circle-two .location {
+    top: 576px;
+    left: 426px;
+  }
 }
