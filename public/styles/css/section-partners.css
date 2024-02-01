@@ -21,14 +21,13 @@
   }
 }
 .subtitle-pricing {
-  font-size: 48px;
-  margin-bottom: 58px;
-  display: block;
+  font-size: 32px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   .subtitle-pricing {
-    font-size: 32px;
-    width: 408px;
+    font-size: 48px;
+    margin-bottom: 58px;
+    display: block;
   }
 }
 .container-semicircle {

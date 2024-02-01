@@ -116,8 +116,19 @@
   position: absolute;
   flex-direction: column;
   align-items: center;
-  width: 625px;
+  width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .cir-text {
+    display: flex;
+
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 625px;
+  }
+}
+
 .cir-text > p {
   text-align: start;
   font-size: 16px;
@@ -157,4 +168,17 @@
 
 .wrapper-button-contact {
   margin-top: 32px;
+}
+.container-button {
+  position: absolute;
+  width: 93px;
+  top: 118px;
+  left: 461px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+.svg-move {
+  width: 20px;
+  height: 20px;
 }

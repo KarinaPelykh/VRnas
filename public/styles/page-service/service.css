@@ -1,5 +1,14 @@
 .section-service {
   margin-top: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .section-service {
+    margin-top: 150px;
+    overflow: visible;
+  }
 }
 .wrapper-service {
   margin-top: 150px;
@@ -12,21 +21,20 @@
   padding: 60px 0 60px 0;
 }
 .info-list-service {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  text-align: center;
+}
+.info-list-service > li {
+  margin-bottom: 36px;
+}
+.info-list-service > li:last-child {
+  margin-bottom: 0px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   .info-list-service {
-    display: block;
-    text-align: center;
-  }
-  .info-list-service > li {
-    margin-bottom: 36px;
-  }
-  .info-list-service > li:last-child {
-    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 .info-number {
@@ -42,37 +50,54 @@
   margin-top: 300px;
 }
 
-.img-out-pricing {
-  width: 256px;
-  height: 370px;
-  position: absolute;
-  top: 84px;
-  left: 423px;
-}
-@media screen and (min-width: 430px) {
-  .img-out-pricing {
-    top: 49px;
-    left: 170px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .img-out-pricing {
-    display: none;
-    top: 162px;
-    left: 116px;
-  }
-}
 .aside-pricing-service {
+  height: 400px;
+  border-left: none;
+
+  border-top: 1px solid #ffffff29;
   position: relative;
-  border-left: 1px solid #ffffff29;
+
+  background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image_mob3@1x.png);
+  background-repeat: no-repeat;
+  background-size: auto 370px;
+  background-position: bottom right;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .aside-pricing-service {
+    background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image_mob3@2x.png);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .aside-pricing-service {
+    width: 500px;
+    height: auto;
+    border-left: 1px solid #ffffff29;
+    background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image_dec2@1x.png);
+    background-size: auto 520px;
+    background-position: bottom right;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .aside-pricing-service {
+      background-size: auto 520px;
+      background-position: bottom right;
+      background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-dec2@2x.png);
+    }
+  }
 }
 .blok-pricing-service {
   position: absolute;
-  top: 310px;
-  left: 220px;
+  left: 17px;
+  top: 260px;
   z-index: 5;
-  width: 321px;
-  height: 222px;
+  width: 255px;
+  height: 250px;
   padding: 20px 70px;
   border-style: solid;
   border-width: 1px;
@@ -83,7 +108,11 @@
 }
 @media screen and (min-width: 430px) {
   .blok-pricing-service {
-    left: 3px;
+    left: 15px;
+    top: 310px;
+
+    width: 321px;
+    height: 222px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -92,21 +121,11 @@
     top: 398px;
   }
 }
-@media screen and (max-width: 768px) {
-  .aside-pricing-service {
-    border-left: none;
-    border-top: 1px solid #ffffff29;
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .img-out-pricing {
-    top: 52px;
-    left: 121px;
-  }
+@media screen and (min-width: 1200px) {
   .blok-pricing-service {
-    top: 302px;
-    left: -4px;
+    left: -84px;
+    top: 440px;
+
+    padding: 20px 70px;
   }
 }

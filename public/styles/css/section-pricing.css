@@ -37,8 +37,8 @@
   }
 }
 .thumb-pricing {
-  padding: 22px;
-
+  /* padding: 22px; */
+  margin-bottom: 200px;
   background-color: #25253266;
   border-width: 1px;
   border-style: solid;
@@ -49,11 +49,13 @@
 @media screen and (min-width: 768px) {
   .thumb-pricing {
     display: flex;
-    padding: 55px;
+    margin-bottom: 0;
+    /* padding: 55px; */
   }
 }
 
 .article-pricing {
+  padding: 22px;
   margin-right: 0;
   margin-bottom: 48px;
 }
@@ -63,7 +65,8 @@
 @media screen and (min-width: 768px) {
   .article-pricing {
     margin-right: 118px;
-    width: 625px;
+    /* width: 625px; */
+    padding: 55px;
   }
 }
 
