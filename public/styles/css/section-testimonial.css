@@ -316,7 +316,7 @@
   justify-content: center;
   overflow: hidden;
   flex-wrap: wrap;
-  width: 430px;
+  /* width: 430px; */
 }
 @media screen and (min-width: 500px) {
   .section-testimonial {
