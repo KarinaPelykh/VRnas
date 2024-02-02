@@ -1,5 +1,7 @@
 .section-wrapper-rout {
-  margin-top: 80px;
+  /* margin-top: 80px; */
+ position: relative;
+
 }
 
 .wrapper-rout {
@@ -12,8 +14,28 @@
   border-right: none;
   border-top: none;
   text-align: center;
-}
+  /*  */
+  
 
+
+}
+.bg-title{
+  height: 415px;
+  position: absolute;
+  top: -81px;
+  left: 0;
+  width: 100%;
+  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient-title_mob@1x.png);
+  background-repeat: no-repeat;
+  background-size:auto ;
+  background-position: top center;
+}
+@media screen and (min-width: 1200px) {
+  .bg-title{
+    background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient-title_des@1x.png);
+   
+  }
+}
 .title-rout {
   margin: 0;
 

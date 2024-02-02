@@ -1,7 +1,39 @@
 .header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   padding: 31px 0;
+  background-image: url(../../images/backgroundFoto/background_Mobil/header_bg_mob@1x.png);
+  background-repeat: no-repeat;
+  background-size: auto  207px;
+
+
+ 
+    height: 207px;
+    /* z-index: 8; */
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .header  {
+    background-image: url(../../images/backgroundFoto/background_Mobil/header_bg_mob@2x.png);
+      
+  }
+}
+@media screen and (min-width: 435px) {
+  .header {
+    position: relative;
+   background-image: none;
+  
+    padding: 31px 0;
+   
+  }
+  
+
+}
 .list > li:nth-child(n + 2) {
   display: none;
 }

@@ -123,7 +123,7 @@
   }
 }
 .images-video {
-  display: none;
+  width: 190px;
 }
 @media screen and (min-width: 430px) {
   .images-video {

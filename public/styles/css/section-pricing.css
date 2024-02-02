@@ -4,7 +4,7 @@
 .section-pricing > p {
   margin-bottom: 12px;
 }
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 431px) {
   .section-pricing {
     margin-top: var(--section-margin-top);
   }
