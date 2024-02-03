@@ -1,12 +1,22 @@
+
+.section-four_aboutAs{
+  margin-top: var(--section-margin-top-mobil);
+}
+@media screen and (min-width:435px) {
+  .section-four_aboutAs{
+    margin-top: var(--section-margin-top);
+  }
+}
 .section-info {
-  margin-top: -110px;
+  margin-top: -619px;
 }
 
 @media screen and (min-width:435px) {
   .section-info {
-    margin-top: 120px;
+    margin-top: -560px;
   }
 }
+
 .wrapper-title {
   display: flex;
 
@@ -16,74 +26,121 @@
   align-items: center;
 }
 
-.section-four-abut-us {
-  margin-left: 0;
-  margin-top: 151px;
+.wrap-four-abut-us  {
+  position: relative;
 }
 @media screen and (min-width: 1200px) {
-  .section-four_aboutAs {
-    position: relative;
+  .wrap-four-abut-us  {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-top: 0px;
   }
-}
+} 
+
 
 .wrapper-thumb {
-  top: 165px;
-  left: 71px;
-  z-index: -1;
-  width: 398px;
-  height: 497px;
-  background-color: var(--card-background);
-}
+  position: relative;
+  z-index: -3;
+    width: 100%;
+    height:300px;
+    background-color: var(--card-background);
 
-@media screen and (max-width: 768px) {
-  .wrapper-thumb {
-    top: 79px;
+   
   }
-}
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) {
   .wrapper-thumb {
-    top: 124px;
-    width: 325px;
-    height: 405px;
-  }
-}
+      width: 325px;
+      height: 405px;
+  
+     
+    }
+} 
 
-.img-background-as {
-  position: absolute;
-  left: -472px;
-  top: -131px;
+
+.human-bg-photo{
+  
+  position: absolute; 
+  top:-29px;
+  left: 0px;
+width: 100%;
+  background-image: url(../../images/backgroundFoto/photo-human-Mobil/Clip\ path\ group-3_clipdrop-relight\ 1@1x.png);
+  background-size: auto 328px;
+  background-repeat: no-repeat;
+  height: 467px;
+}
+@media screen and (min-width:430px) {
+.human-bg-photo{
+  
+  position: absolute; 
+  top:-50px;
+  left: 0px;
+width: 100%;
+  background-image: url(../../images/backgroundFoto/photo-human-Mobil/Clip\ path\ group-3_clipdrop-relight\ 1@1x.png);
+  background-size: auto 457px;
+  background-repeat: no-repeat;
+  height: 467px;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+    .human-bg-photo{
+  
+      
+      background-image: url(../../images/backgroundFoto/photo-human-Mobil/Clip\ path\ group-3_clipdrop-relight\ 1@2x.png);
+     
+    }
+}}
+@media screen and (min-width:1200px) {
+  .human-bg-photo{
+  
+    position: absolute; 
+    top:-77px;
+    left: 0px;
+  width:500px;
+    background-image: url(../../images/backgroundFoto//photo-human-Desctop/img-human-bgDes1@2x.png);
+    background-size: auto 574px;
+    background-repeat: no-repeat;
+    height: 574px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .human-bg-photo{
+    
+        
+        background-image: url(../../images/backgroundFoto/photo-human-Desctop/img-human-bgDes2@2x.png);
+       
+      }
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  .img-background-as {
-    left: -149px;
+  .wrapper-thumb {
+   
+    width: 398px;
+    height: 497px;
+   
   }
 }
 
+
+
 .video-gif {
-  top: 351px;
-  left: 214px;
+  top: 248px;
+  left: 123px;
 }
 
 @media screen and (min-width: 430px) {
   .video-gif {
-    top: 444px;
-    left: 302px;
-  }
+    top: 328px;
+    left: 211px;
 }
-.picture {
-  top: -62px;
-  left: 7px;
-  width: 407px;
-  height: 467px;
-  position: absolute;
+  
 }
 
-@media screen and (min-width: 430px) {
-  .picture {
-    top: -80px;
-    left: -4px;
-  }
-}
+@media screen and (min-width: 1200px) {
+  .video-gif {
+    top: 441px;
+    left: 214px;
+  }}
+
