@@ -5,7 +5,10 @@ const skeletonCard = (item) => {
   const itemMember = document.createElement("li");
   itemMember.classList.add("item-card");
   itemMember.innerHTML = `<article class="box-images">
-  <div class="wrapper-overlay"><img class="photo-member-team"  src="${item.img}">
+  <div class="wrapper-overlay">
+  <img 
+  srcset="${item.img1x} 1x, ${item.img2x} 2x"
+  class="photo-member-team"  src="${item.img}">
 
 <div class="static-overlay">
 <p class="name-member-team">${item.name}</p>

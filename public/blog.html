@@ -17,78 +17,86 @@
     />
   </head>
   <body>
-    <header class="header container">
-      <nav class="nav">
-        <ul class="list">
-          <li class="item-logo">
-            <a class="link" href="./index.html">
-              <svg class="svg-logo">
-                <use href="./images/sprite.svg#logo"></use></svg
-              >VRNas
-            </a>
-          </li>
-          <li class="item"><a class="link" href="./index.html">Home</a></li>
-          <li class="item">
-            <a class="link" href="./about_us.html">About us</a>
-          </li>
-          <li class="item">
-            <a class="link" href="./service.html">Service</a>
-          </li>
-          <li class="item">
-            <div>
-              Page
-              <svg class="svg-down-arrow">
-                <use href="./images/sprite.svg#down-arrow"></use>
-              </svg>
-            </div>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="list">
+            <li class="item-logo">
+              <a class="link" href="./index.html">
+                <svg class="svg-logo">
+                  <use href="./images/sprite.svg#logo"></use></svg
+                >VRNas
+              </a>
+            </li>
+            <li class="item"><a class="link" href="./index.html">Home</a></li>
+            <li class="item">
+              <a class="link" href="./about_us.html">About us</a>
+            </li>
+            <li class="item">
+              <a class="link" href="./service.html">Service</a>
+            </li>
+            <li class="item">
+              <div>
+                Page
+                <svg class="svg-down-arrow">
+                  <use href="./images/sprite.svg#down-arrow"></use>
+                </svg>
+              </div>
 
-            <div class="select-link">
-              <div class="link-list">
-                <a class="link link-on-page" href="./index.html">Home</a>
-                <a class="link link-on-page" href="./about_us.html">About_us</a>
-                <a class="link link-on-page" href="./service.html">Service</a>
-                <a class="link link-on-page" href="./contact_us.html"
-                  >Contact us</a
-                >
-                <a class="link link-on-page" href="./pricing_plan.html">
-                  Pricing_plan</a
-                >
-                <a class="link link-on-page" href="./faq.html"> FQA</a>
+              <div class="select-link">
+                <div class="link-list">
+                  <a class="link link-on-page" href="./index.html">Home</a>
+                  <a class="link link-on-page" href="./about_us.html"
+                    >About_us</a
+                  >
+                  <a class="link link-on-page" href="./service.html">Service</a>
+                  <a class="link link-on-page" href="./contact_us.html"
+                    >Contact us</a
+                  >
+                  <a class="link link-on-page" href="./pricing_plan.html">
+                    Pricing_plan</a
+                  >
+                  <a class="link link-on-page" href="./faq.html"> FQA</a>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="item">
-            <a class="link" href="./blog.html"
-              >Blog<svg class="svg-down-arrow">
-                <use href="./images/sprite.svg#down-arrow"></use></svg
-            ></a>
-            <div class="select-link">
-              <div class="link-list">
-                <a class="link link-on-page" href="./blog.html">Blog</a>
-                <a class="link link-on-page" href="./detail_blog.html"
-                  >detail_blog
-                </a>
-                <a class="link link-on-page" href="./detail_service.html"
-                  >Detail_Service</a
-                >
+            </li>
+            <li class="item">
+              <a class="link" href="./blog.html"
+                >Blog<svg class="svg-down-arrow">
+                  <use href="./images/sprite.svg#down-arrow"></use></svg
+              ></a>
+              <div class="select-link">
+                <div class="link-list">
+                  <a class="link link-on-page" href="./blog.html">Blog</a>
+                  <a class="link link-on-page" href="./detail_blog.html"
+                    >detail_blog
+                  </a>
+                  <a class="link link-on-page" href="./detail_service.html"
+                    >Detail_Service</a
+                  >
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="">
-            <a class="link item-contact" href="./contact_us.html">Contact us</a>
-          </li>
-          <button class="burger-open border-gradient js-open-burger">
-            <svg width="16" height="16">
-              <use href="./images/sprite.svg#button-open"></use>
-            </svg>
-          </button>
-        </ul>
-      </nav>
+            </li>
+            <li class="">
+              <a
+                class="link item-contact border-gradient"
+                href="./contact_us.html"
+                >Contact us</a
+              >
+            </li>
+            <button class="burger-open border-gradient js-open-burger">
+              <svg width="16" height="16">
+                <use href="./images/sprite.svg#button-open"></use>
+              </svg>
+            </button>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="container section-wrapper-rout">
-      <div class="bg-title"></div>
       <div class="wrapper-rout">
+        <div class="bg-title"></div>
         <h1 class="title-rout">Blog</h1>
         <p class="text-rout">
           <span class="text-home">Home</span
@@ -99,33 +107,37 @@
         </p>
       </div>
     </section>
-    <section class="container section-blog-card">
-      <ul class="list-blogs"></ul>
-      <div class="pagination-wrapper"></div>
+    <section class="section-blog-card">
+      <div class="container">
+        <ul class="list-blogs"></ul>
+        <div class="pagination-wrapper"></div>
+      </div>
     </section>
-    <section class="container section-subscribe">
-      <form class="form-subscribe js-from-subscribe">
-        <p class="description-subscribe">
-          Subscribe to our newsletter for latest updates
-        </p>
+    <section class="section-subscribe">
+      <div class="container">
+        <form class="form-subscribe js-from-subscribe">
+          <p class="description-subscribe">
+            Subscribe to our newsletter for latest updates
+          </p>
 
-        <label class="label">
-          <svg class="svg-message">
-            <use href="./images/sprite.svg#Message"></use>
-          </svg>
-          <input
-            name="email"
-            class="input js-input-email"
-            type="text"
-            placeholder="Enter your email address"
-          />
-          <button class="button-subscribe js-button-subscribe" type="submit">
-            <svg class="svg-send">
-              <use href="./images/sprite.svg#Send"></use>
+          <label class="label">
+            <svg class="svg-message">
+              <use href="./images/sprite.svg#Message"></use>
             </svg>
-          </button>
-        </label>
-      </form>
+            <input
+              name="email"
+              class="input js-input-email"
+              type="text"
+              placeholder="Enter your email address"
+            />
+            <button class="button-subscribe js-button-subscribe" type="submit">
+              <svg class="svg-send">
+                <use href="./images/sprite.svg#Send"></use>
+              </svg>
+            </button>
+          </label>
+        </form>
+      </div>
     </section>
 
     <!-- burger menu -->

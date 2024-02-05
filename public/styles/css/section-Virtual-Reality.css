@@ -67,7 +67,6 @@
 }
 .list-people {
   margin-right: 92px;
-  /* position: relative; */
   display: flex;
 }
 @media screen and (min-width: 1200px) {
@@ -79,14 +78,25 @@
 }
 .item-second {
   position: absolute;
-  top: 0px;
+  top: 6px;
   left: 38px;
 }
 .item-third {
   position: absolute;
-  top: 0px;
+  top: 7px;
   left: 77px;
 }
+@media screen and (min-width: 430px) {
+  .item-second {
+    position: absolute;
+    top: 0px;
+  }
+  .item-third {
+    position: absolute;
+    top: 0px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .item-second {
     top: 38px;

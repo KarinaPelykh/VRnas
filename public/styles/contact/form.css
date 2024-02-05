@@ -113,11 +113,15 @@
   height: 464px;
 
   position: relative;
-
   left: -89px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../../images/man-socialMedia.png), url(../../images/backgroundFoto/gradient_Mobil/gradient_7_mob@1x.png);
+  background-repeat: no-repeat, no-repeat;
+background-size: 594px auto , auto 515px;
+background-position: top -115px left -50px, center;
+
 }
 @media screen and (min-width: 767px) {
   .circles {
@@ -125,6 +129,10 @@
     height: 686px;
     margin-top: 0;
     left: 57px;
+    background-image: url(../../images/man-socialMedia.png), url(../../images/backgroundFoto/gradient-Desctop/gradient_7_des@1x.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto  907px, auto 500px;
+    background-position: top -157px left -68px, center;
   }
 }
 
@@ -137,21 +145,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -3;
 }
 
 @media screen and (min-width: 768px) {
   .circle-two {
     width: 564px;
     height: 565px;
+    
+    
   }
 }
 .circle-background {
   width: 305px;
   height: 305px;
-
   border: 1px solid #b0b0b2;
   border-radius: 50%;
   background-color: var(--circle-background);
+;position: relative;
+z-index: -2;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -161,7 +174,7 @@
   }
 }
 
-.img-socialMedia {
+/* .img-socialMedia {
   position: absolute;
   top: -114px;
   left: -49px;
@@ -177,7 +190,7 @@
     width: 876px;
     height: 907px;
   }
-}
+} */
 .svg-socialmedia {
   width: 46px;
   height: 46px;

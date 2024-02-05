@@ -1,13 +1,15 @@
-.backround-body {
-  background-image: none;
-  background-image: url(../../images/backgroundFoto/img-header.png);
-  background-repeat: no-repeat;
-  background-position: right top;
+.section-detail-rout{
+  margin-top: -107px;
 }
-
+.bg-details{
+  top:52px
+}
 @media screen and (min-width: 1200px) {
   .section-detail-info {
     display: flex;
+  }
+  .bg-title{
+   display: none;
   }
 }
 .detail-rout {
