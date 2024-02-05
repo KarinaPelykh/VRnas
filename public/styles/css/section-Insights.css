@@ -439,16 +439,17 @@
   }
 }
 .svg-message {
-  width: 24px;
-  height: 24px;
+  width:16px;
+  height: 16px;
   fill: var(--white-color);
-  display: none;
+  /* display: none; */
 }
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 320px) {
   .svg-message {
     width: 24px;
     height: 24px;
     fill: var(--white-color);
+    /* display: flex; */
   }
 }
 

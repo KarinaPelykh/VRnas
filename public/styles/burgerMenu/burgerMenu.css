@@ -14,6 +14,14 @@ background: #000;
 background-size: auto;
 background-repeat: no-repeat;
 background-position:  center;
+
+transform: translateX(100%);
+transition: transform 250ms ease-in-out;
+}
+
+
+.is-open {
+    transform: translateX(0);
 }
 
 .burger-list>li{
@@ -75,7 +83,3 @@ border-color: var(--color-gradient-pink);
         
     }  
    }
-.hidden{
-    display: none;
-
-}

@@ -69,7 +69,7 @@
     screen and (min-resolution: 2dppx) {
     .bg-human {
       background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-dec2@2x.png),
-        url(../../images/backgroundFoto/photo-human-Desctop/Image_dec1@2x.png);
+        url(../../images/backgroundFoto/photo-human-Desctop/Image_Des1@2x.png);
 
       background-size: auto 520px;
       height: 791px;

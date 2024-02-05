@@ -54,6 +54,7 @@
   .item-question {
     width: 100%;
     padding: 29px 14px;
+    text-align: start;
   }
 }
 .wrapper-question {

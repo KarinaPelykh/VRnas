@@ -1,3 +1,4 @@
+
 .header {
   position: relative;
   top: 0;
@@ -7,7 +8,7 @@
   padding: 31px 0;
   background-image: url(../../images/backgroundFoto/background_Mobil/header_bg_mob@1x.png);
   background-repeat: no-repeat;
-  background-size: auto  207px;
+  background-size: auto  153px;
 
 
  
@@ -21,6 +22,28 @@
     background-image: url(../../images/backgroundFoto/background_Mobil/header_bg_mob@2x.png);
       
   }
+}
+
+
+@media screen and (min-width: 347px) {
+  .header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    padding: 31px 0;
+    background-image: url(../../images/backgroundFoto/background_Mobil/header_bg_mob@1x.png);
+    background-repeat: no-repeat;
+    background-size: auto  207px;
+  
+  
+   
+      height: 207px;
+  }
+  
+ 
+
 }
 @media screen and (min-width: 768px) {
   .header {
