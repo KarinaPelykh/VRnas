@@ -198,4 +198,9 @@
 <symbol id="icon-next2" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M13.021 28.002l1.242-1.405-10.923-9.656h28.657v-1.875h-28.657l10.923-9.656-1.242-1.405-13.024 11.513v0.97l13.024 11.513z"></path>
 </symbol>
+
+
+<symbol id="button-open" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M5.333 8h21.333v2.667h-21.333v-2.667zM10.667 14.667h16v2.667h-16v-2.667zM17.334 21.333h9.333v2.667h-9.333v-2.667z"></path>
+</symbol>
 </defs></svg>
