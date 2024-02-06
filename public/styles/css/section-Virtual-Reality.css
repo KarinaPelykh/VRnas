@@ -1,7 +1,12 @@
 /* section Virtual Reality */
 .section {
-  margin-top: 40px;
+  margin-top: -40px;
 }
+
+#bg{
+  position: absolute;
+  top: 300px;
+} 
 @media screen and (min-width: 1200px) {
   .section {
     margin-top: -164px;
@@ -14,8 +19,12 @@
 @media screen and (min-width: 768px) {
   .wrapper {
     padding-top: 87px;
-    margin-right: 116px;
+    /* margin-right: 116px; */
+    margin-right: 106px;
   }
+}
+img{
+  display: block;
 }
 
 .title {
@@ -78,12 +87,10 @@
 }
 .item-second {
   position: absolute;
-  top: 6px;
   left: 38px;
 }
 .item-third {
   position: absolute;
-  top: 7px;
   left: 77px;
 }
 @media screen and (min-width: 430px) {
@@ -111,18 +118,27 @@
   font-style: normal;
   font-weight: 600;
 }
+.info-video {
+  position: absolute;
+  top: 209px;
+  left: -1px;
+  margin: 0;
+  width: 131px;
+  height: 121px;
+  background-color: var(--card-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (min-width: 430px) {
   .info-video {
-    position: absolute;
     top: 188px;
     left: -1px;
     margin: 0;
     width: 196px;
     height: 128px;
-    background-color: var(--card-background);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
   }
 }
 
@@ -152,68 +168,47 @@
     height: auto;
   }
 }
-@media screen and (max-width: 769px) and (min-width: 340px) {
   .section-thumb-images {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    position: relative;
+    left: 16px;
+background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_1_mob@1x.png);
+background-size: auto;
+background-repeat: no-repeat;
+  }
+@media screen and (min-width:435px)  {
+  .section-thumb-images {
+ 
+background-image:none
   }
 }
 
-.images {
-  margin-top: 71px;
-  width: 526px;
-  object-fit: contain;
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .images {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (min-width:1199px)  {
+  .section-thumb-images {
+    width: 100%;
+   position: static;
+   /* background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_1_des@1x.png);
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position: top right 20px; */
   }
-}
-@media screen and (min-width: 1200px) {
-  .images {
-    margin-top: 29px;
-  }
-}
-.images-two {
-  width: 243px;
-  height: 422px;
-  object-fit: contain;
-  display: flex;
-  margin-left: auto;
-}
-@media screen and (min-width: 430px) {
-  .images-two {
-    margin-left: 173px;
-  }
-}
 
-@media screen and (min-width: 768px) {
-  .images-two {
-    display: none;
-  }
 }
-
 .block-info {
   background-color: var(--card-background);
-  /* width: 398px; */
+  width: 100%;
   padding: 36px;
 }
 
 @media screen and (min-width: 430px) {
   .block-info {
-    background-color: var(--card-background);
-    width: 100%;
     padding: 42px 64px 42px 64px;
   }
 }
 @media screen and (min-width: 430px) {
   .block-info {
-    background-color: var(--card-background);
-    width: 100%;
+   
     padding: 42px 64px 42px 64px;
   }
 }

@@ -106,8 +106,14 @@
         </nav>
       </div>
     </header>
+
     <main>
       <section class="section">
+        <div
+          id="bg"
+          class="background-grid grid-bg-home"
+          bis_skin_checked="1"
+        ></div>
         <div class="container">
           <div class="section-wrap">
             <div class="wrapper">
@@ -143,26 +149,38 @@
                 </div>
               </div>
             </div>
+
             <div class="section-thumb-images">
-              <img class="images" src="./images/Image.png" alt="human" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/background-Image/des/Image_bg_1des@1x.png 1x,
+                    ./images/background-Image/des/Image_bg_1des@2x.png 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/jpeg"
+                />
+
+                <img src="./images/Img-two.png" alt="human" />
+              </picture>
             </div>
-
-            <img class="images-two" src="./images/Img-two.png" alt="human" />
           </div>
-
           <article class="block-info">
             <ul class="info-list"></ul>
           </article>
         </div>
       </section>
-      <section class="">
-        <div class="section-about-as container">
+      <!-- <section class="">
+        <div class="section-about-as container  ">
+          <div class="about-as-background"></div>
           <img
             class="section-about-as-background"
             src="./images/backgroundFoto/backgroun-aboutAs.png"
             alt="section-about-as-background"
-          />
-          <div class="wrpp-video-about-us">
+          /><div class="bg-human-home"></div>
+          <div class="wrpp-video-about-us ">
+          
+
             <div class="wrapper-about"></div>
             <img
               class="images-aboutAs"
@@ -177,8 +195,8 @@
                 alt="gif vr"
               />
             </div>
-          </div>
-          <article class="article-aboutUs">
+          </div> -->
+      <!-- <article class="article-aboutUs">
             <p><span class="span-background">ABOUT US</span></p>
             <h2 class="section-subtitle">
               Bring your events to life like never before with our VR services.
@@ -202,9 +220,9 @@
               </li>
             </ul>
             <button class="button">READ MORE</button>
-          </article>
-        </div>
-      </section>
+          </article> -->
+      <!-- </div>
+      </section> -->
       <section class="section-ourService">
         <div class="container">
           <div class="thumb-ourService">
@@ -230,18 +248,21 @@
       </section>
       <section class="">
         <div class="section-four container">
+          <div class="backgroun-photo"></div>
+
           <div class="thumb-section-four">
-            <img
+            <!-- <img
               class="img-background"
               src="./images/backgroundFoto/background-section4.png"
               alt="background"
-            />
+            /> -->
             <div class="thumb-img"></div>
-            <img
+
+            <!-- <img
               class="images-in-wrapper"
               src="./images/Image3.png"
               alt="personal"
-            />
+            /> -->
             <div>
               <img
                 class="gif-photo"
@@ -250,6 +271,7 @@
               />
             </div>
           </div>
+
           <div class="wrap-section-four">
             <p><span class="span-background">WHY CHOOSE US</span></p>
             <h3 class="section-subtitle">Why Choose Us for Your VR Needs</h3>
@@ -277,6 +299,7 @@
             </form>
           </div>
         </div>
+        <div class="img-background"></div>
       </section>
       <section class="section-how-started">
         <div class="container">
@@ -506,87 +529,7 @@
           </aside>
         </section>
       </section>
-      <!-- <section class="section-pricing">
-        <div class="container">
-          <p><span class="span-background">OUR PRICING</span></p>
-          <h3 class="subtitle-pricing-our">
-            Affordable VR Services for Everyone
-          </h3>
-          <p class="description-our">
-            At VRNas, we believe that everyone should have access to the
-            benefits of VR. That's why we offer a range of pricing options to
-            meet the needs of any budget.
-          </p>
-          <section class="thumb-pricing">
-            <article class="article-pricing">
-              <ul class="list-pricing">
-                <li class="item-pricing">
-                  <div class="svg-bg">
-                    <svg class="cloud">
-                      <use href="./images/sprite.svg#cloud"></use>
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 class="title-pricing">Customizable Packages</h4>
-                    <p class="description-pricing-our">
-                      We understand that each project is unique, so we offer
-                      customizable packages to ensure that you get the services
-                      you need at a price that works for you. Our team will work
-                      with you to create a package that meets your specific
-                      goals and budget.
-                    </p>
-                  </div>
-                </li>
-                <li class="item-pricing">
-                  <div class="svg-bg">
-                    <svg class="cloud">
-                      <use href="./images/sprite.svg#cloud"></use>
-                    </svg>
-                  </div>
 
-                  <div>
-                    <h4 class="title-pricing">Flexible Payment Options</h4>
-                    <p class="description-pricing-our">
-                      We offer flexible payment options to make it easy for you
-                      to get started with our services. We accept various
-                      payment methods, including credit cards, bank transfers,
-                      and PayPal, and we can also work with you to create a
-                      payment plan that suits your needs.
-                    </p>
-                  </div>
-                </li>
-                <li class="item-pricing">
-                  <div class="svg-bg">
-                    <svg class="cloud">
-                      <use href="./images/sprite.svg#cloud"></use>
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 class="title-pricing">Satisfaction Guarantee</h4>
-                    <p class="description-pricing-our">
-                      We stand behind our services and are committed to ensuring
-                      that you are completely satisfied with the final product.
-                      If for any reason you are not happy with our services, we
-                      will work with you to make it right or provide a full
-                      refund.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </article>
-            <aside class="aside-pricing">
-              <div class="blok-pricing">
-                <p>Start from</p>
-                <p class="pricing">&dollar;99</p>
-                <button class="button button-pricing">
-                  <a class="link" href="./pricing_plan.html">GET STARTED</a>
-                </button>
-                <p class="text-blok-pricing">30 Days Moneyback Guarantee</p>
-              </div>
-            </aside>
-          </section>
-        </div>
-      </section> -->
       <section class="section-partners">
         <div class="container">
           <div>
@@ -769,7 +712,7 @@
     <!-- modal window  // -->
 
     <!-- burger menu -->
-    <div class="burger-menu is-open js-burger-menu">
+    <div class="burger-menu js-burger-menu">
       <button class="button-close js-close-buttonBurger">
         <svg
           fill="currentColor"

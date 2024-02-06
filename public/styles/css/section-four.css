@@ -1,19 +1,22 @@
 .section-four {
-  margin-top: var(--section-margin-top-mobil);
+  margin-top: 200px;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .section-four {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  
   }
 }
 @media screen and (min-width: 1200px) {
   .section-four {
-    margin-top: var(--section-margin-top);
+    margin-top:200px;
     display: flex;
     position: relative;
     flex-direction: row-reverse;
+    justify-content: space-between
   }
 }
 .wrap-section-four {
@@ -45,10 +48,7 @@
 }
 
 .gradient-backgrouned{
-  /* position: absolute;
-  top:0px;
-  left:0px; */
-/* height: 500px; */
+ 
  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_4_mob@1x.png);
  background-repeat: no-repeat;
  background-size: auto 500px;
@@ -56,20 +56,28 @@
 }
 
 .thumb-img {
-  top: 140px;
-  left: 67px;
-  width: 296px;
+  /* top: 140px;
+  left: 67px; */
+
+  width: 100%;
   height: 369px;
-  z-index: -1;
-  position: absolute;
+  /* z-index: -1;
+  position: absolute; */
 
   background-color: var(--card-background);
 }
 
+@media screen and (min-width: 429px) {
+  .thumb-img {
+    margin-left:41px;
+    width: 296px;
+    height: 369px;
+  }
+}
 @media screen and (min-width: 768px) {
   .thumb-img {
-    top: 183px;
-    left: 67px;
+    /* top: 183px;
+    left: 67px; */
     width: 398px;
     height: 497px;
   }
@@ -77,13 +85,96 @@
 
 @media screen and (min-width: 1200px) {
   .thumb-img {
-    top: 165px;
+    /* top: 165px;
     left: 94px;
 
-    z-index: -2;
+    z-index: -2; */
+    /* margin-left: 150px; */
   }
 }
-.img-background {
+
+.backgroun-photo{
+  position: absolute;
+  top: -84px;
+  left: 0;
+    z-index: 5;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/background-Image/mobil/Image_bg_3mob@1x.png);
+  background-size:  auto 453px;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 430px) {
+  .backgroun-photo{
+    top: -84px;
+    left: 0;
+    background-image: url(../../images/background-Image/mobil/Image_bg_3mob@1x.png);
+    background-size:  auto 453px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .backgroun-photo{
+      
+        background-image: url(../../images/background-Image/mobil/Image_bg_3mob@2x.png);
+       
+      }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .backgroun-photo{
+
+    position: absolute;
+    z-index: 5;
+    top: -164px;
+    left: 151px;
+    height: 659px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/background-Image/des/Image_bg_3des@1x.png);
+    background-size: 563px 662px;
+    width: 563px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .backgroun-photo{
+      
+        background-image: url(../../images/background-Image/des/Image_bg_3des@2x.png);
+       
+      }
+  }
+}
+@media screen and (min-width:1200px) {
+  .backgroun-photo{
+
+    position: absolute;
+    z-index: 5;
+    top: -164px;
+    /* left: 625px; */
+    left: 700px;
+
+    height: 659px;
+  }
+}
+
+.img-background{
+  position: relative;
+
+
+  background-repeat: no-repeat;
+  background-size: auto ;
+
+  top:-1045px;
+    height: 655px;
+  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_4_mob@1x.png);
+}
+@media screen and (min-width: 768px) {
+.img-background{
+
+  background-image: none}}
+/* .img-background {
   z-index: 1;
   position: absolute;
 
@@ -106,9 +197,9 @@
   .img-background {
     left: -100px;
   }
-}
+} */
 
-.images-in-wrapper {
+/* .images-in-wrapper {
   position: relative;
   z-index: 2;
   top: 19px;
@@ -125,23 +216,38 @@
   .images-in-wrapper {
     top: 0;
   }
-}
+} */
 @media screen and (max-width: 430px) {
   .wraper-gif {
     position: relative;
   }
 }
+
+
+
+
 .gif-photo {
   position: absolute;
 
-  top: 453px;
-  left: 233px;
+  /* top: 453px;
+  left: 233px; */
+
   z-index: 22;
   width: 169px;
+
+
+    top: 320px;
+    left: 129px;
+}
+@media screen and (min-width:430px) {
+  .gif-photo {
+    top: 320px;
+    left: 223px;
+  }
 }
 @media screen and (min-width: 768px) {
   .gif-photo {
-    top: 590px;
+    top: 446px;
     left: 306px;
   }
 }
