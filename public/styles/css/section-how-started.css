@@ -1,5 +1,6 @@
 .section-how-started {
-  margin-top: var(--section-margin-top-mobil);
+  /* margin-top: var(--section-margin-top-mobil); */
+  margin-top: -544px;
   text-align: center;
 }
 @media screen and (min-width: 430px) {
@@ -52,3 +53,14 @@
   background: linear-gradient(to right, #0cbaf1, #e95ce9);
   border: none;
 }
+@media screen and (min-width:1200px) {
+ .gradient-how-started{
+  
+    background-repeat: no-repeat;
+    background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_5_des@1x.png);
+    background-size: auto ;
+    background-position: top left ;
+   
+} 
+}
+

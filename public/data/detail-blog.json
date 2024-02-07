@@ -1,6 +1,8 @@
 [
   {
-    "img": "../../images/slider/Image-8.jpg",
+    "img": "../../images/slider/Image-6.jpg",
+    "img1x":"../images/images_dec/Image_@1x.jpg",
+    "img2x":"../images/images_dec/Image_@2x.jpg",
     "imgSecond": "../../images/slider/Image-3.jpg",
     "imgThird": "../../images/slider/Image-10.jpg",
     "title": "VR Games",

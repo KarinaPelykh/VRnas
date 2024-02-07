@@ -1,9 +1,9 @@
 .section-ourService {
-  margin-top: var(--section-margin-top-mobil);
+ margin-top: var(--section-margin-top-mobil);
 }
 @media screen and (min-width: 768px) {
   .section-ourService {
-    margin-top: var(--section-margin-top);
+    padding-top : var(--section-margin-top);
   }
 }
 
@@ -196,4 +196,15 @@
 }
 .box:hover .overlay {
   transform: translatey(0);
+}
+
+@media screen and (min-width:1200px) {
+  .gradint-ourService{
+  background-repeat: no-repeat;
+  background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_3_des@1x.png);
+  background-size: auto  456px;
+  background-position: top 1px right;
+  position: relative;
+  width: 100%
+}
 }

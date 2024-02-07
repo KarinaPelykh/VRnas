@@ -72,6 +72,7 @@
 }
 .imgSecond {
   width: 190px;
+  margin-bottom: 15px;
 }
 .imgThird {
   width: 190px;
@@ -79,6 +80,7 @@
 @media screen and (min-width: 430px) {
   .imgSecond {
     width: 190px;
+    margin-bottom: 0;
   }
   .imgThird {
     width: 190px;

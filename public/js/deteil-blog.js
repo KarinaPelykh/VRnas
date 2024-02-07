@@ -32,12 +32,14 @@ const cardBlog = (detailInfoData) => {
     twitter,
     facebook,
     instagram,
+    img2x,
+    img1x
   } = detailInfoData;
   return `<article class="">
   <p class="title-blog">${title}</p>
   <p class="title-blog-detail">${mainTitle}</p>
   <p class="time"><span class="span-background">${time}</span></p>
-  <img   class="photo-blog-detail" src="${img}" alt="photo"/>
+  <img   srcset="${img1x} 1x, ${img2x} 2x"  class="photo-blog-detail" src="${img}" alt="photo"/>
 
    
     <p class="short-info-detail">${architecture}</p>

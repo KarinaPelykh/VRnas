@@ -1,5 +1,9 @@
 .section-pricing {
   margin-top: var(--section-margin-top-mobil);
+  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_5_mob@1x.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
 }
 .section-pricing > p {
   margin-bottom: 12px;
@@ -7,6 +11,11 @@
 @media screen and (min-width: 431px) {
   .section-pricing {
     margin-top: var(--section-margin-top);
+    background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_7_des@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom 53px right;
+    position: relative;
+    height: 929px;
   }
 }
 
@@ -39,16 +48,18 @@
 .thumb-pricing {
   /* padding: 22px; */
   margin-bottom: 200px;
-  background-color: #25253266;
+
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
+  background-color: #252532
 }
 
 @media screen and (min-width: 768px) {
   .thumb-pricing {
     display: flex;
+      background-color: #25253266;
     margin-bottom: 0;
     /* padding: 55px; */
   }
@@ -64,14 +75,16 @@
 }
 @media screen and (min-width: 768px) {
   .article-pricing {
-    margin-right: 118px;
+    /* margin-right: 118px; */
+    margin-right: 47x;
+
     /* width: 625px; */
     padding: 55px;
   }
 }
 
 .aside-pricing {
-  position: relative;
+  /* position: relative; */
   border-left: 1px solid #ffffff29;
 }
 @media screen and (max-width: 768px) {

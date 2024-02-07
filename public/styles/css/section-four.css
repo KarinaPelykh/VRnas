@@ -51,14 +51,24 @@
  
  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_4_mob@1x.png);
  background-repeat: no-repeat;
- background-size: auto 500px;
- background-position: center;
+ background-position: top -75px left;
+  background-size: auto;
+ /*background-position: center; */
 }
-
+@media screen and (min-width: 768px) {
+  .gradient-backgrouned{
+ 
+    background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_6_des@1x.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 500px;
+   }
+}
 .thumb-img {
   /* top: 140px;
   left: 67px; */
-
+  position: relative;
+  z-index: -8;
   width: 100%;
   height: 369px;
   /* z-index: -1;
@@ -69,7 +79,7 @@
 
 @media screen and (min-width: 429px) {
   .thumb-img {
-    margin-left:41px;
+    /* margin-left:41px; */
     width: 296px;
     height: 369px;
   }
@@ -247,8 +257,11 @@
 }
 @media screen and (min-width: 768px) {
   .gif-photo {
-    top: 446px;
-    left: 306px;
+    /* top: 446px;
+    left: 306px; */
+    top: 428px;
+    left: 242px
+
   }
 }
 
@@ -314,4 +327,11 @@
   fill: #fff;
 
   transform: rotate(-180deg);
+}
+.gradient-why-chose{
+  background-repeat: no-repeat;
+  background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_8_des@1x.png);
+  background-size: auto ;
+  background-position: top -30px right -70px;
+ 
 }

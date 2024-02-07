@@ -25,7 +25,7 @@
 
 @media screen and (min-width: 1200px) {
   .wrapper-service {
-    margin-top: var(--margin-section-top);
+    margin-top:150px;
     
   }
 }
@@ -56,7 +56,9 @@
 }
 
 .wrapper-testimonial {
-  margin-top: 300px;
+  /* margin-top: 300px; */
+  margin-top: 100px;
+
 }
 
 .aside-pricing-service {
@@ -66,7 +68,7 @@
   border-top: 1px solid #ffffff29;
   position: relative;
 
-  background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image_mob3@1x.png);
+  background-image: url(../../images/background-Image/mobil/Image_bg_4mob@1x.png);
   background-repeat: no-repeat;
   background-size: auto 370px;
   background-position: bottom right;
@@ -76,16 +78,16 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .aside-pricing-service {
-    background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image_mob3@2x.png);
+    background-image: url(../../images/background-Image/mobil/Image_bg_4mob@2x.png);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .aside-pricing-service {
-    width: 500px;
+    width: 650px;
     height: auto;
     border-left: 1px solid #ffffff29;
-    background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image_dec2@1x.png);
+    background-image: url(../../images/background-Image/des/Image_bg_4des@1x.png);
     background-size: auto 520px;
     background-position: bottom right;
   }
@@ -96,7 +98,7 @@
     .aside-pricing-service {
       background-size: auto 520px;
       background-position: bottom right;
-      background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-dec2@2x.png);
+      background-image: url(../../images/background-Image/des/Image_bg_4des@2x.png);
     }
   }
 }

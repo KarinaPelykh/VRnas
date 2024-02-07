@@ -12,7 +12,7 @@
 }
 
 /* від 500рх -...... */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
   .list-blogs {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -93,6 +93,7 @@
 @media screen and (min-width: 1200px) {
   .pagination-list {
     display: flex;
+    justify-content: center;
   }
 }
 

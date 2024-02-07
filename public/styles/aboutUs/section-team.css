@@ -9,22 +9,29 @@
   }
 }
 .button-see {
-  display: inline-flex;
   padding: 18px 38px;
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
   border-image-slice: 1;
   background-color: transparent;
+
+
+
+
+  display: flex;
+   margin:20px  auto 0 auto;
+    
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .button-see {
     position: absolute;
-    top: 31px;
-    left: 541px;
+    top: 0;
+    /* left: 541px; */
+    right:165px;
   }
 }
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   .button-see {
     left: 905px;
   }
@@ -33,7 +40,7 @@
   .button-see {
     left: 701px;
   }
-}
+} */
 @media screen and (min-width: 768px) {
   .wrapper-content {
     display: flex;
