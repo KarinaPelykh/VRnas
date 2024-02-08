@@ -38,8 +38,9 @@ const describeUser = (e) => {
   }
   const closeWindow = document.querySelector(".js-close-modal");
   const modalWindow = document.querySelector(".bloc-modal");
-  document.body.style.overflow = "hidden";
-  if (closeWindow) {
+ 
+  if (closeWindow) { 
+    document.body.style.overflow = "hidden";
     closeWindow.addEventListener("click", () => {
       modalWindow.remove();
       document.body.style.overflow = "auto";

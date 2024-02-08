@@ -12,3 +12,4 @@ import "./js/form-subscribe.js";
 import"./js/burgerMenu.js";
 import "./js/form-whyChoose";
 import "./js/video.js";
+import "./js/pricing.js"

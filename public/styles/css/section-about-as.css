@@ -110,7 +110,8 @@ left:0px;
 }
 @media screen and (min-width: 1200px) {
   .wrap-aboutAs-video {
-    left: 329px;
+    left: 300px;
+  
   }
 }
 .article-aboutUs {
