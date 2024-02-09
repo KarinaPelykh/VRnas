@@ -17,7 +17,7 @@
     position: relative;
     flex-direction: row-reverse;
     justify-content: space-between
-    /* justify-content: space-between */
+ 
   }
 }
 .wrap-section-four {
@@ -47,12 +47,7 @@
   
 
 }
-/* @media screen and (min-width:1200px){
-  .thumb-section-four {
- margin-left: auto;
-  
-  }
-} */
+
 .gradient-backgrouned{
  
  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_4_mob@1x.png);
@@ -157,7 +152,7 @@
     z-index: 5;
     top: -164px;
 
-    /* left: 655px; */
+ 
     left: 635px;
 
     height: 659px;

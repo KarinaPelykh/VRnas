@@ -46,7 +46,7 @@
   }
 }
 .thumb-pricing {
-  /* padding: 22px; */
+
   margin-bottom: 200px;
 
   border-width: 1px;
@@ -61,7 +61,7 @@
     display: flex;
       background-color: #25253266;
     margin-bottom: 0;
-    /* padding: 55px; */
+
   }
 }
 
@@ -75,16 +75,16 @@
 }
 @media screen and (min-width: 768px) {
   .article-pricing {
-    /* margin-right: 118px; */
+
     margin-right: 47x;
 
-    /* width: 625px; */
+
     padding: 55px;
   }
 }
 
 .aside-pricing {
-  /* position: relative; */
+
   border-left: 1px solid #ffffff29;
 }
 @media screen and (max-width: 768px) {
@@ -144,37 +144,6 @@
   }
 }
 
-/* 
-@media screen and (min-width: 430px) {
-  .blok-pricing {
-    width: 321px;
-    height: 222px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .blok-pricing {
-    top: 51px;
-    left: -36px;
-  }
-}
-@media screen and (max-width: 430px) {
-  .blok-pricing {
-    left: -9px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .blok-pricing {
-    left: -451px;
-    top: 510px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .blok-pricing {
-    top: 378px;
-    left: -88px;
-  }
-} */
 .pricing {
   margin-bottom: 12px;
   font-size: 60px;

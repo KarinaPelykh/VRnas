@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VRnas</title>
+    <link rel=" icon" href="./asset/Logo.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/body-background.css" />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -97,11 +98,13 @@
                 >Contact us</a
               >
             </li>
-            <button class="burger-open border-gradient js-open-burger">
-              <svg width="16" height="16">
-                <use href="./images/sprite.svg#button-open"></use>
-              </svg>
-            </button>
+            <li>
+              <button class="burger-open border-gradient js-open-burger">
+                <svg width="16" height="16">
+                  <use href="./images/sprite.svg#button-open"></use>
+                </svg>
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
@@ -109,11 +112,7 @@
 
     <main class="gradient-grid">
       <section class="section gradient-virtual-reality">
-        <div
-          id="bg"
-          class="background-grid grid-bg-home"
-          bis_skin_checked="1"
-        ></div>
+        <div id="bg" class="background-grid grid-bg-home"></div>
         <div class="container">
           <div class="section-wrap">
             <div class="wrapper">
@@ -207,9 +206,8 @@
                 <p class="text-about-as">Affordable and Accessible</p>
               </li>
             </ul>
-            <button class="button">
-              <a href="./about_us.html">READ MORE</a>
-            </button>
+
+            <a class="button" href="./about_us.html">READ MORE</a>
           </article>
         </div>
       </section>
@@ -296,10 +294,14 @@
             allowfullscreen
           ></iframe>
 
-          <button class="button-getStart">GET STARTED</button>
+          <button>
+            <a class="button-getStart" href="./pricing_plan.html"
+              >GET STARTED</a
+            >
+          </button>
         </div>
       </section>
-      <section class="">
+      <section>
         <div class="section-testimonial container">
           <div class="wrap-info">
             <p><span class="span-background">TESTIMONIAL</span></p>
@@ -317,8 +319,7 @@
                   <span class="wrap-text-overlay">
                     <p>
                       The partnership with VR exceeded our expectations. Their
-                      team proved to be highly professional, responsive, and
-                      efficient in delivering top-notch solutions.
+                      team proved to be highly professional, responsive.
                     </p>
                     <p class="underlain">Robert Fox - CEO Anono</p>
                   </span>
@@ -368,8 +369,6 @@
                       <span class="wrap-text-overlay">
                         <p>
                           Working with VRnas Solutions was an absolute delight.
-                          Their team's professionalism, responsiveness, and
-                          expertise were truly exceptional. .
                         </p>
                         <p class="underlain">Alex Turner - COO ConnectSync</p>
                       </span>
@@ -377,18 +376,16 @@
                   </div>
                   <div class="box-circle circle-svg3">
                     <img
-                      src="./images/clients/Ellipse 37.png"
+                      src="./images/clients/images-37.png"
                       alt="fifth-client"
                     />
                     <div class="overlay-circle overlay-third">
                       <span class="wrap-text-overlay">
                         <p>
                           The partnership with VR exceeded our expectations.
-                          Their team proved to be highly professional,
-                          responsive, and efficient in delivering top-notch
-                          solutions.
+                          Good communication.
                         </p>
-                        <p class="underlain">Robert Fox - CEO Anono</p>
+                        <p class="underlain">Robert ButTR - CEO Anono</p>
                       </span>
                     </div>
                   </div>
@@ -403,8 +400,7 @@
                         <span class="wrap-text-overlay">
                           <p>
                             Collaborating with VR was a fantastic experience. We
-                            wholeheartedly recommend WebWizards for any web
-                            development needs.
+                            wholeheartedly recommend VRnas.
                           </p>
                           <p class="underlain">
                             Alice Johnson - CTO InnovateHub
@@ -530,7 +526,7 @@
             <div class="circle-partners">
               <img
                 class="img-gamer"
-                src="./images/Untitled (3).png"
+                src="./images/images_dec/human-in-circle-form.png"
                 alt="man"
               />
             </div>
@@ -641,7 +637,7 @@
               Subscribe to our newsletter for latest updates
             </p>
 
-            <label class="label">
+            <div class="label">
               <svg class="svg-message">
                 <use href="./images/sprite.svg#Message"></use>
               </svg>
@@ -659,7 +655,7 @@
                   <use href="./images/sprite.svg#Send"></use>
                 </svg>
               </button>
-            </label>
+            </div>
           </form>
         </div>
       </section>
@@ -784,17 +780,18 @@
                 </li>
               </ul>
             </li>
-            <div class="wrap-links">
-              <li class="item-footer">
-                Quicklinks
-                <ul class="list-menu list-first"></ul>
-              </li>
-              <li class="item-footer">
-                Support
-                <ul class="list-menu list-second"></ul>
-              </li>
-            </div>
-
+            <li>
+              <ul class="wrap-links">
+                <li class="item-footer">
+                  Quicklinks
+                  <ul class="list-menu list-first"></ul>
+                </li>
+                <li class="item-footer">
+                  Support
+                  <ul class="list-menu list-second"></ul>
+                </li>
+              </ul>
+            </li>
             <li class="item-footer">
               Need Help?
               <ul class="list-menu">

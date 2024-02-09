@@ -27,20 +27,11 @@
   .button-see {
     position: absolute;
     top: 0;
-    /* left: 541px; */
+ 
     right:165px;
   }
 }
-/* @media screen and (min-width: 769px) {
-  .button-see {
-    left: 905px;
-  }
-}
-@media screen and (min-width: 1053px) {
-  .button-see {
-    left: 701px;
-  }
-} */
+
 @media screen and (min-width: 768px) {
   .wrapper-content {
     display: flex;

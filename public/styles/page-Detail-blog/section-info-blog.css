@@ -1,14 +1,14 @@
-.section-detail-rout{
+.section-detail-rout {
   margin-top: -107px;
 }
-.bg-details{
-  top:52px
+.bg-details {
+  top: 52px;
 }
 @media screen and (min-width: 1200px) {
   .section-detail-info {
     display: flex;
   }
-  .bg-title{
+  .bg-title-blog{
    display: none;
   }
 }

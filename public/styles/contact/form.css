@@ -174,23 +174,7 @@ z-index: -2;
   }
 }
 
-/* .img-socialMedia {
-  position: absolute;
-  top: -114px;
-  left: -49px;
-  height: auto;
-  width: 594px;
-}
 
-@media screen and (min-width: 768px) {
-  .img-socialMedia {
-    position: absolute;
-    top: -156px;
-    left: -71px;
-    width: 876px;
-    height: 907px;
-  }
-} */
 .svg-socialmedia {
   width: 46px;
   height: 46px;

@@ -1,5 +1,5 @@
 .section-description-info {
-  /* display: flex; */
+
   text-align: center;
   margin-top: 150px;
   position: relative;
@@ -23,7 +23,7 @@
   top: -17px;
   left: 0;
   width: 100%;
-  /* height: 100%; */
+ 
   background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image_mob3@1x.png),
     url(../../images/backgroundFoto/photo-human-Mobil/Image_mob4@1x.png);
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     top: -17px;
     left: 0;
     width: 100%;
-    /* height: 100%; */
+
     background-image: url(../../images/backgroundFoto/bg-human.png),
       url(../../images/backgroundFoto/human-bg-revers.png);
     background-repeat: no-repeat;

@@ -11,18 +11,13 @@
   gap: 32px;
 }
 
-/* від 500рх -...... */
+
 @media screen and (min-width: 768px) {
   .list-blogs {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-/* від  0 - 500рх. */
-/* @media screen and (max-width: 500px) {
-  .list-blogs {
-    grid-template-columns: repeat(2, 1fr);
-  }
-} */
+
 @media screen and (min-width: 1200px) {
   .list-blogs {
     grid-template-columns: repeat(3, 379px);

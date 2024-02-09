@@ -56,7 +56,6 @@
 }
 
 .wrapper-testimonial {
-  /* margin-top: 300px; */
   margin-top: 100px;
 
 }
@@ -128,8 +127,7 @@
 }
 @media screen and (min-width: 768px) {
   .blok-pricing-service {
-    /* left: -92px;
-    top: 398px; */
+    
     left: -312px;
     top: 566px;
   }

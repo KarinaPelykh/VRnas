@@ -26,15 +26,4 @@ getMessageTextarea();
 ref.textarea.addEventListener("input", saveMessageUser);
 ref.form.addEventListener("submit", onFormSubmit);
 
-// створення обєкту
-//   const {
-//     elements: { username, surname, emil, number },
-//   } = event.currentTarget;
-//   const userData = {
-//     firstName: username.value,
-//     lastName: surname.value,
-//     emil: emil.value,
-//     phonNumber: number.value,
-//   };
-//   const stringUserData = JSON.stringify(userData);
-//   localStorage.setItem("stringUserData", stringUserData);
+;

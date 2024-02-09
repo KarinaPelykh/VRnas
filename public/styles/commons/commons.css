@@ -37,6 +37,17 @@ a {
   text-decoration: none;
   font-family: var(--ff-text);
 }
+a {
+  transition: 0.35s;
+}
+
+a:hover {
+  text-shadow: 0 0 15px #ffffff;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
 button {
   font-family: var(--ff-text);
   cursor: pointer;
@@ -46,6 +57,17 @@ button {
   border: none;
 }
 
+button:hover,
+button:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--white-color);
+  }
+}
 .container {
   padding-left: 16px;
   padding-right: 16px;
@@ -72,7 +94,7 @@ button {
 p {
   color: var(--grey-color);
 }
-a{
+a {
   color: var(--white-color);
 }
 .span-background {
@@ -97,7 +119,6 @@ a{
 
   border-image-slice: 1;
 }
-
 
 /* ======================================================================== */
 /*                                    Модальне вікно                       */
@@ -149,8 +170,8 @@ a{
   transition-property: transform;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 .modal > button {
   padding: 5px;
@@ -164,50 +185,33 @@ a{
 .modal > p {
   color: rgb(250, 244, 244);
 }
-.modal-text{
-font-size: 26px;
+.modal-text {
+  font-size: 26px;
   margin-bottom: 10px;
-
 }
-.modal-link{
-
+.modal-link {
   color: #8d1caf;
   font-size: 24px;
 }
-.modal-describe{
+.modal-describe {
   margin-top: 20px;
-  text-shadow:
-  0 0 4px #fff,
-  0 0 11px #fff,
-  0 0 19px #fff,
-  0 0 40px #f09,
-  0 0 80px #f09,
-  0 0 90px #f09,
-  0 0 100px #f09,
-  0 0 150px #f09;
-
-
-
-
+  text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f09,
+    0 0 80px #f09, 0 0 90px #f09, 0 0 100px #f09, 0 0 150px #f09;
 }
-.img-modal{
+.img-modal {
   width: 150px;
-  height:auto;
+  height: auto;
   display: block;
-  border-top-right-radius:10% ;
-  border-bottom-left-radius:10% ;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
   position: relative;
   bottom: -35px;
   right: -80px;
 }
-.page-pricing{
-  text-shadow:
-  0 0 4px #fff,
-  0 0 11px #fff,
-  0 0 19px #fff,
-  0 0 40px #f09,
-  0 0 80px #f09,
-  0 0 90px #f09,
-  0 0 100px #f09,
-  0 0 150px #f09;
+.page-pricing {
+  text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #f09,
+    0 0 80px #f09, 0 0 90px #f09, 0 0 100px #f09, 0 0 150px #f09;
 }
+/* ======================================================================== */
+/*                                    Модальне вікно                       */
+/* ======================================================================== */

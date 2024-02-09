@@ -1,49 +1,43 @@
 .footer {
-  /* margin-top: 58px; */
- 
   padding-top: 150px;
 
-position: relative;
-bottom:0px;
-left:0px;
-   background-image: url(../../images/backgroundFoto/background_Mobil/footer_mob@1x.png);
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(../../images/backgroundFoto/background_Mobil/footer_mob@1x.png);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: auto 314px;
 }
 
-
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-  .footer  {
+  .footer {
     background-image: url(../../images/backgroundFoto/background_Mobil/footer_mob@2x.png);
-      
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     margin-top: 58px;
-   
+
     padding-top: 150px;
-  
-  position: relative;
-  bottom:0px;
-  left:0px;
-     background-image: url(../../images/backgroundFoto/background_Desctop/footer_bg_des@1x.png);
+
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../../images/backgroundFoto/background_Desctop/footer_bg_des@1x.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto 508px;
   }
-  
-  
+
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    .footer  {
+    .footer {
       background-image: url(../../images/backgroundFoto/background_Desctop/footer_bg_des@2x.png);
-        
     }
   }
 }
@@ -91,7 +85,6 @@ left:0px;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 30px;
-  
 }
 @media screen and (min-width: 1200px) {
   .list-footer > li {
@@ -113,22 +106,20 @@ left:0px;
     margin-right: 52px;
   }
 }
-  .wrap-links {
-    display: flex;
-    margin-bottom: 65px;
-  }
-  .wrap-links > li:first-child {
-    margin-right: 100px;
-  }
-
-@media screen and (min-width: 1200px) {
 .wrap-links {
   display: flex;
-  margin-bottom: 0;
+
+  margin-bottom: 65px;
 }
-/* .wrap-links > li:first-child {
-  margin-right: 0
-} */
+.wrap-links > li:first-child {
+  margin-right: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  .wrap-links {
+    display: flex;
+    margin-bottom: 0;
+  }
 }
 
 .list-footer > li:last-child {
@@ -142,7 +133,6 @@ left:0px;
   }
   .list-footer > li:last-child {
     margin-bottom: 72px;
-
   }
 }
 @media screen and (min-width: 1200px) {
@@ -210,4 +200,3 @@ left:0px;
   border-right: none;
   text-align: center;
 }
-
