@@ -49,6 +49,12 @@
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
 }
+.item-question:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+}
 
 @media screen and (max-width: 768px) {
   .item-question {
@@ -84,17 +90,17 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .gradient-fqa {
+    background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_10_des@1x.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
 
-}
-@media screen and (min-width:1200px) {
-  .gradient-fqa{
-  background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_10_des@1x.png);
-  background-repeat: no-repeat;
-  background-position: top right;
-}
-
-.answer > p {
-  font-size: 16px;
-  width: 742px;line-height: 28px;
-}
+  .answer > p {
+    font-size: 16px;
+    width: 742px;
+    line-height: 28px;
+  }
 }

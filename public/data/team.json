@@ -1,8 +1,8 @@
 [
   {
-    "img": "../images/team/Bondan Prabowo.jpg",
-    "img1x":"../images/team/team_Desctop/Bondan_Prabowo_des@1x.jpg",
-    "img2x":"../images/team/team_Desctop/Bondan_Prabowo_des@2x.jpg",
+    "img": "../images/team/Bondan_Prabowo.jpg",
+    "img1x": "../images/team/team_Desctop/Bondan_Prabowo_des@1x.jpg",
+    "img2x": "../images/team/team_Desctop/Bondan_Prabowo_des@2x.jpg",
     "name": "Bondan Prabowo",
     "position": "CEO",
     "svgFacebook": "../images/sprite.svg#facebook",
@@ -10,9 +10,9 @@
     "svgTwitter": "../images/sprite.svg#twitter"
   },
   {
-    "img": "../images/team/Bayu Aji.jpg",
-    "img1x":"../images/team/team_Desctop/Bayu _Aji_des@1x.jpg",
-    "img2x":"../images/team/team_Desctop/Bayu _Aji_des@2x.jpg",
+    "img": "../images/team/Bayu_Aji.jpg",
+    "img1x": "../images/team/team_Desctop/Bayu_Aji_des@1x.jpg",
+    "img2x": "../images/team/team_Desctop/Bayu_Aji_des@2x.jpg",
     "name": "Bayu Aji",
     "position": "VR Development",
     "svgFacebook": "../images/sprite.svg#facebook",
@@ -20,9 +20,9 @@
     "svgTwitter": "../images/sprite.svg#twitter"
   },
   {
-    "img": "../images/team/Agung Brandon.jpg",
-    "img1x":"../images/team/team_Desctop/Agung_Brandon_des@1x.jpg",
-    "img2x":"../images/team/team_Desctop/Agung_Brandon_des@2x.jpg",
+    "img": "../images/team/Agung_Brandon.jpg",
+    "img1x": "../images/team/team_Desctop/Agung_Brandon_des@1x.jpg",
+    "img2x": "../images/team/team_Desctop/Agung_Brandon_des@2x.jpg",
     "name": "Agung Brandon",
     "position": "Vr Artist",
     "svgFacebook": "../images/sprite.svg#facebook",
@@ -30,9 +30,9 @@
     "svgTwitter": "../images/sprite.svg#twitter"
   },
   {
-    "img": "../images/team/Aril Laso.jpg",
-    "img1x":"../images/team/team_Desctop/Aril_Laso_des@1x.jpg",
-    "img2x":"../images/team/team_Desctop/Aril_Laso_des@2x.jpg",
+    "img": "../images/team/Aril_Laso.jpg",
+    "img1x": "../images/team/team_Desctop/Aril_Laso_des@1x.jpg",
+    "img2x": "../images/team/team_Desctop/Aril_Laso_des@2x.jpg",
     "name": "Aril Laso",
     "position": "UI/UX Designer",
     "svgFacebook": "../images/sprite.svg#facebook",
@@ -41,20 +41,20 @@
   },
 
   {
-    "img": "../images/team/Aldo Boy.jpg",
-   
+    "img": "../images/team/Aldo_Boy.jpg",
+
     "name": "Aldo Boy",
-    "img1x":"../images/team/team_Desctop/Aldo Boy1@1x.jpg",
-    "img2x":"../images/team/team_Desctop/Aldo Boy2@2x.jpg",
+    "img1x": "../images/team/team_Desctop/Aldo_Boy1@1x.jpg",
+    "img2x": "../images/team/team_Desctop/Aldo_Boy2@2x.jpg",
     "position": "3D Designer",
     "svgFacebook": "../images/sprite.svg#facebook",
     "svgInstagram": "../images/sprite.svg#instagram",
     "svgTwitter": "../images/sprite.svg#twitter"
   },
   {
-    "img": "../images/team/Beni Barak.jpg",
-    "img1x":"../images/team/team_Desctop/Beni Barak1@1x.jpg",
-    "img2x":"../images/team/team_Desctop/Beni Barak2@2x.jpg",
+    "img": "../images/team/Beni_Barak.jpg",
+    "img1x": "../images/team/team_Desctop/Beni_Barak1@1x.jpg",
+    "img2x": "../images/team/team_Desctop/Beni_Barak2@2x.jpg",
     "name": "Beni Barak",
     "position": "3D Artist",
     "svgFacebook": "../images/sprite.svg#facebook",

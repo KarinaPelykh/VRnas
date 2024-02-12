@@ -10,7 +10,7 @@ const handelDisplaySvg = () => {
   });
   const itemList = list[currentIndexItem];
   itemList.style.top = "-47px";
-  itemList.style.left = "458px";
+  itemList.style.left = "466px";
   itemList.style.zIndex = 20;
   currentIndexItem++;
   if (currentIndexItem >= list.length) {
@@ -32,7 +32,7 @@ const handelDisplayReversSvg = () => {
   const itemList = list[currentIndexItem];
   console.log(itemList);
   itemList.style.top = "-47px";
-  itemList.style.left = "458px";
+  itemList.style.left = "466px";
   itemList.style.zIndex = 20;
 };
 

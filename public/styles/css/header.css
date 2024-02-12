@@ -56,7 +56,15 @@
 .list > li:nth-child(n + 2) {
   display: none;
 }
+.list > li:last-child {
+  display: flex;
+}
 
+@media screen and (min-width: 768) {
+  .list > li:last-child {
+    display: none;
+  }
+}
 @media screen and (min-width: 1200px) {
   .list {
     display: flex;
