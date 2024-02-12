@@ -17,4 +17,7 @@
   .decription-detail {
     width: 625px;
   }
+  .isVisiblePhoto {
+    background-image: none;
+  }
 }

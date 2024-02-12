@@ -3,7 +3,6 @@
   background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_5_mob@1x.png);
   background-repeat: no-repeat;
   background-position: bottom;
-
 }
 .section-pricing > p {
   margin-bottom: 12px;
@@ -46,22 +45,20 @@
   }
 }
 .thumb-pricing {
-
   margin-bottom: 200px;
 
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
-  background-color: #252532
+  background-color: #252532;
 }
 
 @media screen and (min-width: 768px) {
   .thumb-pricing {
     display: flex;
-      background-color: #25253266;
+    background-color: #25253266;
     margin-bottom: 0;
-
   }
 }
 
@@ -75,16 +72,13 @@
 }
 @media screen and (min-width: 768px) {
   .article-pricing {
-
-    margin-right: 47x;
-
+    /* margin-right: 47px; */
 
     padding: 55px;
   }
 }
 
 .aside-pricing {
-
   border-left: 1px solid #ffffff29;
 }
 @media screen and (max-width: 768px) {
@@ -103,6 +97,14 @@
 
 .list-pricing > li {
   margin-bottom: 32px;
+}
+@media screen and (min-width: 1200px) {
+  .list-pricing > li {
+    width: 633px;
+  }
+  .article-pricing {
+    margin-bottom: 0;
+  }
 }
 .list-pricing > li:last-child {
   margin-bottom: 0;
@@ -169,4 +171,24 @@
   left: 11px;
   width: 19px;
   height: 19px;
+}
+
+@media screen and (min-width: 430px) {
+  #photoVisible {
+    /* background-image: none; */
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #photoVisible {
+    /* background-image: none; */
+    display: flex;
+    margin: 40px 0 40px 0;
+    width: 400px;
+    height: 500px;
+    border-top: none;
+    border-bottom: none;
+  }
 }
