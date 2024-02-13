@@ -1,6 +1,5 @@
 .section-aboutUS {
   margin-top: var(--section-margin-top-mobil);
-  
 }
 
 /* @media screen and (min-width: 1200px) {
@@ -48,52 +47,42 @@
     width: 625px;
   }
 }
-@media screen and (min-width:1200px) {
-  .block-wrap{
+@media screen and (min-width: 1200px) {
+  .block-wrap {
     display: flex;
   }
 }
-
 
 .block-photo {
   position: relative;
   display: flex;
   justify-content: flex-end;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .block-photo {
-   display: block;
+    display: block;
   }
 }
 
 .wrapper-aboutUs {
- 
-
   margin-top: 100px;
   width: 315px;
   height: 392px;
   background-color: var(--card-background);
 }
 
-
 @media screen and (min-width: 431px) {
   .wrapper-aboutUs {
-
-   
     width: 398px;
     height: 496px;
   }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .wrapper-aboutUs {
     margin-left: 32px;
     margin-top: 40px;
-   
   }
-} 
-
-
-
+}
 
 .about-as-background {
   height: 732px;
@@ -105,32 +94,29 @@
   background-size: auto 665px;
   left: -2px;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .about-as-background {
-  height: 676px;
+    height: 676px;
     background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_8_des@1x.png);
 
-  background-position: top -98px right -287px;
-
+    background-position: top -98px right -287px;
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .about-as-background {
-  
-  background-position: top -30px right -170px ;
-
+    background-position: top -30px right -170px;
   }
 }
-.images-aboutUs{
+.images-aboutUs {
   position: absolute;
-  top:0;
-
-    left: 0;
+  top: 0;
+  left: -10px;
+  /* left: 0; */
   width: 100%;
   height: 100%;
   background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image-bg-photo1@1x.png);
-  background-size:  auto 453px;
+  background-size: auto 453px;
   background-repeat: no-repeat;
   background-position: bottom right;
   z-index: 5;
@@ -138,47 +124,41 @@
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-    .images-aboutUs{
-    
-      background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image-bg-photo2@2x.png);
-     
-    }
+  .images-aboutUs {
+    background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image-bg-photo2@2x.png);
+  }
 }
-@media screen and (min-width:768px) {
-  .images-aboutUs{
-      left:-338px;
-    
+@media screen and (min-width: 768px) {
+  .images-aboutUs {
+    left: -338px;
   }
 }
 
-@media screen and (min-width:1200px) {
-  .images-aboutUs{
+@media screen and (min-width: 1200px) {
+  .images-aboutUs {
     top: -40px;
-      left: 0;
+    left: 0;
     height: 574px;
     background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-about_us1@1x.png);
-    background-size:  auto 574px;
-   
+    background-size: auto 574px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-      .images-aboutUs{
-      
-        background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-about_us2@2x.png);
-       
-      }
+    .images-aboutUs {
+      background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-about_us2@2x.png);
+    }
   }
 }
-.background-grid{
+.background-grid {
   position: absolute;
 
-  top:1056px;
+  top: 1056px;
 
-    left: 0;
+  left: 0;
   width: 100%;
   background-image: url(../../images/backgroundFoto/background_Mobil/bg-grid_mob@1x.png);
-  background-size:  auto 453px;
+  background-size: auto 453px;
   background-repeat: no-repeat;
   background-size: auto 720px;
   z-index: -8;
@@ -189,19 +169,18 @@
   screen and (min-resolution: 2dppx) {
   .background-grid {
     background-image: url(../../images/backgroundFoto/background_Mobil/bg-grid_mob@2x.png);
-      
   }
 }
-@media screen and (min-width:1200px) {
-  .background-grid{
+@media screen and (min-width: 1200px) {
+  .background-grid {
     position: absolute;
-  
-    top:999px;
-  
-      left: 0;
+
+    top: 999px;
+
+    left: 0;
     width: 100%;
     background-image: url(../../images/backgroundFoto/background_Desctop/Assets_des1x.png);
-    background-size:  auto 453px;
+    background-size: auto 453px;
     background-repeat: no-repeat;
     background-size: 1168px 614px;
     z-index: -8;
@@ -211,18 +190,14 @@
     screen and (min-resolution: 2dppx) {
     .background-grid {
       background-image: url(../../images/backgroundFoto/background_Desctop/Assets_des2x.png);
-        
     }
   }
 }
 
-
-
-
 .wrap-aboutAs-gif {
   position: absolute;
 
-  left:27px;
+  left: 27px;
   top: 378px;
   background-color: var(--card-background);
   width: 196px;
@@ -243,5 +218,5 @@
   .wrap-aboutAs-gif {
     top: 452px;
     left: -53px;
-}
+  }
 }

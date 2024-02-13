@@ -1,21 +1,20 @@
 .section-aboutAs {
   margin-top: 200px;
   background-repeat: no-repeat;
-background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_2_mob@1x.png);
- background-size: auto 
+  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_2_mob@1x.png);
+  background-size: auto;
 }
 @media screen and (min-width: 1200px) {
   .section-aboutAs {
     margin-top: var(--section-margin-top);
     background-repeat: no-repeat;
     background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_2_des@1x.png);
-    background-size:auto 581px;
+    background-size: auto 581px;
     background-position: top left 10px;
   }
   .section-about-as {
     display: flex;
     align-items: end;
-    
   }
 }
 
@@ -38,54 +37,48 @@ background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_2_mob@
   }
 }
 
-.wrpp-video-about-us{
-position: relative;
-
+.wrpp-video-about-us {
+  position: relative;
 }
-.bg-human-home{
-top :-128px;
-left:0px;
-    background-repeat: no-repeat;
-    background-image: url(../../images/background-Image/mobil/Image_bg_2mob@1x.png);
-    background-size: auto 486px;
-    background-position: top left;
-    height: 486px;
-    position: absolute;
-    width: 100%;
+.bg-human-home {
+  top: -128px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-image: url(../../images/background-Image/mobil/Image_bg_2mob@1x.png);
+  background-size: auto 486px;
+  background-position: top left;
+  height: 486px;
+  position: absolute;
+  width: 100%;
 }
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .bg-human-home {
     background-image: url(../../images/background-Image/mobil/Image_bg_2mob@2x.png);
-      
-  }}
-
-
-
-  @media screen and (min-width: 768px) {
-
-    .bg-human-home{
-      top :-86px;
-      left:0px;
-          background-repeat: no-repeat;
-          background-image: url(../../images/background-Image/des/Image_bg_2des@1x.png);
-          background-size: auto 583px;
-          background-position: top left;
-          height:583px;
-          position: absolute;
-          width: 495px;
-      }
-      @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx) {
-        .bg-human-home {
-          background-image: url(../../images/background-Image/des/Image_bg_2des@2x.png);
-            
-        }}
-
-
   }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-human-home {
+    top: -86px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/background-Image/des/Image_bg_2des@1x.png);
+    background-size: auto 583px;
+    background-position: top left;
+    height: 583px;
+    position: absolute;
+    width: 495px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .bg-human-home {
+      background-image: url(../../images/background-Image/des/Image_bg_2des@2x.png);
+    }
+  }
+}
 @media screen and (min-width: 430px) {
   .wrap-aboutAs-video {
     position: absolute;
@@ -111,7 +104,6 @@ left:0px;
 @media screen and (min-width: 1200px) {
   .wrap-aboutAs-video {
     left: 300px;
-  
   }
 }
 .article-aboutUs {
@@ -122,6 +114,9 @@ left:0px;
 
 .article-aboutUs > p {
   margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
 }
 @media screen and (min-width: 1200px) {
   .article-aboutUs {

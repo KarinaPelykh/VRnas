@@ -38,6 +38,7 @@
 
 .wrapper-thumb {
   position: relative;
+
   z-index: -3;
   width: 100%;
   height: 300px;
@@ -47,6 +48,12 @@
   .wrapper-thumb {
     width: 325px;
     height: 405px;
+    left: 47px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapper-thumb {
+    left: 0;
   }
 }
 
@@ -64,7 +71,9 @@
   .human-bg-photo {
     position: absolute;
     top: -50px;
-    left: 0px;
+    /* left: 0px; */
+
+    left: 32px;
     width: 100%;
     background-image: url(../../images/backgroundFoto/photo-human-Mobil/Clip\ path\ group-3_clipdrop-relight\ 1@1x.png);
     background-size: auto 457px;

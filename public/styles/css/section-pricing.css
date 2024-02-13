@@ -175,7 +175,7 @@
 
 @media screen and (min-width: 430px) {
   #photoVisible {
-    /* background-image: none; */
+    background-image: none;
     display: flex;
     margin: 0 auto 0 auto;
     width: 360px;
@@ -183,7 +183,7 @@
 }
 @media screen and (min-width: 1200px) {
   #photoVisible {
-    /* background-image: none; */
+    background-image: none;
     display: flex;
     margin: 40px 0 40px 0;
     width: 400px;

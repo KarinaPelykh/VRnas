@@ -99,6 +99,12 @@
   margin-bottom: 100px;
   color: var(--white-color);
 }
+
+.span-logo > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 430px) {
   .span-logo {
     margin-bottom: 71px;

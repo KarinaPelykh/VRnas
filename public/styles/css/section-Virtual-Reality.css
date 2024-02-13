@@ -3,10 +3,10 @@
   margin-top: -40px;
 }
 
-#bg{
+#bg {
   position: absolute;
-  top: 380px
-} 
+  top: 380px;
+}
 @media screen and (min-width: 1200px) {
   .section {
     margin-top: -164px;
@@ -23,7 +23,7 @@
     margin-right: 106px;
   }
 }
-img{
+img {
   display: block;
 }
 
@@ -33,7 +33,6 @@ img{
   font-weight: 600;
   line-height: 58px;
   letter-spacing: -0.24px;
-
 }
 @media screen and (min-width: 1200px) {
   .title {
@@ -44,7 +43,6 @@ img{
   }
 }
 .text {
-
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -134,12 +132,14 @@ img{
 
 @media screen and (min-width: 430px) {
   .info-video {
-    top: 188px;
-    left: -1px;
+    /* top: 188px;
+    left: -1px; */
+
+    top: 198px;
+    left: 4px;
     margin: 0;
     width: 196px;
     height: 128px;
-    
   }
 }
 
@@ -167,29 +167,26 @@ img{
     height: auto;
   }
 }
+.section-thumb-images {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 16px;
+  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_1_mob@1x.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 435px) {
   .section-thumb-images {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    left: 16px;
-background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_1_mob@1x.png);
-background-size: auto;
-background-repeat: no-repeat;
-  }
-@media screen and (min-width:435px)  {
-  .section-thumb-images {
- 
-background-image:none
+    background-image: none;
   }
 }
 
-@media screen and (min-width:1199px)  {
+@media screen and (min-width: 1199px) {
   .section-thumb-images {
     width: 100%;
-   position: static;
-
+    position: static;
   }
-
 }
 .block-info {
   background-color: var(--card-background);
@@ -204,7 +201,6 @@ background-image:none
 }
 @media screen and (min-width: 430px) {
   .block-info {
-   
     padding: 42px 64px 42px 64px;
   }
 }
@@ -233,7 +229,7 @@ background-image:none
 .info-images {
   width: 70px;
   height: 70px;
-  margin-bottom: 32px
+  margin-bottom: 32px;
 }
 .info-title {
   margin-bottom: 12px;
@@ -253,11 +249,11 @@ background-image:none
   background: linear-gradient(to right, #0cbaf1, #e95ce9);
   border: none;
 }
-@media screen and (min-width:1200px) {
-  .gradient-virtual-reality{
-  background-repeat: no-repeat;
-  background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_1_des@1x.png);
-  background-size: auto ;
-  background-position: top right;
-}
+@media screen and (min-width: 1200px) {
+  .gradient-virtual-reality {
+    background-repeat: no-repeat;
+    background-image: url(../../images/backgroundFoto/gradient-Desctop/gradient_1_des@1x.png);
+    background-size: auto;
+    background-position: top right;
+  }
 }

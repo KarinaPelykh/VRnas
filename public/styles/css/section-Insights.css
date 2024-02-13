@@ -19,7 +19,7 @@
 .subtitle-Insights {
   font-size: 32px;
 }
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 431px) {
   .subtitle-Insights {
     font-size: 48px;
   }

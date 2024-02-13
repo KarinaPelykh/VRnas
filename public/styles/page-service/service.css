@@ -3,12 +3,18 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+
+  background-repeat: no-repeat;
+  background-image: url(../../images/backgroundFoto/background_Mobil/bg-grid_mob@1x.png);
+  background-size: auto;
+  background-position: center;
 }
 
 @media screen and (min-width: 1200px) {
   .section-service {
     margin-top: var(--margin-section-top);
     overflow: visible;
+    background-image: none;
   }
 }
 .wrapper-service {
