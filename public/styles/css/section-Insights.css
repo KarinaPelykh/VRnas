@@ -247,11 +247,20 @@
     padding: 32px 100px 0 97px;
   }
 }
-
-@media screen and (max-width: 1201px) {
+@media screen and (min-width: 1200px) {
   .news {
     top: 2px;
-
+    width: 100%;
+    left: -47px;
+    width: 600px;
+    height: 600px;
+    padding: 32px 100px 0 97px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .news {
+    top: 2px;
+    width: 730px;
     left: -47px;
 
     height: 600px;
