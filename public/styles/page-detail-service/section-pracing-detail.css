@@ -18,6 +18,6 @@
     width: 625px;
   }
   .isVisiblePhoto {
-    background-image: none;
+    /* background-image: none; */
   }
 }
