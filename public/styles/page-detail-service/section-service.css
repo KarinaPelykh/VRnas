@@ -1,16 +1,6 @@
 .section-services {
   margin-top: 149px;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: visible;
-}
-
-@media screen and (min-width: 1200px) {
-  .section-services {
-    margin-top: 149px;
-    position: relative;
-    overflow: visible;
-  }
 }
 .wrap-info-service {
   position: absolute;
@@ -20,12 +10,15 @@
 }
 
 .container-circle {
+  overflow-x: hidden;
+  overflow-y: visible;
   display: flex;
   justify-content: center;
   position: relative;
 }
 @media screen and (min-width: 435px) {
   .container-circle {
+    overflow: visible;
     display: flex;
     justify-content: center;
     position: relative;
@@ -109,77 +102,45 @@
 /* ccs info-div */
 .item-info-service:nth-child(1) > .cir-div {
   position: absolute;
-  /* top: -168px;
-  left: 258px;
-} */
+
   top: 324px;
-  left: -133px;
+  left: -85px;
 }
 
 .item-info-service:nth-child(2) > .cir-div {
   position: absolute;
-  /* top: 75px;
-  left: 206px; */
-  /* top: 220px; */
-  left: -126px;
+  left: -71px;
   top: 324px;
 }
 
 .item-info-service:nth-child(3) > .cir-div {
   position: absolute;
-  /* 
-  top: 256px;
-  left: 45px; */
 
   top: 324px;
-  left: 36px;
-}
-
-@media screen and (min-width: 768px) {
-  .item-info-service:nth-child(3) > .cir-div {
-    position: absolute;
-    /* top: 281px; */
-    /* left: 34px; */
-    top: 256px;
-    left: -140px;
-  }
+  left: -117px;
 }
 
 .item-info-service:nth-child(4) > .cir-div {
   position: absolute;
   top: 324px;
-  /* left: -138px; */
-}
-@media screen and (min-width: 768px) {
-  .item-info-service:nth-child(4) > .cir-div {
-    position: absolute;
-    /* top: 358px;
-  left: -246px; */
-    top: 267px;
-    left: -148px;
-  }
 }
 
 .item-info-service:nth-child(5) > .cir-div {
   position: absolute;
-  /* top: 304px;
-  left: -509px; */
-  left: -328px;
   top: 324px;
-  /* left: -148px; */
 }
 .item-info-service:nth-child(6) > .cir-div {
   position: absolute;
 
   top: 324px;
-  left: -145px;
+  left: -71px;
 }
 
 .item-info-service:nth-child(7) > .cir-div {
   position: absolute;
 
   top: 324px;
-  left: -128px;
+  left: -90px;
 }
 .cir-div {
   position: relative;
@@ -188,15 +149,71 @@
 @media screen and (min-width: 430px) {
   .cir-div {
     width: 397px;
-    z-index: 0;
   }
 }
 @media screen and (min-width: 1200px) {
   .cir-div {
     position: relative;
+    z-index: 2;
   }
 }
+/* 430px */
 
+@media screen and (min-width: 430px) {
+  .item-info-service:nth-child(1) > .cir-div {
+    position: absolute;
+
+    top: 324px;
+    left: -133px;
+  }
+
+  .item-info-service:nth-child(2) > .cir-div {
+    position: absolute;
+
+    left: -126px;
+    top: 324px;
+  }
+
+  .item-info-service:nth-child(3) > .cir-div {
+    position: absolute;
+
+    top: 324px;
+    left: 60px;
+  }
+
+  .item-info-service:nth-child(4) > .cir-div {
+    position: absolute;
+    top: 324px;
+  }
+  @media screen and (min-width: 768px) {
+    .item-info-service:nth-child(4) > .cir-div {
+      position: absolute;
+
+      top: 267px;
+      left: -148px;
+    }
+  }
+
+  .item-info-service:nth-child(5) > .cir-div {
+    position: absolute;
+    left: -331px;
+
+    top: 324px;
+  }
+  .item-info-service:nth-child(6) > .cir-div {
+    position: absolute;
+
+    top: 324px;
+    left: -145px;
+  }
+
+  .item-info-service:nth-child(7) > .cir-div {
+    position: absolute;
+
+    top: 324px;
+    left: -128px;
+  }
+}
 /* 768px */
 @media screen and (min-width: 768px) {
   .item-info-service:nth-child(1) > .cir-div {
@@ -247,15 +264,9 @@
 .cir-text {
   display: flex;
 
-  /* position: absolute; */
   z-index: 10;
   flex-direction: column;
   align-items: center;
-  /* при ширині 430 */
-
-  /* top: 188px;
-  left: -142px; */
-  /* width: 100%; */
 }
 @media screen and (min-width: 768px) {
   .cir-text {
@@ -265,8 +276,6 @@
     flex-direction: column;
     align-items: center;
     width: 625px;
-    height: 100%;
-    z-index: 888;
   }
 }
 
