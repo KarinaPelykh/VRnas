@@ -2,12 +2,7 @@
   margin-top: var(--section-margin-top-mobil);
 }
 
-/* @media screen and (min-width: 1200px) {
-  .section-aboutUS {
-    margin-top: var(--section-margin-top);
-    display: flex;
-  }
-} */
+
 .article-aboutUS {
   width: auto;
 }
@@ -112,7 +107,6 @@
   position: absolute;
   top: 0;
   left: -10px;
-  /* left: 0; */
   width: 100%;
   height: 100%;
   background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image-bg-photo1@1x.png);

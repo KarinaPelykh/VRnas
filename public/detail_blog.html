@@ -29,12 +29,19 @@
                 >VRNas
               </a>
             </li>
-            <li class="item"><a class="link" href="./index.html">Home</a></li>
             <li class="item">
-              <a class="link" href="./about_us.html">About us</a>
+              <a
+                class="link js-active-link js-home"
+                title="Home page"
+                href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="item">
-              <a class="link" href="./service.html">Service</a>
+              <a class="link js-active-link" href="./about_us.html">About us</a>
+            </li>
+            <li class="item">
+              <a class="link js-active-link" href="./service.html">Service</a>
             </li>
             <li class="item">
               <div>
@@ -46,41 +53,40 @@
 
               <div class="select-link">
                 <div class="link-list">
-                  <a class="link link-on-page" href="./index.html">Home</a>
-                  <a class="link link-on-page" href="./about_us.html"
-                    >About_us</a
+                  <a
+                    class="link link-on-page js-active-link"
+                    href="./detail_service.html"
+                    >Detail Service</a
                   >
-                  <a class="link link-on-page" href="./service.html">Service</a>
-                  <a class="link link-on-page" href="./contact_us.html"
-                    >Contact us</a
+
+                  <a
+                    class="link link-on-page js-active-link"
+                    href="./pricing_plan.html"
                   >
-                  <a class="link link-on-page" href="./pricing_plan.html">
-                    Pricing_plan</a
+                    Pricing plan</a
                   >
-                  <a class="link link-on-page" href="./faq.html"> FQA</a>
+                  <a class="link link-on-page js-active-link" href="./faq.html">
+                    FQA</a
+                  >
                 </div>
               </div>
             </li>
             <li class="item">
-              <a class="link" href="./blog.html"
+              <a class="link js-active-link" href="./blog.html"
                 >Blog<svg class="svg-down-arrow">
                   <use href="./images/sprite.svg#down-arrow"></use></svg
               ></a>
               <div class="select-link">
                 <div class="link-list">
-                  <a class="link link-on-page" href="./blog.html">Blog</a>
                   <a class="link link-on-page" href="./detail_blog.html"
-                    >detail_blog
+                    >Detail Blog
                   </a>
-                  <a class="link link-on-page" href="./detail_service.html"
-                    >Detail_Service</a
-                  >
                 </div>
               </div>
             </li>
             <li class="">
               <a
-                class="link item-contact border-gradient"
+                class="link item-contact border-gradient js-active-link"
                 href="./contact_us.html"
                 >Contact us</a
               >
@@ -181,25 +187,33 @@
           </a>
         </li>
         <li class="item item-burger">
-          <a class="link" title="Home page" href="./index.html">Home</a>
+          <a class="link js-active-link" title="Home page" href="./index.html"
+            >Home</a
+          >
         </li>
         <li class="item item-burger">
-          <a class="link" href="./about_us.html">About us</a>
+          <a class="link js-active-link" href="./about_us.html">About us</a>
         </li>
         <li class="item item-burger">
-          <a class="link" href="./service.html">Service</a>
+          <a class="link js-active-link" href="./service.html">Service</a>
         </li>
         <li class="item item-burger">
-          <a class="link" href="./detail_service.html">Detail Service</a>
+          <a class="link js-active-link" href="./detail_service.html"
+            >Detail Service</a
+          >
         </li>
         <li class="item item-burger">
-          <a class="link" href="./detail_blog.html">Blog Detail</a>
+          <a class="link js-active-link" href="./detail_blog.html"
+            >Blog Detail</a
+          >
         </li>
         <li class="item item-burger">
-          <a class="link" href="./blog.html">Blog</a>
+          <a class="link js-active-link" href="./blog.html">Blog</a>
         </li>
         <li class="item-burger">
-          <a class="link item-contact" href="./contact_us.html">Contact us</a>
+          <a class="link item-contact js-active-link" href="./contact_us.html"
+            >Contact us</a
+          >
         </li>
       </ul>
     </div>
@@ -306,5 +320,6 @@
     <script type="module" src="./js/popular-hashtag.js"></script>
     <script type="module" src="./js/form-subscribe.js"></script>
     <script type="module" src="./js/burgerMenu.js"></script>
+    <script type="module" src="./js/header.js"></script>
   </body>
 </html>

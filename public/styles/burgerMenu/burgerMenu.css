@@ -1,85 +1,80 @@
-.burger-menu{
-    position: fixed;
-    top: 0;
-    left: 0;
+.burger-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
   padding: 40px;
-width: 100%;
-height: 100%;
-background: #000;
+  width: 100%;
+  height: 100%;
+  background: #000;
   z-index: 3000;
   display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_2_mob@1x.png);
-background-size: auto;
-background-repeat: no-repeat;
-background-position:  center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/backgroundFoto/gradient_Mobil/gradient_2_mob@1x.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 
-transform: translateX(100%);
-transition: transform 250ms ease-in-out;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
 }
-
 
 .is-open {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
-.burger-list>li{
-    margin-bottom: 20px;
-    font-size: 32px;
-width: fit-content;
+.burger-list > li {
+  margin-bottom: 20px;
+  font-size: 32px;
+  width: fit-content;
 }
-.item-burger{
-    position: relative;
-
+.item-burger {
+  position: relative;
 }
 
 .item-burger:hover::after {
-   content: "";
-width: 100%;
-height: 2px;
-background: linear-gradient(
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
     to right,
     var(--color-gradient-blue),
     var(--color-gradient-pink)
   );
   display: block;
   position: absolute;
-  top:35px;
-  left:0px;
+  top: 35px;
+  left: 0px;
   border-radius: 10px;
+}
+.button-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  border-color: var(--color-gradient-pink);
+}
+.button-close > svg {
+  width: 20px;
+  height: 20px;
+}
 
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
 }
-.button-close{
-position: absolute;
-top:20px;
-right:20px;
-width: 32px;
-padding: 5px;
-border-radius: 50%;
-border-color: var(--color-gradient-pink);
+.burger-open {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.button-close>svg{
-    width: 20px;
-    height: 20px;
+@media screen and (min-width: 768px) {
+  .burger-open {
+    display: none;
+  }
 }
-
-@media screen and (min-width:768px) {
- .burger-menu{
-   display: none;
-}   
-}
-.burger-open{
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}  
-@media screen and (min-width:768px) {
-    .burger-open{
-        display: none;
-      
-        
-    }  
-   }

@@ -44,6 +44,21 @@
   border-radius: 100%;
   position: relative;
 }
+.first-circle:hover {
+  animation-name: spin1;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes spin1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 .second-circle {
   position: absolute;
   top: 82px;
@@ -53,6 +68,22 @@
   height: 1050px;
   border-radius: 100%;
 }
+.second-circle:hover {
+  animation-name: spin;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .third-circle {
   position: absolute;
   top: 70px;
@@ -62,6 +93,22 @@
   height: 900px;
   border-radius: 100%;
 }
+
+.third-circle :hover {
+  animation-name: spin3;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes spin3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .fourth-circle {
   position: absolute;
   top: 92px;
@@ -70,6 +117,21 @@
   width: 700px;
   height: 700px;
   border-radius: 100%;
+}
+.fourth-circle :hover {
+  animation-name: spin4;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes spin4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 .fifth-circle {
   position: absolute;
@@ -89,6 +151,17 @@
   width: 320px;
   height: 320px;
   border-radius: 100%;
+  animation-name: spin4;
+}
+
+@keyframes spin4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 .img-in-circle {
   position: absolute;
@@ -145,10 +218,8 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg1 {
-    /* top: 708px;*/
     left: 254px;
     top: 734px;
-    /* left: 302px; */
   }
 }
 .circle-svg2 {
@@ -166,9 +237,6 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg2 {
-    /* top: 152px;
-    left: 614px; */
-
     top: 123px;
     left: 496px;
   }
@@ -188,8 +256,6 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg3 {
-    /* top: 524px;
-    left: 554px; */
     top: 546px;
     left: 523px;
   }
@@ -210,24 +276,16 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg4 {
-    /* top: 848px;
-    left: 257px; */
-
     top: 874px;
     left: 209px;
   }
 }
 @media screen and (max-width: 768px) {
   .circle-svg4 {
-    /* top: 888px;
-    left: 159px; */
-
     top: 874px;
     left: 209px;
   }
   .circle-svg4 > .overlay-circle {
-    /* top: -80px; */
-
     top: -60px;
     left: 14px;
   }
@@ -247,8 +305,6 @@
 }
 @media screen and (max-width: 768px) {
   .circle-svg5 {
-    /* top: 1002px;
-    left: 691px; */
     top: 1002px;
     left: 647px;
   }
@@ -275,15 +331,12 @@
   .box-circle > .overlay-information {
     position: absolute;
     top: -23px;
-    /* left: -304px; */
     left: -187px;
   }
 }
 @media screen and (max-width: 431px) {
   .box-circle > .overlay-third {
     position: absolute;
-    /* top: -49px;
-    left: -304px; */
 
     top: -32px;
     left: -220px;
@@ -294,7 +347,6 @@
     position: absolute;
 
     top: -23px;
-    /* left: -300px; */
     left: -118px;
   }
 }

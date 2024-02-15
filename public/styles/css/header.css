@@ -83,7 +83,7 @@
 
 @media screen and (min-width: 1200px) {
   .item-logo {
-    margin-right: 241px;
+    margin-right: 230px;
     justify-content: center;
   }
 }
@@ -100,7 +100,7 @@
 
 @media screen and (min-width: 1200px) {
   .item {
-    margin-right: 64px;
+    margin-right: 62px;
   }
   .item:nth-child(6) {
     margin-right: 0;
@@ -109,7 +109,7 @@
 
 @media screen and (min-width: 1200px) {
   .item-contact {
-    margin-left: 204px;
+    margin-left: 190px;
     padding: 12px 24px;
   }
 }
@@ -169,4 +169,18 @@
   .list {
     display: flex;
   }
+}
+.active-link {
+  position: relative;
+}
+
+.active-link {
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    var(--background-color-gradient-blue),
+    var(--background-color-gradient-pink)
+  );
+  padding: 4px;
+  border-radius: 20px;
 }

@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 1200px) {
   .section-service {
-    margin-top: var(--margin-section-top);
+    margin-top: var(--section-margin-top);
     overflow: visible;
     background-image: none;
   }
@@ -132,7 +132,8 @@
 @media screen and (min-width: 768px) {
   .blok-pricing-service {
     left: -312px;
-    top: 566px;
+    top: 496px;
+    /* top: 458px; */
   }
 }
 @media screen and (min-width: 1200px) {

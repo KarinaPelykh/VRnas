@@ -9,7 +9,8 @@ import "./js/svgADD/svg-about-us";
 import "./js/svgADD/svg-section-pricing";
 import "./js/modalWindov";
 import "./js/form-subscribe.js";
-import"./js/burgerMenu.js";
+import "./js/burgerMenu.js";
 import "./js/form-whyChoose";
 import "./js/video.js";
-import "./js/pricing.js"
+import "./js/pricing.js";
+import "./js/header.js";
