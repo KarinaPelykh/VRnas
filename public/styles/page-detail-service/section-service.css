@@ -16,7 +16,7 @@
   justify-content: center;
   position: relative;
 }
-@media screen and (min-width: 435px) {
+@media screen and (min-width: 800px) {
   .container-circle {
     overflow: visible;
     display: flex;
@@ -347,4 +347,7 @@
 .svg-move {
   width: 20px;
   height: 20px;
+}
+#circle {
+  animation: none;
 }

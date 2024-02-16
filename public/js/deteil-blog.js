@@ -33,7 +33,7 @@ const cardBlog = (detailInfoData) => {
     facebook,
     instagram,
     img2x,
-    img1x
+    img1x,
   } = detailInfoData;
   return `<article class="">
   <p class="title-blog">${title}</p>
@@ -45,8 +45,8 @@ const cardBlog = (detailInfoData) => {
     <p class="short-info-detail">${architecture}</p>
     <p class="short-info-detail">${describe}</p>
     <p class="short-info-detail">${reasons}</p>
-    <div class="thumb-detail-blog-img">  <img class="imgSecond" src="${imgSecond}" alt="" / >
-    <img class="imgThird"  src="${imgThird}" alt="" / >  </div>
+    <div class="thumb-detail-blog-img">  <img class="imgSecond" src="${imgSecond}" alt="img second" / >
+    <img class="imgThird"  src="${imgThird}" alt="img third" / >  </div>
     
      <p class="short-info-detail">${advantage}</p>
     <p class="post-tag">Post Tags :</p>
@@ -62,7 +62,7 @@ const cardBlog = (detailInfoData) => {
 
 const updateAddress = ({ mainTitle }) => {
   const span = document.createElement("span");
-  span.classList.add("span-keep")
+  span.classList.add("span-keep");
   span.innerText = mainTitle;
   address.append(span);
 };
@@ -77,7 +77,7 @@ fetch("../data/news.json")
 
       itemNews.innerHTML = `
      
-      <img class="photo-recent" src="${data.img}"/>
+      <img class="photo-recent" src="${data.img}" alt="photo-recent"/>
       <div class="wrapper-caption">
       <p class="caption-list-recent">${data.title}</p>
       <h3 class="title-list-recent">${data.description}</h3>

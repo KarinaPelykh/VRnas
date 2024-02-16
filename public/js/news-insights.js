@@ -8,7 +8,7 @@ fetch("../data/news.json")
 
       itemNews.innerHTML = `
      
-      <img class="photo-news" src="${data.img}"/>
+      <img class="photo-news" src="${data.img}" alt="photo"/>
       <div class="wrapper-caption">
       <p class="caption-news">${data.title}</p>
       <h3 class="title-news">${data.description}</h3>

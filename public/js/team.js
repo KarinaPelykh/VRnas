@@ -8,7 +8,7 @@ const skeletonCard = (item) => {
   <div class="wrapper-overlay">
   <img 
   srcset="${item.img1x} 1x, ${item.img2x} 2x"
-  class="photo-member-team"  src="${item.img}">
+  class="photo-member-team"  src="${item.img}" alt="member team">
 
 <div class="static-overlay">
 <p class="name-member-team">${item.name}</p>

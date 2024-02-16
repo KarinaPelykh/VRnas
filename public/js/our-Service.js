@@ -9,7 +9,7 @@ fetch("../data/our-service.json")
  
      
       
-      <img class="png-ourService" src="${data.png}"/>
+      <img class="png-ourService" src="${data.png}" alt="photo png"/>
        <div class="box"><h4 class="subhead-ourService">${data.title}</h4>
       <p class="text-ourService">${data.description}</p>
       <div class="overlay">  <a   href="./detail_service.html" class="button-overlay  link">LEARN MORE</a> </div>

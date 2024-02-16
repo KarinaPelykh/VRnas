@@ -1,21 +1,19 @@
-const ref={
-    openButton: document.querySelector(".js-open-modal"),
-}
+const ref = {
+  openButton: document.querySelector(".js-open-modal"),
+};
 
-
-  
 const closeModal = () => {
-    const modal = document.querySelector(".bloc-modal");    document.body.style.overflow = "auto";
-    modal.remove(); 
+  const modal = document.querySelector(".bloc-modal");
+  document.body.style.overflow = "auto";
+  modal.remove();
+};
 
-  };
-  
-  const openModal = () => {
-    const body = document.querySelector("body");
-    const modal = document.createElement("div");
-    modal.classList.add("bloc-modal");
-  
-    modal.innerHTML = `
+const openModal = () => {
+  const body = document.querySelector("body");
+  const modal = document.createElement("div");
+  modal.classList.add("bloc-modal");
+
+  modal.innerHTML = `
     <div class="modal">
       <button class="menu-toggle js-close-modal">
         <svg
@@ -38,16 +36,15 @@ const closeModal = () => {
        
        Click on a <a href="./pricing_plan.html"><span class="page-pricing">Pricing Plan</span></a>❤️
       </p>
-      <img  class="img-modal" src="https://images.pexels.com/photos/8721313/pexels-photo-8721313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <img  class="img-modal" src="https://images.pexels.com/photos/8721313/pexels-photo-8721313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="picture">
     </div>
     `;
-    
-    body.append(modal);
-  
-document.body.style.overflow = "hidden";
-    const closeButton = document.querySelector(".js-close-modal");
-    closeButton.addEventListener("click", closeModal); 
-  };
 
-  ref.openButton.addEventListener("click", openModal);
-  
+  body.append(modal);
+
+  document.body.style.overflow = "hidden";
+  const closeButton = document.querySelector(".js-close-modal");
+  closeButton.addEventListener("click", closeModal);
+};
+
+ref.openButton.addEventListener("click", openModal);
