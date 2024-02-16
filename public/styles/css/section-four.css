@@ -100,15 +100,14 @@
     background-image: url(../../images/background-Image/mobil/Image_bg_3mob@1x.png);
     background-size: auto 453px;
   }
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .backgroun-photo {
-      background-image: url(../../images/background-Image/mobil/Image_bg_3mob@2x.png);
-    }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .backgroun-photo {
+    background-image: url(../../images/background-Image/mobil/Image_bg_3mob@2x.png);
   }
 }
-
 @media screen and (min-width: 768px) {
   .backgroun-photo {
     position: absolute;
@@ -121,12 +120,12 @@
     background-size: 563px 662px;
     width: 563px;
   }
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .backgroun-photo {
-      background-image: url(../../images/background-Image/des/Image_bg_3des@2x.png);
-    }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .backgroun-photo {
+    background-image: url(../../images/background-Image/des/Image_bg_3des@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {

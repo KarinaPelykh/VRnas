@@ -103,10 +103,15 @@
 }
 @media screen and (min-width: 1200px) {
   .img-gamer {
-    top: -185px;
+    /* top: -185px;
     width: 672px;
     height: 512px;
-    left: -178px;
+    left: -178px; */
+
+    top: -224px;
+    width: 707px;
+    height: 549px;
+    left: -197px;
   }
 }
 .min-circle-partners {
