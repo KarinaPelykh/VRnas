@@ -171,11 +171,9 @@
 .human-img {
   position: absolute;
   z-index: 2;
-  /* top: -129px; */
   top: -97px;
   left: -117px;
   width: 558px;
-  /* height: 461px; */
   height: auto;
 }
 .background {

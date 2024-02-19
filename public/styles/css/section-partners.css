@@ -103,11 +103,6 @@
 }
 @media screen and (min-width: 1200px) {
   .img-gamer {
-    /* top: -185px;
-    width: 672px;
-    height: 512px;
-    left: -178px; */
-
     top: -224px;
     width: 707px;
     height: 549px;
@@ -165,8 +160,6 @@
   left: 283px;
 }
 @media screen and (min-width: 355px) {
-  .item-partner-svg {
-  }
   .item-partner-svg:nth-child(2) {
     top: -3px;
     left: 30px;

@@ -2,7 +2,6 @@
   margin-top: var(--section-margin-top-mobil);
 }
 
-
 .article-aboutUS {
   width: auto;
 }
@@ -136,12 +135,12 @@
     background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-about_us1@1x.png);
     background-size: auto 574px;
   }
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .images-aboutUs {
-      background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-about_us2@2x.png);
-    }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .images-aboutUs {
+    background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-about_us2@2x.png);
   }
 }
 .background-grid {
@@ -179,12 +178,12 @@
     background-size: 1168px 614px;
     z-index: -8;
   }
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .background-grid {
-      background-image: url(../../images/backgroundFoto/background_Desctop/Assets_des2x.png);
-    }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .background-grid {
+    background-image: url(../../images/backgroundFoto/background_Desctop/Assets_des2x.png);
   }
 }
 

@@ -1,5 +1,4 @@
 .section-description-info {
-
   text-align: center;
   margin-top: 150px;
   position: relative;
@@ -23,7 +22,7 @@
   top: -17px;
   left: 0;
   width: 100%;
- 
+
   background-image: url(../../images/backgroundFoto/photo-human-Mobil/Image_mob3@1x.png),
     url(../../images/backgroundFoto/photo-human-Mobil/Image_mob4@1x.png);
   background-repeat: no-repeat;
@@ -63,17 +62,16 @@
     height: 791px;
     z-index: -2;
   }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .bg-human {
+    background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-dec2@2x.png),
+      url(../../images/backgroundFoto/photo-human-Desctop/Image_Des1@2x.png);
 
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .bg-human {
-      background-image: url(../../images/backgroundFoto/photo-human-Desctop/Image-dec2@2x.png),
-        url(../../images/backgroundFoto/photo-human-Desctop/Image_Des1@2x.png);
-
-      background-size: auto 520px;
-      height: 791px;
-    }
+    background-size: auto 520px;
+    height: 791px;
   }
 }
 

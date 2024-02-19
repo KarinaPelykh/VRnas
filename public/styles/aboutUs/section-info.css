@@ -79,14 +79,14 @@
     background-repeat: no-repeat;
     height: 467px;
   }
-  @media screen and (min-device-pixel-ratio: 2),
+  
+}@media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .human-bg-photo {
       background-image: url(../../images/backgroundFoto/photo-human-Mobil/Clip\ path\ group-3_clipdrop-relight\ 1@2x.png);
     }
   }
-}
 @media screen and (min-width: 1200px) {
   .human-bg-photo {
     position: absolute;
@@ -98,14 +98,14 @@
     background-repeat: no-repeat;
     height: 574px;
   }
-  @media screen and (min-device-pixel-ratio: 2),
+  
+}@media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .human-bg-photo {
       background-image: url(../../images/backgroundFoto/photo-human-Desctop/img-human-bgDes2@2x.png);
     }
   }
-}
 
 @media screen and (min-width: 1200px) {
   .wrapper-thumb {
