@@ -43,21 +43,24 @@
   height: 1200px;
   border-radius: 100%;
   position: relative;
-}
-.first-circle:hover {
   animation-name: spin1;
-  animation-duration: 8s;
-  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-timing-function: cubic-bezier(0.63, -0.42, 0, 1.13);
   animation-iteration-count: infinite;
 }
+
 @keyframes spin1 {
   0% {
     transform: rotate(0deg);
   }
 
   100% {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
+}
+
+.first-circle:hover {
+  animation: none;
 }
 .second-circle {
   position: absolute;
@@ -68,22 +71,10 @@
   height: 1050px;
   border-radius: 100%;
 }
-.second-circle:hover {
-  animation-name: spin;
-  animation-duration: 7s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
 
-  100% {
-    transform: rotate(360deg);
-  }
+.second-circle :hover {
+  animation: none;
 }
-
 .third-circle {
   position: absolute;
   top: 70px;
@@ -92,14 +83,12 @@
   width: 900px;
   height: 900px;
   border-radius: 100%;
-}
-
-.third-circle :hover {
   animation-name: spin3;
-  animation-duration: 9s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 @keyframes spin3 {
   0% {
     transform: rotate(0deg);
@@ -109,6 +98,9 @@
     transform: rotate(360deg);
   }
 }
+.third-circle:hover {
+  animation: none;
+}
 .fourth-circle {
   position: absolute;
   top: 92px;
@@ -117,13 +109,12 @@
   width: 700px;
   height: 700px;
   border-radius: 100%;
-}
-.fourth-circle :hover {
   animation-name: spin4;
-  animation-duration: 9s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 @keyframes spin4 {
   0% {
     transform: rotate(0deg);
@@ -133,6 +124,9 @@
     transform: rotate(-360deg);
   }
 }
+.fourth-circle:hover {
+  animation: none;
+}
 .fifth-circle {
   position: absolute;
   top: 101px;
@@ -141,8 +135,21 @@
   width: 500px;
   height: 500px;
   border-radius: 100%;
+  animation-name: spin8;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
+@keyframes spin8 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .sixth-circle {
   position: absolute;
   top: 86px;
@@ -151,23 +158,9 @@
   width: 320px;
   height: 320px;
   border-radius: 100%;
-  animation-name: spin4;
+  animation-name: none;
 }
 
-@keyframes spin4 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-.img-in-circle {
-  position: absolute;
-  top: -223px;
-  left: -343px;
-}
 .human-img {
   position: absolute;
   z-index: 2;
@@ -175,6 +168,19 @@
   left: -117px;
   width: 558px;
   height: auto;
+  animation-name: imgs;
+  animation-duration: 10s;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  animation-iteration-count: infinite;
+}
+@keyframes imgs {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
 }
 .background {
   position: absolute;
@@ -380,4 +386,11 @@
 
 .wrap-text-overlay > p {
   text-align: start;
+}
+
+.gradient-circle {
+  background-image: url(../../images/backgroundFoto/background-circlke.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }

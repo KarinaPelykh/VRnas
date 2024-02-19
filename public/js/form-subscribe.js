@@ -18,8 +18,8 @@ const describeUser = (e) => {
           fill="#000"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
-          width="8"
-          height="8"
+          width="15"
+          height="15"
         >
           <path
             fill-rule="evenodd"
@@ -38,8 +38,8 @@ const describeUser = (e) => {
   }
   const closeWindow = document.querySelector(".js-close-modal");
   const modalWindow = document.querySelector(".bloc-modal");
- 
-  if (closeWindow) { 
+
+  if (closeWindow) {
     document.body.style.overflow = "hidden";
     closeWindow.addEventListener("click", () => {
       modalWindow.remove();

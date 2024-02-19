@@ -224,6 +224,14 @@
   height: auto;
 
   font-size: 20px;
+
+  transform: translateY(-10%);
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+.box-open {
+  transform: translateY(0);
 }
 .select-box {
   width: auto;
@@ -236,9 +244,7 @@
 .box-text {
   width: 100%;
   font-size: 16px;
-
   color: var(--grey-color);
-
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;

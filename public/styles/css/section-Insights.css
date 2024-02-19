@@ -430,6 +430,7 @@
   outline: none;
   border: none;
   color: var(--white-color);
+  width: 186px;
 }
 .input::placeholder {
   font-family: Chakra Petch;
