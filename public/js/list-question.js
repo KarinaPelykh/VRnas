@@ -2,6 +2,7 @@ const list = document.querySelector(".list-question");
 
 const addAnswer = (event) => {
   const isOpen = event.target.closest(".item-question");
+  isOpen.classList.add("anim-item");
   const answerContainer = isOpen.querySelector(".answer");
   const svg = isOpen.querySelector(".svg-question");
   if (!answerContainer) {
@@ -24,8 +25,9 @@ fetch("../data/list-question.json")
     data.forEach((element) => {
       const item = document.createElement("li");
       item.classList.add("item-question");
+
       item.dataset.answer = element.answer;
-      item.innerHTML = `<div class="wrapper-question"><p>${element.question}</p>
+      item.innerHTML = `<div class="wrapper-question "><p>${element.question}</p>
       <svg class="svg-question"><use href="${element.svg}"></use></svg></div> `;
       list.append(item);
     });

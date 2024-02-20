@@ -29,7 +29,7 @@ fetch("../data/team.json")
         card.forEach((item) => {
           skeletonCard(item);
 
-          buttonSeeAll.disabled = true;
+          buttonSeeAll.classList.add("button-see-allnone");
         });
       }
     };

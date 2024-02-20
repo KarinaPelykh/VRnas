@@ -48,6 +48,13 @@
   border-style: solid;
   border-image: linear-gradient(to right, #b0b0b2, #25253299);
   border-image-slice: 1;
+  transform: translateY(-10%);
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+
+.anim-item {
+  transform: translateY(0%);
 }
 .item-question:hover {
   border-width: 1px;

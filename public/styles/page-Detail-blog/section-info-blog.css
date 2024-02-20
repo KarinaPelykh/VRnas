@@ -8,8 +8,8 @@
   .section-detail-info {
     display: flex;
   }
-  .bg-title-blog{
-   display: none;
+  .bg-title-blog {
+    display: none;
   }
 }
 .detail-rout {
@@ -118,4 +118,10 @@
 }
 .social-media-list {
   display: flex;
+}
+
+.sixth-circle-detail {
+  position: absolute;
+  top: 86px;
+  left: 86px;
 }

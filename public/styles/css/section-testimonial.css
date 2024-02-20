@@ -43,10 +43,16 @@
   height: 1200px;
   border-radius: 100%;
   position: relative;
-  animation-name: spin1;
-  animation-duration: 15s;
-  animation-timing-function: cubic-bezier(0.63, -0.42, 0, 1.13);
-  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+  transition-duration: 1000s;
+}
+@media screen and (min-width: 1200px) {
+  .first-circle {
+    animation-name: spin1;
+    animation-duration: 19s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
 }
 
 @keyframes spin1 {
@@ -58,7 +64,6 @@
     transform: rotate(360deg);
   }
 }
-
 .first-circle:hover {
   animation: none;
 }
@@ -72,7 +77,22 @@
   border-radius: 100%;
 }
 
-.second-circle :hover {
+.second-circle {
+  animation-name: spin2;
+  animation-duration: 16s;
+  animation-timing-function: linear;
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.second-circle:hover {
   animation: none;
 }
 .third-circle {
@@ -84,7 +104,7 @@
   height: 900px;
   border-radius: 100%;
   animation-name: spin3;
-  animation-duration: 8s;
+  animation-duration: 14s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -98,6 +118,7 @@
     transform: rotate(360deg);
   }
 }
+
 .third-circle:hover {
   animation: none;
 }
@@ -110,7 +131,7 @@
   height: 700px;
   border-radius: 100%;
   animation-name: spin4;
-  animation-duration: 8s;
+  animation-duration: 18s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -121,7 +142,7 @@
   }
 
   100% {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
 .fourth-circle:hover {
@@ -135,30 +156,35 @@
   width: 500px;
   height: 500px;
   border-radius: 100%;
-  animation-name: spin8;
-  animation-duration: 10s;
+  animation-name: spin5;
+  animation-duration: 15s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-iteration-count: unset;
 }
 
-@keyframes spin8 {
+@keyframes spin5 {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(-360deg);
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
+}
+
+.fifth-circle:hover {
+  animation: none;
 }
 .sixth-circle {
   position: absolute;
-  top: 86px;
-  left: 86px;
+  /* top: 86px;
+  left: 86px; */
+  top: 435px;
+  left: 446px;
   border: 1px solid rgba(255, 255, 255, 0.17);
   width: 320px;
   height: 320px;
   border-radius: 100%;
-  animation-name: none;
 }
 
 .human-img {
@@ -168,20 +194,8 @@
   left: -117px;
   width: 558px;
   height: auto;
-  animation-name: imgs;
-  animation-duration: 10s;
-  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-  animation-iteration-count: infinite;
 }
-@keyframes imgs {
-  0% {
-    transform: rotate(0deg);
-  }
 
-  100% {
-    transform: rotate(10deg);
-  }
-}
 .background {
   position: absolute;
   top: 230px;
@@ -392,5 +406,4 @@
   background-image: url(../../images/backgroundFoto/background-circlke.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
 }

@@ -8,6 +8,7 @@ const ref = {
 
 const functionAddAnswer = (event) => {
   const clickOnLi = event.target.closest(".item-question");
+  clickOnLi.classList.add("anim-item");
   const divContainer = clickOnLi.querySelector(".answer");
   const svg = clickOnLi.querySelector(".svg-question");
 
@@ -25,7 +26,9 @@ const functionAddAnswer = (event) => {
 };
 const markingPage = (element) => {
   const item = document.createElement("li");
+
   item.classList.add("item-question");
+
   item.dataset.answer = element.answer;
   item.innerHTML = `<div class="wrapper-question"><p>${element.question}</p>
   <svg class="svg-question"><use href="${element.svg}"></use></svg></div> `;

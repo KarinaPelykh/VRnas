@@ -41,8 +41,8 @@
 .circle-partners {
   width: 136px;
   height: 133px;
-  top: 73px;
-
+  /* top: 73px; */
+  top: 117px;
   border-radius: 1054.919px;
   border: 2px solid rgba(255, 255, 255, 0.17);
   position: absolute;
