@@ -36,6 +36,9 @@
     font-size: 48px;
   }
 }
+.circle {
+  position: relative;
+}
 
 .first-circle {
   border: 1px solid rgba(255, 255, 255, 0.17);
@@ -175,16 +178,30 @@
 .fifth-circle:hover {
   animation: none;
 }
+
 .sixth-circle {
   position: absolute;
   /* top: 86px;
   left: 86px; */
-  top: 435px;
-  left: 446px;
+  top: 441px;
+  left: 441px;
   border: 1px solid rgba(255, 255, 255, 0.17);
   width: 320px;
   height: 320px;
   border-radius: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .sixth-circle {
+    position: absolute;
+    /* top: 86px;
+  left: 86px; */
+    top: 435px;
+    left: 446px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+  }
 }
 
 .human-img {
