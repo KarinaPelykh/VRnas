@@ -87,26 +87,37 @@
   width: 100%;
 }
 .img-gamer {
-  top: -54px;
+  /* top: -54px;
   position: absolute;
   width: 255px;
   height: 190px;
-  left: -63px;
+  left: -63px; */
+
+  top: -115px;
+  position: absolute;
+  width: 359px;
+  height: 317px;
+  left: -114px;
 }
-@media screen and (min-width: 431px) {
+/* @media screen and (min-width: 431px) {
   .img-gamer {
     top: -170px;
     width: 511px;
     height: 410px;
     left: -140px;
   }
-}
+} */
 @media screen and (min-width: 1200px) {
   .img-gamer {
-    top: -224px;
+    /* top: -224px;
     width: 707px;
     height: 549px;
-    left: -197px;
+    left: -197px; */
+
+    top: -389px;
+    width: 1021px;
+    height: 887px;
+    left: -354px;
   }
 }
 .min-circle-partners {

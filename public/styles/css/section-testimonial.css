@@ -46,16 +46,13 @@
   height: 1200px;
   border-radius: 100%;
   position: relative;
-  transition-timing-function: ease;
-  transition-duration: 1000s;
 }
-@media screen and (min-width: 1200px) {
-  .first-circle {
-    animation-name: spin1;
-    animation-duration: 19s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
+
+.first-circle {
+  animation-name: spin1;
+  animation-duration: 19s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes spin1 {
@@ -181,8 +178,7 @@
 
 .sixth-circle {
   position: absolute;
-  /* top: 86px;
-  left: 86px; */
+
   top: 441px;
   left: 441px;
   border: 1px solid rgba(255, 255, 255, 0.17);
@@ -193,14 +189,8 @@
 @media screen and (min-width: 1200px) {
   .sixth-circle {
     position: absolute;
-    /* top: 86px;
-  left: 86px; */
     top: 435px;
     left: 446px;
-    border: 1px solid rgba(255, 255, 255, 0.17);
-    width: 320px;
-    height: 320px;
-    border-radius: 100%;
   }
 }
 
