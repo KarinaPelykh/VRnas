@@ -132,10 +132,9 @@
   .backgroun-photo {
     position: absolute;
     z-index: 5;
-    top: -164px;
+    top: -162px;
 
     left: 635px;
-
     height: 659px;
   }
 }
